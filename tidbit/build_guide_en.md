@@ -7,6 +7,9 @@
 ### Assembly Instructions
 
 1.
+
+# Helpful links [TODO!]
+
 # Parts and tools
 
 ## ![](RackMultipart20210210-4-ko0kxb_html_7210ee4dac5b90c1.jpg)
