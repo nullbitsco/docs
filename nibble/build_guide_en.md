@@ -2,44 +2,56 @@
 
 ### Customizable 65% Keyboard Kit
 
-![](RackMultipart20210210-4-1pg77zq_html_bb6f9113f3baa0ee.jpg)
+![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image000.jpg)
 
 ### Assembly Instructions
 
-1.
-# Helpful links [TODO!]
-
-# Parts and tools
-
-## ![](RackMultipart20210210-4-1pg77zq_html_8b7290a4cebf7177.jpg)
-
-  1.
-## Thanks for purchasing!
+## 1. Thanks for purchasing!
 
 Seriously, thank you! The NIBBLE has been a passion project of mine over the past year. I&#39;ve been using a NIBBLE in its various stages of development and think it&#39;s a great keyboard that you&#39;ll love. I&#39;ve designed and assembled the kits during my free time, and I want to make sure you have a great experience. If at any point you hit a snag or have a question, feel free to let me know via email or Reddit DM. I&#39;ll make sure it&#39;s taken care of.
 
-  1.
-## Parts included in the kit
+# 1. Helpful links [TODO!]
+* Soldering
+* How to use a DMM
 
-### HardwareElectronics
+# 1. Parts and tools
 
+![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image001.jpg)
+
+## 1. Parts included in the kit
+
+### Hardware
 | **Item** | **Qty.** | **Image** |
- | **Item** | **Qty.** | **Image** |
-| --- | --- | --- | --- | --- | --- | --- |
-| Standoff, M2x3 | 13 | ![](RackMultipart20210210-4-1pg77zq_html_193b7aa9fc86f8ee.jpg) | 1N4148 Diode | 73 | ![](RackMultipart20210210-4-1pg77zq_html_6e750cf1f7648061.jpg) |
-| Standoff, M2x10 | 2 | ![](RackMultipart20210210-4-1pg77zq_html_33d8f27044930e1a.jpg) | 0.1μFcapacitor | 2 | ![](RackMultipart20210210-4-1pg77zq_html_41e25488a1187aea.jpg) |
-| Screw, M2x3 | 26 | ![](RackMultipart20210210-4-1pg77zq_html_9ed867b0b5fe30ee.jpg) | IC Socket | 2 | ![](RackMultipart20210210-4-1pg77zq_html_55e7cacd143c2403.jpg) |
-| Screw, M2x6 | 2 | ![](RackMultipart20210210-4-1pg77zq_html_7104df6a14e88e0b.jpg) | IC (74HC138‎) | 2 | ![](RackMultipart20210210-4-1pg77zq_html_ffab8a2f19b37554.jpg) |
-| Screw, M2x10 | 2 | ![](RackMultipart20210210-4-1pg77zq_html_3e299cb0a9d4fbb4.jpg) | Reset Switch | 1 | ![](RackMultipart20210210-4-1pg77zq_html_1dce100608e9f3aa.jpg) |
+| --- | --- | --- |
+| Standoff, M2x3 | 13 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image002.jpg) |
+| Standoff, M2x3 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image004.jpg) |
+| Screw, M2x3 | 26 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image006.jpg) |
+| Screw, M2x6 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image008.jpg) |
+| Screw, M2x10 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image010.jpg) |
+| Machined Knob | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image046.jpg) |
+
+### Electronics
+| **Item** | **Qty.** | **Image** |
+| --- | --- | --- |
+| 1N4148 Diode | 73 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image003.jpg) |
+| 0.1μF Capacitor | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image005.jpg) |
+| 330Ω Resistor | 3 | ![]() |
+| IC Socket | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image007.jpg) |
+| IC (74HC138N) | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image009.jpg) |
+| Reset Switch | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image011.jpg) |
+| WS2812B LED | 10 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image042.jpg) | 
+| TRRS Jack | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image043.jpg) |
+| Rotary Encoder | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image044.jpg) |
+| Big RGB LED | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image045.jpg) |
 
 ### Core
 
 | **Item** | **Qty.** | **Image** |
 | --- | --- | --- |
-| Top PCB plate | 1 | ![](RackMultipart20210210-4-1pg77zq_html_a7c5e797023681a6.jpg) |
-| Bottom PCB plate | 1 | ![](RackMultipart20210210-4-1pg77zq_html_e1b0f9b2b0d280d2.jpg) |
-| Middle acrylic spacer | 1 | ![](RackMultipart20210210-4-1pg77zq_html_bf8d6d5f9f6ea1d0.jpg) |
-| Top acrylic guard | 1 | ![](RackMultipart20210210-4-1pg77zq_html_d3af192b560fed44.jpg) |
+| Top PCB plate | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image012.jpg) |
+| Bottom PCB plate | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image013.jpg) |
+| Middle acrylic spacer | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image014.jpg) |
+| Top acrylic guard | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image015.jpg) |
 
   1.
 ## Parts you provide
