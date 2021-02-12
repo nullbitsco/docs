@@ -1,16 +1,17 @@
-# NIBBLE
+# NIBBLE 
 
-### Customizable 65% Keyboard Kit
-
+## Customizable 65% Keyboard Kit
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image000.jpg)
+## Build Guide
 
-### Assembly Instructions
+# Contents
+[Helpful Links](#helpful_links)
 
-## 1. Thanks for purchasing!
+## Thanks for purchasing!
 
 Seriously, thank you! The NIBBLE has been a passion project of mine over the past year. I&#39;ve been using a NIBBLE in its various stages of development and think it&#39;s a great keyboard that you&#39;ll love. I&#39;ve designed and assembled the kits during my free time, and I want to make sure you have a great experience. If at any point you hit a snag or have a question, feel free to let me know via email or Reddit DM. I&#39;ll make sure it&#39;s taken care of.
 
-# 1. Helpful links [TODO!]
+# <a name="helpful_links"></a> Helpful links [TODO!]
 * Soldering
 * How to use a DMM
 
