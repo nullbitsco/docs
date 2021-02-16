@@ -21,6 +21,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 # <a name="helpful_links"></a> 1. Helpful links [TODO!]
 * Soldering
 * How to use a DMM
+* QMK vids
 
 # <a name="parts_and_tools"></a> 1. Parts and tools
 
@@ -51,6 +52,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 | TRRS Jack | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image043.jpg) |
 | Rotary Encoder | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image044.jpg) |
 | Big RGB LED | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image045.jpg) |
+| Breakaway Header Pins | 40 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image047.jpg) |
 
 ### Core
 
@@ -68,8 +70,8 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 - Keycaps [TODO: link sets]
 - [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
 - **[Optional]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
-- **[Optional]** Qty. 144 Mill-Max 0305 or 7305 hot-swap solder sockets
 - **[Optional]** [FR4 switch plate](http://www.amazon.com/dp/B08KLGRS69)
+- **[Optional]** Qty. 144 Mill-Max 0305 or 7305 hot-swap solder sockets
 
 
 ## 1. Tools required
