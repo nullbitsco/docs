@@ -2,133 +2,149 @@
 
 ### Customizable 19-Key Numpad Kit
 
-![](RackMultipart20210210-4-ko0kxb_html_f32862ecd0701b66.jpg)
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image018.jpg)
 
-### Assembly Instructions
+### Builds Guide
 
-1.
+# Contents
+Helpful Links
 
-# Helpful links [TODO!]
+Parts and Tools
 
-# Parts and tools
+Assembly Steps
 
-## ![](RackMultipart20210210-4-ko0kxb_html_7210ee4dac5b90c1.jpg)
+Troubleshooting
 
-  1.
+
+# 1. Helpful links [TODO!]
+* Soldering
+* How to use a DMM
+* QMK vids
+
 ## Thanks for purchasing!
 
-Seriously, thank you! The TIDBIT has been a passion project of mine over the past year. I&#39;ve been using a TIDBIT in its various stages of development and think it&#39;s a great keyboard that you&#39;ll love. I&#39;ve designed and assembled the kits during my free time, and I want to make sure you have a great experience. If at any point you hit a snag or have a question, feel free to let me know via email (help@nullbits.co) or Reddit DM (u/jaygreco). I&#39;ll make sure it&#39;s taken care of.
+Seriously, thank you! The TIDBIT has been a passion project of mine over the past year. I've been using a TIDBIT in its various stages of development and think it's a great keyboard that you'll love. I've designed and assembled the kits during my free time, and I want to make sure you have a great experience. If at any point you hit a snag or have a question, feel free to let us know.
 
-  1.
-## Parts included in the kit
 
-### HardwareElectronics
+## 1. Parts and tools
 
-| **Item** | **Qty.** | **Image** |
- | **Item** | **Qty.** | **Image** |
-| --- | --- | --- | --- | --- | --- | --- |
-| Standoff, M2x3 | 6 | ![](RackMultipart20210210-4-ko0kxb_html_193b7aa9fc86f8ee.jpg) | 1N4148 Diode | 19 | ![](RackMultipart20210210-4-ko0kxb_html_6e750cf1f7648061.jpg) |
-| Standoff, M2x10 | 2 | ![](RackMultipart20210210-4-ko0kxb_html_33d8f27044930e1a.jpg) | WS2812 LED | 8 | ![](RackMultipart20210210-4-ko0kxb_html_a0a58980ff22edce.jpg) |
-| Screw, M2x3 | 12 | ![](RackMultipart20210210-4-ko0kxb_html_9ed867b0b5fe30ee.jpg) | TRRS Expansion Jack | 1 | ![](RackMultipart20210210-4-ko0kxb_html_86caa0ab1aec0c17.jpg) |
-| Screw, M2x6 | 2 | ![](RackMultipart20210210-4-ko0kxb_html_7104df6a14e88e0b.jpg) | Rotary Encoder + Knob | 1 | ![](RackMultipart20210210-4-ko0kxb_html_7ae7052d12002871.jpg) |
-| Screw, M2x10 | 2 | ![](RackMultipart20210210-4-ko0kxb_html_3e299cb0a9d4fbb4.jpg) | Reset Switch | 1 | ![](RackMultipart20210210-4-ko0kxb_html_8d52b686d3e70dd1.jpg) |
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image003.jpg)
 
-### Core
-
+### Hardware
 | **Item** | **Qty.** | **Image** |
 | --- | --- | --- |
-| Top PCB plate | 1 | ![](RackMultipart20210210-4-ko0kxb_html_4f39e3598998d09e.gif) |
-| Bottom PCB plate | 1 | ![](RackMultipart20210210-4-ko0kxb_html_dac56475be291730.gif) |
-| Middle acrylic spacer | 1 | ![](RackMultipart20210210-4-ko0kxb_html_5f5529bfcd8be5be.gif) |
-| Top acrylic guard | 1 | ![](RackMultipart20210210-4-ko0kxb_html_ce8a87bbb78a5d98.jpg) |
+| Standoff, M2x3 | 6 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image028.jpg) |
+| Standoff, M2x10 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image026.jpg) |
+| Screw, M2x3 | 12 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image030.jpg) |
+| Screw, M2x6 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image033.jpg) |
+| Screw, M2x10 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image032.jpg) |
+| Machined Knob | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image034.jpg) |
 
-  1.
-## Parts you provide
+### Electronics
+| **Item** | **Qty.** | **Image** |
+| --- | --- | --- |
+| 1N4148 Diode | 73 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image031.jpg) |
+| Reset Switch | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image027.jpg) |
+| WS2812B LED | 8 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image023.jpg) | 
+| TRRS Jack | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image024.jpg) |
+| Rotary Encoder | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image029.jpg) |
+| Breakaway Header Pins | 40 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image035.jpg) |
+
+
+### Core
+| **Item** | **Qty.** | **Image** |
+| --- | --- | --- |
+| Top PCB plate | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image020.jpg) |
+| Bottom PCB plate | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image022.jpg) |
+| Middle acrylic spacer | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image019.jpg) |
+| Top acrylic guard | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image025.jpg) |
+
+
+## 1. Parts you provide
 
 - PCB-mount switches (Cherry MX footprint)
-- Keycaps
-- BIT-C or other Pro Micro MCU
+- Keycaps [TODO: link sets]
+- [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
+- **[Optional]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
+- **[Optional]** [FR4 switch plate](http://www.amazon.com/dp/B08M9RM8YQ)
+- **[Optional]** [Extra encoder & knob](http://www.amazon.com/dp/B08NH53BMJ)
 - **[Optional]** Qty. 40 Mill-Max 0305 or 7305 hot-swap solder sockets
 
-  1.
-## Optional Add-ons and extras [BOLD are not included]
 
-- WS2812B RGB LED underglow
-- Rotary encoder &amp; knob
-- TRRS expansion jack for future numpad support
-- **SSD1306 OLED display**
-- **Adafruit Mini 8x8 LED Matrix w/I2C Backpack** [**LINK**](https://www.adafruit.com/product/1080)
-- **16x8 1.2&quot; LED Matrix w/I2C Backpack** [**LINK**](https://www.adafruit.com/product/2038)
-- **Quad Alphanumeric Display - 0.54 w/I2C Backpack** [**LINK**](https://www.adafruit.com/product/2157)
+## 1. Optional Add-ons and extras [not included]
 
-  1.
-## Tools required
+- [**Adafruit Mini 8x8 LED Matrix w/I2C Backpack**](https://www.adafruit.com/product/1080)
+- [**16x8 1.2&quot; LED Matrix w/I2C Backpack**](https://www.adafruit.com/product/2038)
+- [**Quad Alphanumeric Display - 0.54 w/I2C Backpack**](https://www.adafruit.com/product/2157)
+
+
+## 1. Tools required
 
 - Fine-tip soldering iron &amp; solder
 - Needle nose pliers
 - Phillips #0 screwdriver
 - Snips for cutting leads
 - Rubbing alcohol
+- **[Recommended]** DMM/Multimeter
+- **[Recommended]** USB Current Meter
 
-1.
-# Assembly Steps
+# <a name="assembly_steps"></a> 1. Assembly Steps
 
 ⚠️ **Important!** Notes marked with this icon are crucial, so be sure to read them carefully before moving on.
 
 Steps marked [OPTIONAL] aren&#39;t required for the base kit, but may be needed depending on what you choose to include in your build.
 
-  1.
-## [optional] Solder underglow LEDS
+## 1. Solder reset switch
+
+Fit and solder the reset switch as shown below.
+
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image005.jpg)
+
+After soldering, clean with rubbing alcohol.
+  
+## 1. [optional] Solder underglow LEDS
 
 Solder the 8x WS2812B underglow LEDs. Start by tacking down one corner, and then soldering the remaining 3 leads. After soldering, clean with rubbing alcohol.
 
 ⚠️ **Orientation matters!** These parts have a small angled mark which should match up with the one on the PCB. If you don&#39;t get the orientation right, the LEDs will not work, and your keyboard may not boot up.
 
-![](RackMultipart20210210-4-ko0kxb_html_43022a198c4aa18f.jpg)
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image006.jpg)
 
-  1.
-## Solder reset switch
-
-Fit and solder the reset switch as shown below.
-
-| ![](RackMultipart20210210-4-ko0kxb_html_afbcddce7a095032.gif) ![](RackMultipart20210210-4-ko0kxb_html_f1d2dddde68db221.jpg) |
- |
-| --- | --- |
-
-After soldering, clean with rubbing alcohol.
-
-  1.
-## Bend and solder diodes
+## 1. Bend and solder diodes
 
 Bend and fit the 1N4148 diodes. In order to get uniform placement of the diodes, I recommend using a diode bending tool. You can buy one or 3D print one. [Here&#39;s a link to my favorite](https://www.thingiverse.com/thing:4332520). Bend the leads inward to hold the diodes in place when the PCB is turned upside down. Begin by soldering one side of the diodes and adjust the diode alignment to your liking before soldering the second lead.
 
 ⚠️ **Orientation matters!** Solder the diodes with the black bar **UP** as shown in the images. The keyboard will not work if they are backward.
 
-| ![](RackMultipart20210210-4-ko0kxb_html_8f64a2d001851739.jpg) | ![](RackMultipart20210210-4-ko0kxb_html_41b14b55a818c4ed.jpg) |
+| ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image016.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image006.jpg) |
 | --- | --- |
 
 After soldering all diodes, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
 
-  1.
-## [optional] Solder TRRS expansion jack
+  
+## 1. [optional] Solder TRRS expansion jack
 
 Fit and solder the 4-pin TRRS expansion jack as shown below. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
 
-![](RackMultipart20210210-4-ko0kxb_html_380d098b5e7a285d.gif) ![](RackMultipart20210210-4-ko0kxb_html_ac05f778bfe7492e.jpg)
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image001.jpg)
 
-  1.
-## Solder MCU
+
+# ⚠️ **STOP** ⚠️
+
+It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. Jump to step [todo?] to flash QMK firmware.
+
+## 1. Solder MCU [TODO: add top view image, mention headers]
 
 Fit and solder the BIT-C or Pro Micro MCU as shown below. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
 
-![](RackMultipart20210210-4-ko0kxb_html_abab216e469ae1b0.jpg)
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image013.jpg)
 
-  1.
-## [optional] solder rotary encoder, led matrix, and/or oled
+
+## 1. [optional] solder rotary encoder, led matrix, and/or oled display
 
 If building with the optional rotary encoder, alphanumeric display or LED matrix, or OLED display in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. **Do not clip the large support pins on the encoder.**
 
-![](RackMultipart20210210-4-ko0kxb_html_ca62ca7f989b36f7.png)
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image002.jpg)
 
 ⚠️ **Compatibility note:** the top-left and top-right encoder (encoder 1) footprints share the same signals. An encoder should only be installed in one of the footprints.
 
@@ -138,37 +154,36 @@ If building with the optional rotary encoder, alphanumeric display or LED matrix
 
 **Placement guide (see image below):**
 
-**SSD1306 OLED Display**
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image000.png)
 
-**Mini 8x8 LED Matrix**
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image021.png)
 
-**1.2&quot; 16x8 LED Matrix**
 
-**Quad Alphanumeric Display**
-
-![](RackMultipart20210210-4-ko0kxb_html_12bba268fde10ea1.gif) ![](RackMultipart20210210-4-ko0kxb_html_c8279e4f5baa6958.gif) ![](RackMultipart20210210-4-ko0kxb_html_c8279e4f5baa6958.gif) ![](RackMultipart20210210-4-ko0kxb_html_a8a7892c31b1e3f7.gif) ![](RackMultipart20210210-4-ko0kxb_html_a8a7892c31b1e3f7.gif) ![](RackMultipart20210210-4-ko0kxb_html_a8a7892c31b1e3f7.gif) ![](RackMultipart20210210-4-ko0kxb_html_6465508aa8ea0738.gif) ![](RackMultipart20210210-4-ko0kxb_html_1cde32447ca8e55b.png)
-
-  1.
-## Choose key layout and configuration
+## 1. Choose key layout and configuration
 
 The TIDBIT supports a standard numpad layout as well as a more dense 19-key layout option. Each is compatible with the various rotary encoder options.
 
-| ![](RackMultipart20210210-4-ko0kxb_html_2d96273c5d7453b3.jpg) | ![](RackMultipart20210210-4-ko0kxb_html_8e4c424661329247.jpg) |
+| ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image009.jpg) | ![]![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image011.jpg) |
 | --- | --- |
 
-⚠️
-
-# **STOP!**
+# ⚠️ **STOP** ⚠️
 
 It&#39;s highly recommended that you test each key at this point before continuing. Jump to step 16 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
 
-  1.
-## [optional] Insert hot-swap sockets
+
+## 1. Screw together M2x3 standoffs using M2x3 screws
+
+In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 13 M2x3 screws. Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place.
+
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image007.jpg)
+
+  
+## 1. [optional] Insert hot-swap sockets
 
 If building with hotswap sockets, drop one into each plated lead hole. Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
 
-  1.
-## Snap in switches
+
+## 1. Snap in switches
 
 ⚠️ **Stop!** Test fit your keycaps to make sure that the switch spacings are correct before soldering, especially the bottom row.
 
@@ -176,19 +191,12 @@ The switches will take some force to insert. This is by design. The TIDBIT doesn
 
 ![](RackMultipart20210210-4-ko0kxb_html_6fbe29b2eee1b271.jpg)
 
-  1.
+
 ## Solder switches or hot-swap sockets
 
 Make sure each switch pin has enough solder to form a nice solid joint.
+![]()
 
-  1.
-## Screw together M2x3 standoffs using M2x3 screws
-
-In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 6 M2x3 screws. Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!**
-
-![](RackMultipart20210210-4-ko0kxb_html_6f121cb6d989458a.gif) ![](RackMultipart20210210-4-ko0kxb_html_6f121cb6d989458a.gif) ![](RackMultipart20210210-4-ko0kxb_html_6f121cb6d989458a.gif) ![](RackMultipart20210210-4-ko0kxb_html_6f121cb6d989458a.gif) ![](RackMultipart20210210-4-ko0kxb_html_c7b64e8fc4a2814f.gif) ![](RackMultipart20210210-4-ko0kxb_html_6f121cb6d989458a.gif) ![](RackMultipart20210210-4-ko0kxb_html_d7d08422204b2737.jpg)
-
-  1.
 ## Slide the acrylic spacer onto the standoffs
 
 Make sure the acrylic spacer sits flat against the PCB plate. Check for interreferences due to leads or solder joints. Trim if needed.
