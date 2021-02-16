@@ -116,8 +116,7 @@ Bend and fit the 1N4148 diodes. In order to get uniform placement of the diodes,
 
 ⚠️ **Orientation matters!** Solder the diodes with the black bar **UP** as shown in the images. The keyboard will not work if they are backward.
 
-| ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image016.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image006.jpg) |
-| --- | --- |
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image015.jpg)
 
 After soldering all diodes, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
 
