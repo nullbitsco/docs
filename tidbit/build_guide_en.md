@@ -125,7 +125,7 @@ After soldering all diodes, clean with rubbing alcohol and use the snips to clip
 
 Fit and solder the 4-pin TRRS expansion jack as shown below. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
 
-![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image001.png)
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image001.jpg)
 
 
 # ⚠️ **STOP** ⚠️
@@ -143,7 +143,7 @@ Fit and solder the BIT-C or Pro Micro MCU as shown below. After soldering, clean
 
 If building with the optional rotary encoder, alphanumeric display or LED matrix, or OLED display in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. **Do not clip the large support pins on the encoder.**
 
-![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image002.jpg)
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image002.png)
 
 ⚠️ **Compatibility note:** the top-left and top-right encoder (encoder 1) footprints share the same signals. An encoder should only be installed in one of the footprints.
 
@@ -162,7 +162,7 @@ If building with the optional rotary encoder, alphanumeric display or LED matrix
 
 The TIDBIT supports a standard numpad layout as well as a more dense 19-key layout option. Each is compatible with the various rotary encoder options.
 
-| ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image009.jpg) | ![]![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image011.jpg) |
+| ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image009.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image011.jpg) |
 | --- | --- |
 
 # ⚠️ **STOP** ⚠️
