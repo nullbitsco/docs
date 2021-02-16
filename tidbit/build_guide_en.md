@@ -125,7 +125,7 @@ After soldering all diodes, clean with rubbing alcohol and use the snips to clip
 
 Fit and solder the 4-pin TRRS expansion jack as shown below. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
 
-![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image001.jpg)
+![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image001.png)
 
 
 # ⚠️ **STOP** ⚠️
