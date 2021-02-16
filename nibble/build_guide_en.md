@@ -156,7 +156,7 @@ Solder the short end of the diode that was just trimmed on the **top** side of t
 
 # ⚠️ **STOP** ⚠️
 
-It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. Jump to step 20 to flash QMK firmware.
+It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. Jump to step [todo?] to flash QMK firmware.
 
 
 ## 1. Solder MCU [TODO: add top view image, mention headers]
