@@ -121,7 +121,7 @@ After soldering, clean with rubbing alcohol.
 
 ## 1. Solder IC sockets
 
-Fit and solder the two IC sockets. Be sure to match the notch in the socket with the one on the PCB. After soldering, clean with rubbing alcohol.
+Fit and solder the two IC sockets. Match the notch in the socket with the one on the PCB. After soldering, clean with rubbing alcohol. **Note: if you accidentally solder one or both sockets backward, don't panic! The sockets are passive components and will work in either orientation. The notches make it easier to insert the IC in the right direction, so just make sure to insert the IC in the correct direction later on in the build.**
 
 ⚠️ **Do not solder the socket with the IC inserted!** The heat may damage the chip if it is in the socket during soldering.
 
