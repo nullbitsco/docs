@@ -9,7 +9,7 @@
 [Quickstart Guide](#quickstart_guide)
 
 # <a name="helpful_links"></a> Helpful links
-* VIA software download link
+* VIA software download link: https://caniusevia.com
 * VIA demo video: https://www.youtube.com/watch?v=WZKf2TvUZ7Q
 * VIA guide: https://keyboard.university/guides/using-via-configurator
 
