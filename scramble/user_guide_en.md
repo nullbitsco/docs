@@ -6,13 +6,14 @@
 
 # Contents
 [Helpful Links](#helpful_links)
+[Quickstart Guide](#quickstart_guide)
 
-# <a name="helpful_links"></a> 1. Helpful links [TODO!]
+# <a name="helpful_links"></a> Helpful links
 * VIA software download link
 * VIA demo video: https://www.youtube.com/watch?v=WZKf2TvUZ7Q
 * VIA guide: https://keyboard.university/guides/using-via-configurator
 
-# Quickstart Guide
+# <a name="quickstart_guide"></a> Quickstart Guide
 
 ## Plug in SRAMBLE
 Plug SCRAMBLE into your computer using the provided USB cable.
@@ -33,9 +34,15 @@ With your SCRAMBLE plugged into your computer, VIA. The SCRAMBLE will be recogni
 | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image003.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image002.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image005.jpg) |
 
 Default output of each switch when pressed:
+
 White - “I’m a Gateron White Switch! Linear, 35g force”
+
 Red - “I’m a Gateron Red Switch! Linear, 45g force”
+
 Black - “I’m a Gateron Black Switch! Linear, 60g force”
+
 Brown - “I’m a Gateron Brown Switch! Tactile, 55g force”
+
 Blue - “I’m a Gateron Blue Switch! Clicky, 60g force”
+
 Green - “I’m a Gateron Green Switch! Clicky, 80g force”
