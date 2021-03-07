@@ -5,14 +5,15 @@
 ## User Guide
 
 # Contents
-[Helpful Links](#helpful_links)
-[Quickstart Guide](#quickstart_guide)
-[Firmware Flashing](#firmware_flashing)
+[Helpful Links](#helpful_links)  
+[Quickstart Guide](#quickstart_guide)  
+[Firmware Flashing](#firmware_flashing)  
 
 # <a name="helpful_links"></a> Helpful links
 * VIA software download link: https://caniusevia.com
 * VIA demo video: https://www.youtube.com/watch?v=WZKf2TvUZ7Q
 * VIA guide: https://keyboard.university/guides/using-via-configurator
+* SCRAMBLE QMK firmware & source code: https://github.com/qmk/qmk_firmware/tree/master/keyboards/nullbitsco/scramble
 
 # <a name="quickstart_guide"></a> Quickstart Guide
 
