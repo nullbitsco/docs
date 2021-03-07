@@ -25,6 +25,7 @@ To customize your SCRAMBLE keys, download VIA from https://caniusevia.com/
 With your SCRAMBLE plugged into your computer, VIA. The SCRAMBLE will be recognized. You can now program your SCRAMBLE.
 
 ## Default Switch Layout (USB on left)
+| | | |
 | --- | --- | --- |
 | Clear | Red | Black |
 | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image004.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image006.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image001.jpg) |
