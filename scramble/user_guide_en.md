@@ -23,7 +23,7 @@ Open up a blank Word document and press each key. You should get an output of ea
 ## Customizing your SCRAMBLE
 To customize your SCRAMBLE keys, download VIA from https://caniusevia.com/
 
-With your SCRAMBLE plugged into your computer, VIA. The SCRAMBLE will be recognized. You can now program your SCRAMBLE.
+With your SCRAMBLE plugged into your computer, open VIA. The SCRAMBLE will be recognized. You can now program your SCRAMBLE.
 
 ## Default Switch Layout (USB on left)
 | | | |
@@ -33,16 +33,11 @@ With your SCRAMBLE plugged into your computer, VIA. The SCRAMBLE will be recogni
 | Brown | Blue | Green |
 | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image003.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image002.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image005.jpg) |
 
-Default output of each switch when pressed:
-
-White - “I’m a Gateron White Switch! Linear, 35g force”
-
-Red - “I’m a Gateron Red Switch! Linear, 45g force”
-
-Black - “I’m a Gateron Black Switch! Linear, 60g force”
-
-Brown - “I’m a Gateron Brown Switch! Tactile, 55g force”
-
-Blue - “I’m a Gateron Blue Switch! Clicky, 60g force”
-
-Green - “I’m a Gateron Green Switch! Clicky, 80g force”
+## Default output of each switch when pressed  
+Gateron White: Linear, 35g force  
+Gateron White: Linear, 35g force  
+Gateron Red: Linear, 45g force  
+Gateron Black: Linear, 60g force  
+Gateron Brown: Tactile, 55g force  
+Gateron Blue: Clicky, 60g force  
+Gateron Green: Clicky, 80g force  
