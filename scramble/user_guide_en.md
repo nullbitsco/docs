@@ -7,6 +7,7 @@
 # Contents
 [Helpful Links](#helpful_links)
 [Quickstart Guide](#quickstart_guide)
+[Firmware Flashing](#firmware_flashing)
 
 # <a name="helpful_links"></a> Helpful links
 * VIA software download link: https://caniusevia.com
@@ -23,7 +24,7 @@ Open up a blank Word document and press each key. You should get an output of ea
 ## Customizing your SCRAMBLE
 To customize your SCRAMBLE keys, download VIA from https://caniusevia.com/
 
-With your SCRAMBLE plugged into your computer, VIA. The SCRAMBLE will be recognized. You can now program your SCRAMBLE.
+With your SCRAMBLE plugged into your computer, open VIA. The SCRAMBLE will be recognized. You can now program your SCRAMBLE.
 
 ## Default Switch Layout (USB on left)
 | | | |
@@ -33,16 +34,21 @@ With your SCRAMBLE plugged into your computer, VIA. The SCRAMBLE will be recogni
 | Brown | Blue | Green |
 | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image003.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image002.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image005.jpg) |
 
-Default output of each switch when pressed:
+## Default output of each switch when pressed  
+Gateron White: Linear, 35g force  
+Gateron White: Linear, 35g force  
+Gateron Red: Linear, 45g force  
+Gateron Black: Linear, 60g force  
+Gateron Brown: Tactile, 55g force  
+Gateron Blue: Clicky, 60g force  
+Gateron Green: Clicky, 80g force  
 
-White - “I’m a Gateron White Switch! Linear, 35g force”
+# <a name="firmware_flashing"></a> Flashing Firmware
+The ATmega328P uses a fork of [USBaspLoader](https://github.com/nullbitsco/USBaspLoader) as the bootloader. The bootloader is in a protected code region so there is a low risk of damaging or overwriting it. You can build firmware using the [QMK Configurator](https://config.qmk.fm/#/nullbitsco/scramble/LAYOUT), but note that it does not support changing encoder or OLED functionality (yet).
 
-Red - “I’m a Gateron Red Switch! Linear, 45g force”
+## Entering bootloader mode
+To enter the bootloader, start with the SCRAMBLE unplugged from USB. With the SCRAMBLE positioned so the USB connector is on the left, hold the green (lower-right) switch and plug into the PC. The LED will stay on, indicating it is in bootloader mode. If it worked, you should see a new USBAsp device in QMK Toolbox.
+![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image007.png)
 
-Black - “I’m a Gateron Black Switch! Linear, 60g force”
-
-Brown - “I’m a Gateron Brown Switch! Tactile, 55g force”
-
-Blue - “I’m a Gateron Blue Switch! Clicky, 60g force”
-
-Green - “I’m a Gateron Green Switch! Clicky, 80g force”
+## Flashing new firmware
+Before flashing, make sure that "atmega328p" is selected under the "MCU (AVR only)" menu in QMK toolbox! Select a .hex file and press the "Flash" button. After flashing, you must press the green (lower-right) switch to exit the bootloader, or unplug and replug the SCRAMBLE.
