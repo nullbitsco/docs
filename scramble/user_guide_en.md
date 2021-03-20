@@ -48,7 +48,7 @@ Gateron Green: Clicky, 80g force
 The ATmega328P uses a fork of [USBaspLoader](https://github.com/nullbitsco/USBaspLoader) as the bootloader. The bootloader is in a protected code region so there is a low risk of damaging or overwriting it. You can build firmware using the [QMK Configurator](https://config.qmk.fm/#/nullbitsco/scramble/LAYOUT), but note that it does not support changing encoder or OLED functionality (yet).
 
 ## Entering bootloader mode
-To enter the bootloader, start with the SCRAMBLE unplugged from USB. With the SCRAMBLE positioned so the USB connector is on the left, hold the green (lower-right) switch and plug into the PC. The LED will stay on, indicating it is in bootloader mode. If it worked, you should see a new USBAsp device in QMK Toolbox.
+To enter the bootloader, start with the SCRAMBLE unplugged from USB. With the SCRAMBLE positioned so the USB connector is on the left, hold the green (lower-right) switch and plug into the PC. The LED will stay on, indicating it is in bootloader mode. If it worked, you should see a new USBAsp device in QMK Toolbox. 
 ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image007.png)
 
 ## Flashing new firmware
