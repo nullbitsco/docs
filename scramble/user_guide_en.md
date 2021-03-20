@@ -49,6 +49,7 @@ The ATmega328P uses a fork of [USBaspLoader](https://github.com/nullbitsco/USBas
 
 ## Entering bootloader mode
 To enter the bootloader, start with the SCRAMBLE unplugged from USB. With the SCRAMBLE positioned so the USB connector is on the left, hold the green (lower-right) switch and plug into the PC. The LED will stay on, indicating it is in bootloader mode. If it worked, you should see a new USBAsp device in QMK Toolbox. 
+
 ![](https://github.com/nullbitsco/docs/raw/main/scramble/user_guide_img/image007.png)
 
 ## Flashing new firmware
