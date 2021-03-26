@@ -157,7 +157,7 @@ Solder the short end of the diode that was just trimmed on the **top** side of t
 
 # ⚠️ **STOP** ⚠️
 
-It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. Jump to step [todo?] to flash QMK firmware.
+It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. [Jump to step](#firmware_flashing) 20 to flash QMK firmware.
 
 
 ## 7. Solder MCU
@@ -203,7 +203,7 @@ The NIBBLE PCB includes guide marks for the switches and stabilizers to make the
 
 # ⚠️ **STOP** ⚠️
 
-It&#39;s highly recommended that you test each key at this point before continuing. If you haven&#39;t already, jump to step 20 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
+It&#39;s highly recommended that you test each key at this point before continuing. If you haven&#39;t already, [Jump to step](#firmware_flashing) 20 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
 
 **Caps lock** 
 | **Guide Mark** | **Layout Option** |
@@ -308,7 +308,7 @@ Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image040.jpg)
 
 
-## 20. Flash firmware using QMK toolbox
+## 20. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
 
 Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/nibble). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
