@@ -4,7 +4,7 @@
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image018.jpg)
 
-### Builds Guide
+### Build Guide
 
 # Contents
 [Helpful Links](#helpful_links)
