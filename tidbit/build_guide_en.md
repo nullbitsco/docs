@@ -234,7 +234,7 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image008.jpg)
 
-# 4. Troubleshooting
+# 4. <a name="troubleshooting"></a> Troubleshooting
 
 **None of the keys are working**
 
