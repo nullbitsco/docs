@@ -85,7 +85,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 - **[Recommended]** DMM/Multimeter
 - **[Recommended]** USB Current Meter
 
-# <a name="assembly_steps"></a> 1. Assembly Steps
+# <a name="assembly_steps"></a> 3. Assembly Steps
 
 ⚠️ **Important!** Notes marked with this icon are crucial, so be sure to read them carefully before moving on.
 
