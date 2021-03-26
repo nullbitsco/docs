@@ -70,9 +70,9 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 - PCB-mount stabilizers. Split space requires 5x 2u stabs. You’ll want 2x 2u stabs, one for each spacebar, along with 3x additional for left shift, enter, and backspace. If you’re going with the 6.25u spacebar, you’ll need 1x 6.25u and 3x 2u.
 - [Keycaps. Recommended set (pictured in product photos)](https://drop.com/buy/dsa-dolch-key-set)
 - [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
-- **[Optional]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
-- **[Optional]** [FR4 switch plate](http://www.amazon.com/dp/B08KLGRS69)
-- **[Optional]** Qty. 144 Mill-Max 0305 or 7305 hot-swap solder sockets
+- **[OPTIONAL]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
+- **[OPTIONAL]** [FR4 switch plate](http://www.amazon.com/dp/B08KLGRS69)
+- **[OPTIONAL]** Qty. 144 Mill-Max 0305 or 7305 hot-swap solder sockets
 
 
 ## 3. Tools required
@@ -91,7 +91,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 
 Steps marked [OPTIONAL] aren&#39;t required for the base kit, but may be needed depending on what you choose to include in your build.
 
-## 1. [optional] Solder Underglow LEDS
+## 1. [OPTIONAL] Solder Underglow LEDS
 
 Solder the 10x WS2812B underglow LEDs. Start by tacking down one corner, and then soldering the remaining 3 leads. After soldering, clean with rubbing alcohol.
 
@@ -100,7 +100,7 @@ Solder the 10x WS2812B underglow LEDs. Start by tacking down one corner, and the
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image016.jpg)
 
 
-## 2. [optional] bend and solder resistors for big LED
+## 2. [OPTIONAL] Bend and solder resistors for Big LED
 
 This step is only required if using the optional big LED in place of one of the macro keys. Bend and solder R1, R2, and R3.
 
@@ -169,7 +169,7 @@ Use header pins to solder the MCU to the keybpard. Fit and solder the BIT-C or P
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image028.jpg)
 
 
-## 8. [optional] Solder rotary encoder, Big LED, and/or OLED
+## 8. [OPTIONAL] Solder rotary encoder, Big LED, and/or OLED
 
 If building with the optional rotary encoder, big LED, or OLED display, in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Do not clip the large support pins on the encoder.
 
@@ -259,7 +259,7 @@ Snap in the PCB-mount stabilizers as shown below. The tab goes in the big hole, 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image035.jpg)
 
 
-## 13. [optional] Insert hot-swap sockets
+## 13. [OPTIONAL] Insert hot-swap sockets
 
 If building with hotswap sockets, drop one into each plated lead hole and affix with tape (masking or electrical tape works well Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
 
