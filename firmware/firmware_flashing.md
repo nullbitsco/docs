@@ -11,3 +11,4 @@ Check out these awesome resources before diving into firmware customizations.
 ## [TODO] Burning a new bootloader
 
 ## [TODO] Building for a Bit-C without flashing a new bootloader
+https://gist.github.com/jaygreco/d82c83a441d5953b4c98d5e1aaebc104
