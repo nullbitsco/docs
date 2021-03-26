@@ -131,7 +131,7 @@ Fit and solder the 4-pin TRRS expansion jack as shown below. After soldering, cl
 
 # ⚠️ **STOP** ⚠️
 
-It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. Jump to step [todo?] to flash QMK firmware.
+It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. [Jump to](#firmware_flashing) step 16 QMK firmware.
 
 ## 5. Solder MCU
 
