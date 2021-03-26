@@ -20,6 +20,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 
 # <a name="helpful_links"></a> 1. Helpful links
 * [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/99bc73a179c1c49acef09088e3c1f334)
+* [QMK Firmware](https://github.com/nullbitsco/tidbit)
 * [Basic Skills: Soldering](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
 * [Check the](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image048.png) quality of your [soldering joints!](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image049.png)
 * [How to use a DMM](https://www.youtube.com/watch?v=SECWePatYjY) - Important if you need to troubleshoot your build!
