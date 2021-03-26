@@ -280,7 +280,7 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 **How to I do X in firmware?**
 
 - See the QMK docs, or make a post on r/olkb for help.
-- Send me a PM on Reddit or an email, and I&#39;ll try to help.
+- Make a post on the [r/nullbits](https://www.reddit.com/r/nullbits/) subreddit, or join the #firmware channel in the [nullbits discord server](https://discord.gg/eSegJcY).
 
 **Something else?**
 
