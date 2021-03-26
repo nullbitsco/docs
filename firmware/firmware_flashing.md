@@ -8,6 +8,6 @@ Check out these awesome resources before diving into firmware customizations.
 * [QMK Tutorial: How to get VIA on your board](https://youtu.be/lyvf7Yp1z5g)
 * [How to Install/Use VIA Configurator (Tutorial)](https://youtu.be/78zVepszCmE)
 
-## Burning a new bootloader
+## [TODO] Burning a new bootloader
 
-## Building for a Bit-C without flashing a new bootloader
+## [TODO] Building for a Bit-C without flashing a new bootloader
