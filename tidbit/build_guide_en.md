@@ -66,10 +66,10 @@ Seriously, thank you! The TIDBIT has been a passion project of mine over the pas
 - PCB-mount switches (Cherry MX footprint)
 - [Keycaps. Recommended set (pictured in product photos)](https://drop.com/buy/dsa-dolch-key-set)
 - [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
-- **[Optional]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
-- **[Optional]** [FR4 switch plate](http://www.amazon.com/dp/B08M9RM8YQ)
-- **[Optional]** [Extra encoder & knob](http://www.amazon.com/dp/B08NH53BMJ)
-- **[Optional]** Qty. 40 Mill-Max 0305 or 7305 hot-swap solder sockets
+- **[OPTIONAL]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
+- **[OPTIONAL]** [FR4 switch plate](http://www.amazon.com/dp/B08M9RM8YQ)
+- **[OPTIONAL]** [Extra encoder & knob](http://www.amazon.com/dp/B08NH53BMJ)
+- **[OPTIONAL]** Qty. 40 Mill-Max 0305 or 7305 hot-swap solder sockets
 
 
 ## 2. Optional Add-ons and extras [not included]
@@ -103,7 +103,7 @@ Fit and solder the reset switch as shown below.
 
 After soldering, clean with rubbing alcohol.
   
-## 2. [optional] Solder underglow LEDS
+## 2. [OPTIONAL] Solder underglow LEDS
 
 Solder the 8x WS2812B underglow LEDs. Start by tacking down one corner, and then soldering the remaining 3 leads. After soldering, clean with rubbing alcohol.
 
@@ -122,7 +122,7 @@ Bend and fit the 1N4148 diodes. In order to get uniform placement of the diodes,
 After soldering all diodes, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
 
   
-## 4. [optional] Solder TRRS expansion jack
+## 4. [OPTIONAL] Solder TRRS expansion jack
 
 Fit and solder the 4-pin TRRS expansion jack as shown below. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
 
@@ -140,7 +140,7 @@ Use header pins to solder the MCU to the keybpard. Fit and solder the BIT-C or P
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image013.jpg)
 
 
-## 6. [optional] solder rotary encoder, led matrix, and/or oled display
+## 6. [OPTIONAL] Solder rotary encoder, LED matrix, and/or OLED display
 
 If building with the optional rotary encoder, alphanumeric display or LED matrix, or OLED display in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. **Do not clip the large support pins on the encoder.**
 
@@ -180,7 +180,7 @@ In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fas
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image007.jpg)
 
   
-## 9. [optional] Insert hot-swap sockets
+## 9. [OPTIONAL] Insert hot-swap sockets
 
 If building with hotswap sockets, drop one into each plated lead hole. Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
 
