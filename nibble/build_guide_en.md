@@ -93,6 +93,8 @@ Steps marked [OPTIONAL] aren&#39;t required for the base kit, but may be needed 
 
 ## 1. [OPTIONAL] Solder Underglow LEDS
 
+[Recommended resource: soldering 5050 SMT LEDs](https://electronics.stackexchange.com/questions/482626/how-to-solder-ws2812b-ledsindividual-not-a-strip-to-a-pcb)
+
 Solder the 10x WS2812B underglow LEDs. Start by tacking down one corner, and then soldering the remaining 3 leads. After soldering, clean with rubbing alcohol.
 
 ⚠️ **Orientation matters!** These parts have a small angled mark which should match up with the one on the PCB. If you don&#39;t get the orientation right, the LEDs will not work, and your keyboard may not boot up.
