@@ -12,3 +12,11 @@ Check out these awesome resources before diving into firmware customizations.
 
 ## [TODO] Building for a Bit-C without flashing a new bootloader
 https://gist.github.com/jaygreco/d82c83a441d5953b4c98d5e1aaebc104
+
+## [TODO] NIBBLE
+
+## [TODO] TIDBIT
+
+## [TODO] SCRAMBLE
+
+## [TODO] Firmware releases and compiled binaries
