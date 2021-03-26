@@ -318,7 +318,7 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image041.jpg)
 
 
-# <a name="troubleshooting"></a> 3. Troubleshooting
+# <a name="troubleshooting"></a> 4. Troubleshooting
 
 **None of the keys are working**
 
