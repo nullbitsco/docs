@@ -85,7 +85,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 - **[Recommended]** DMM/Multimeter
 - **[Recommended]** USB Current Meter
 
-# <a name="assembly_steps"></a> 1. Assembly Steps
+# <a name="assembly_steps"></a> 3. Assembly Steps
 
 ⚠️ **Important!** Notes marked with this icon are crucial, so be sure to read them carefully before moving on.
 
@@ -164,7 +164,7 @@ It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before s
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image040.jpg)
 
-Use the header pins to solder the MCU to the keybpard. Fit and solder the BIT-C or Pro Micro MCU as shown below. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
+Use header pins to solder the MCU to the keybpard. Fit and solder the BIT-C or Pro Micro MCU as shown below using 0.1" male header pins. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image028.jpg)
 
@@ -318,7 +318,7 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image041.jpg)
 
 
-# <a name="troubleshooting"></a> 3. Troubleshooting
+# <a name="troubleshooting"></a> 4. Troubleshooting
 
 **None of the keys are working**
 
