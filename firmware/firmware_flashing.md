@@ -3,12 +3,12 @@
 ## Building and flashing QMK firmware 
 
 # Contents
-[Helpful Links](#helpful_links)
-[NIBBLE](#nibble)
-[TIDBIT](#tidbit)
-[SCRAMBLE](#scramble)
-[Proton-C conversion](#proton_c)
-[Firmware releases and precompiled binaries](#releases)
+[Helpful Links](#helpful_links) 
+[NIBBLE](#nibble) 
+[TIDBIT](#tidbit) 
+[SCRAMBLE](#scramble) 
+[Proton-C conversion](#proton_c) 
+[Firmware releases and precompiled binaries](#releases) 
 
 
 # <a name="helpful_links"></a> Helpful links
