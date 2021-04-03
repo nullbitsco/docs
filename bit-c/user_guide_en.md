@@ -5,9 +5,9 @@
 ## User Guide
 
 # Contents
-[Helpful Links](#helpful_links)
-[Burning the Caterina (Arduino) bootloader](#burning_bootloader)
-[Building for a Bit-C without flashing a new bootloader](#toolbox_flashing)
+[Helpful Links](#helpful_links)  
+[Burning the Caterina (Arduino) bootloader](#burning_bootloader)  
+[Building for a Bit-C without flashing a new bootloader](#toolbox_flashing)  
 
 # <a name="helpful_links"></a> Helpful links
 * [QMK Toolbox](https://github.com/qmk/qmk_toolbox)
