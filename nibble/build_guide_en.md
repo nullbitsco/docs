@@ -70,7 +70,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 
 - PCB-mount switches (Cherry MX footprint)
 - PCB-mount stabilizers. Split space requires 5x 2u stabs. You’ll want 2x 2u stabs, one for each spacebar, along with 3x additional for left shift, enter, and backspace. If you’re going with the 6.25u spacebar, you’ll need 1x 6.25u and 3x 2u.
-- [Keycaps. Recommended set (pictured in product photos)](https://drop.com/buy/dsa-dolch-key-set)
+- Keycaps: [(black set pictured in product photos)](https://drop.com/buy/dsa-dolch-key-set) [(white set in product photos)](https://www.amazon.com/Sublimated-Suitable-Switches-Mechanical-Keyboard/dp/B07QN9128Z?th=1)
 - [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
 - **[OPTIONAL]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
 - **[OPTIONAL]** [FR4 switch plate](http://www.amazon.com/dp/B08KLGRS69)
