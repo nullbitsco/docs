@@ -46,7 +46,7 @@ Seriously, thank you! The TIDBIT has been a passion project of mine over the pas
 ### Electronics
 | **Item** | **Qty.** | **Image** |
 | --- | --- | --- |
-| 1N4148 Diode | 73 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image031.jpg) |
+| 1N4148 Diode | 19 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image031.jpg) |
 | Reset Switch | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image027.jpg) |
 | WS2812B LED | 8 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image023.jpg) | 
 | TRRS Jack | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image024.jpg) |
@@ -128,7 +128,7 @@ After soldering all diodes, clean with rubbing alcohol and use the snips to clip
   
 ## 4. [OPTIONAL] Solder TRRS expansion jack
 
-Fit and solder the 4-pin TRRS expansion jack as shown below. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
+Fit and solder the 4-pin TRRS expansion jack as shown below. After soldering, clean with rubbing alcohol.
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image001.jpg)
 
@@ -177,7 +177,7 @@ It&#39;s highly recommended that you test each key at this point before continui
 
 ## 8. Screw together M2x3 standoffs using M2x3 screws
 
-In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 13 M2x3 screws. Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** 
+In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 6 M2x3 screws. Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** 
 
 ⚠️ This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place.
 
@@ -203,14 +203,14 @@ Make sure each switch pin has enough solder to form a nice solid joint.
 
 ## 12. Slide the acrylic spacer onto the standoffs
 
-Make sure the acrylic spacer sits flat against the PCB plate. Check for interreferences due to leads or solder joints. Trim if needed.
+Make sure the acrylic spacer sits flat against the PCB plate. Check for interreferences due to leads or solder joints. Trim if needed. If using the TRRS expansion jack, snap out the acrylic piece to fit it.
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image004.jpg)
 
 
 ## 13. Fasten the bottom with M2x3 screws
 
-Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 13 standoffs were installed, fasten with 13 M2x3 screws. **Do not overtighten!**
+Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 6 standoffs were installed, fasten with 13 M2x3 screws. **Do not overtighten!**
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image017.jpg)
 
@@ -232,6 +232,8 @@ Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top
 ## 16. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
 
 Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/tidbit). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
+
+If using VIA, download the json file [here] (https://github.com/nullbitsco/tidbit/blob/master/keymaps/via/tidbit.json). Click "Raw." Download the file by right clicking and selecing "Save as..."
 
 
 ## 17. Enjoy!
