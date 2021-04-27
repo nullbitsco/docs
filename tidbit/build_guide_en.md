@@ -210,7 +210,7 @@ Make sure the acrylic spacer sits flat against the PCB plate. Check for interref
 
 ## 13. Fasten the bottom with M2x3 screws
 
-Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 6 standoffs were installed, fasten with 13 M2x3 screws. **Do not overtighten!**
+Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 6 standoffs were installed, fasten with 6 M2x3 screws. **Do not overtighten!**
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image017.jpg)
 
