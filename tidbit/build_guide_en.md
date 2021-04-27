@@ -233,7 +233,7 @@ Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top
 
 Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/tidbit). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
-If using VIA, download the json file [here] (https://github.com/nullbitsco/tidbit/blob/master/keymaps/via/tidbit.json). Click "Raw." Download the file by right clicking and selecing "Save as..."
+If using VIA, download the json file [here](https://github.com/nullbitsco/tidbit/blob/master/keymaps/via/tidbit.json). Click "Raw." Download the file by right clicking and selecing "Save as..."
 
 
 ## 17. Enjoy!
