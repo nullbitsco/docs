@@ -38,7 +38,7 @@
 | **Item** | **Qty.** | **Image** |
 | --- | --- | --- |
 | Standoff, M2x3 | 13 | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image002.jpg) |
-| Standoff, M2x3 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image004.jpg) |
+| Standoff, M2x10 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image004.jpg) |
 | Screw, M2x3 | 26 | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image006.jpg) |
 | Screw, M2x6 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image008.jpg) |
 | Screw, M2x10 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image010.jpg) |
@@ -71,7 +71,7 @@
 ## 2. Parts you provide
 
 - PCB-mount switches (Cherry MX footprint)
-- PCB-mount stabilizers. Split space requires 5x 2u stabs. You’ll want 2x 2u stabs, one for each spacebar, along with 3x additional for left shift, enter, and backspace. If you’re going with the 6.25u spacebar, you’ll need 1x 6.25u and 3x 2u.
+- PCB-mount stabilizers. Snap requires 5x 2u stabs. You’ll want 2x 2u stabs, one for each spacebar, along with 3x additional for left shift, enter, and backspace.
 - Keycaps: [(black set pictured in product photos)](https://drop.com/buy/dsa-dolch-key-set) [(white set in product photos)](https://www.amazon.com/Sublimated-Suitable-Switches-Mechanical-Keyboard/dp/B07QN9128Z?th=1)
 - [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
 - **[OPTIONAL]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
@@ -157,9 +157,9 @@ There are a number of diodes that aren't in the main group on the top of the key
 
 ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image027.jpg)
 
-## 6a. Bend and solder under-key diodes
+## 6b. Bend and solder top row of diodes
 
-There are a number of diodes that aren't in the main group on the top of the keyboard: 13 on the left half, and 11 on the right half. Bend and fit the 1N4148 diodes. Bend the leads inward to hold the diodes in place when the PCB is turned upside down. Begin by soldering one side of the diodes and adjust the diode alignment to your liking before soldering the second lead.
+Bend and fit the remaining 1N4148 diodes for the top row. Bend the leads inward to hold the diodes in place when the PCB is turned upside down. Begin by soldering one side of the diodes and adjust the diode alignment to your liking before soldering the second lead.
 
 ⚠️ **Orientation matters!** Solder the diodes with the black bar **UP** as shown in the images. The keyboard will not work if they are backward.
 
@@ -201,7 +201,7 @@ After soldering, clean with rubbing alcohol and use the snips to clip the leads 
 
 ## 8. [OPTIONAL] Solder rotary encoder, speaker, and/or OLED
 
-If building with the optional rotary encoder, speaker, or OLED display. In place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Do not clip the large support pins on the encoder.
+If building with the optional rotary encoder, speaker, or OLED display in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Do not clip the large support pins on the encoder.
 
 | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image029.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image030.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image031.jpg) |
 | --- | --- | --- |
@@ -209,12 +209,10 @@ If building with the optional rotary encoder, speaker, or OLED display. In place
 ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image051.png)
 
 
-After soldering, clean with rubbing alcohol and use the snips to clip the leads as close to PCB as possible.
-
 
 ## 9. Insert ICs into IC sockets
 
-⚠️ **Orientation matters!** Make sure that the side of the IC with the round mark is closest to the Bit-C before inserting. Double check before inserting if you're not sure! 
+⚠️ **Orientation matters!** Make sure that the side of the IC with the round mark is closest to the Bit-C on the left half and furthest from the Bit-C on the right half (both facing left) before inserting. Double check before inserting if you're not sure! The orientation should match the silkscreen.
 
 Carefully bend the IC leads inward so that they are the width of the socket. It helps to set the IC on its side on a flat surface and use a tool to bend all leads at once.
 
@@ -275,7 +273,7 @@ It&#39;s highly recommended that you test each key at this point before continui
 
 ## 11. Screw together M2x3 standoffs using M2x3 screws
 
-In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 13 M2x3 screws. Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place.
+In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 14 M2x3 screws (7 on each half). Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place.
 
 ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image034.jpg)
 
@@ -289,7 +287,7 @@ Snap in the PCB-mount stabilizers as shown below. The tab goes in the big hole, 
 
 ## 13. [OPTIONAL] Insert hot-swap sockets
 
-If building with hotswap sockets, drop one into each plated lead hole and affix with tape (masking or electrical tape works well Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
+If building with hotswap sockets, drop one into each plated lead hole and affix with tape (masking or electrical tape works well). Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
 
 
 ## 14. Snap in switches
@@ -317,7 +315,7 @@ Make sure the acrylic spacer sits flat against the PCB plate. Check for interref
 
 ## 17. Fasten the bottom with M2x3 screws
 
-Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 13 standoffs were installed, fasten with 13 M2x3 screws. **Do not overtighten!**
+Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 14 standoffs were installed, fasten with 14 M2x3 screws (7 on each half). **Do not overtighten!**
 
 ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image038.jpg)
 
