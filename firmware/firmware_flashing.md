@@ -26,4 +26,7 @@ https://github.com/jaygreco/qmk_firmware/tree/proton_c_conversion
 
 ## [TODO] <a name="scramble"></a> SCRAMBLE
 
-## [TODO] <a name="releases"></a> Firmware releases and precompiled binaries
+## <a name="releases"></a> Firmware releases and precompiled binaries
+* [NIBBLE default firmware](https://github.com/nullbitsco/docs/raw/main/firmware/default_firmware/nullbitsco_nibble_default.hex)
+* [TIDBIT default firmware](https://github.com/nullbitsco/docs/raw/main/firmware/default_firmware/nullbitsco_tidbit_default.hex)
+* [SCRAMBLE default firmware](https://github.com/nullbitsco/docs/raw/main/firmware/default_firmware/nullbitsco_scramble_default.hex)
