@@ -35,7 +35,7 @@ Follow these instructions to flash your Pro Micro or Bit-C microcontroller:
     * [SCRAMBLE default firmware](https://github.com/nullbitsco/docs/raw/main/firmware/default_firmware/nullbitsco_scramble_default.hex)
 
 2. Download [QMK Toolbox](https://github.com/qmk/qmk_toolbox/releases).
-3. Connect your Pro-Micro in DFU mode. If using a new Bit-C, it will be in DFU mode (white LED will glow).
+3. Connect your Pro-Micro in DFU mode. If using a new Bit-C, it will be in DFU mode already as indicated by the glowing white LED.
 4. Open QMK Toolbox and select the firmware file.
 5. Click flash and wait for it to complete.
 6. Disconnect and reconnect the Pro-Micro or Bit-C. On the Bit-C, the LED light will stop glowing indicating that the board has loaded the firmware. 
