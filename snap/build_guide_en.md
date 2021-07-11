@@ -203,6 +203,8 @@ After soldering, clean with rubbing alcohol and use the snips to clip the leads 
 
 If building with the optional rotary encoder, speaker, or OLED display in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Do not clip the large support pins on the encoder.
 
+Include a picture of the OLED position on top of the diodes so you can see that it doesn't sit flush.
+
 | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image029.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image030.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image031.jpg) |
 | --- | --- | --- |
 
@@ -273,7 +275,7 @@ It&#39;s highly recommended that you test each key at this point before continui
 
 ## 11. Screw together M2x3 standoffs using M2x3 screws
 
-In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 14 M2x3 screws (7 on each half). Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place.
+In the locations shown, screw the M2x3 standoffs into the bottom side of the **TOP** PCB plate. Fasten using 14 M2x3 screws (7 on each half). Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place.
 
 ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image034.jpg)
 
@@ -298,6 +300,7 @@ If you are using 5-pin PCB mount switches, they may take some force to insert. T
 
 ![](https://github.com/nullbitsco/docs/raw/main/snap/build_guide_img/image036.jpg)
 
+If building with hotswap sockets and a switch plate, you will need to remove the switches from the sockets after soldering in order to fit them into the plate for final assembly.
 
 ## 15. Solder switches or hot-swap sockets
 
@@ -305,6 +308,7 @@ If you are using 5-pin PCB mount switches, they may take some force to insert. T
 
 Make sure each switch pin has enough solder to form a nice solid joint.
 
+If building with hotswap sockets and a switch plate, after soldering, insert switches into the switch plate before installing on the PCB. It helps to seat switches in the corner positions on the plate, then insert into the sockets, then insert the remaining switches into the plate and sockets.
 
 ## 16. Slide the acrylic spacer onto the standoffs
 
