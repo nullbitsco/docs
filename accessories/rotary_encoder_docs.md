@@ -4,7 +4,7 @@ If you purchased the [Nullbits Rotary Encoder and Knob pack](https://www.amazon.
 ## Required Components
 1. 1x Rotary Encoder
 2. 1x Knob
-3. 1x 6-32 Set Screw (usually placed inside the Knob screw hole)
+3. 1x 6-32 Set Screw (usually screwed into the Knob)
 4. 1x Allen wrench (you'll have to figure out the appropriate size)
 
 ## Instructions
