@@ -7,6 +7,7 @@
 ### Build Guide
 
 # Contents
+
 [Helpful Links](#helpful_links)
 
 [Parts and Tools](#parts_and_tools)
@@ -15,53 +16,53 @@
 
 [Troubleshooting](#troubleshooting)
 
-
 # <a name="helpful_links"></a> 1. Helpful links
-* [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/a1aedbf7a153c6ec3295f0ea32b6ad5b)
-* [QMK Firmware](https://github.com/nullbitsco/tidbit)
-* [Basic Skills: Soldering](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
-* [Check the](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image048.png) quality of your [soldering joints!](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image049.png)
-* [How to use a DMM](https://www.youtube.com/watch?v=SECWePatYjY) - Important if you need to troubleshoot your build!
-* [Firmware Flashing Guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
+
+- [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/a1aedbf7a153c6ec3295f0ea32b6ad5b)
+- [QMK Firmware](https://github.com/nullbitsco/tidbit)
+- [Basic Skills: Soldering](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
+- [Check the](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image048.png) quality of your [soldering joints!](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image049.png)
+- [How to use a DMM](https://www.youtube.com/watch?v=SECWePatYjY) - Important if you need to troubleshoot your build!
+- [Firmware Flashing Guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
 ## Thanks for purchasing!
 
 Seriously, thank you! The TIDBIT has been a passion project of mine over the past year. I've been using a TIDBIT in its various stages of development and think it's a great keyboard that you'll love. I've designed and assembled the kits during my free time, and I want to make sure you have a great experience. If at any point you hit a snag or have a question, feel free to let us know.
-
 
 # <a name="parts_and_tools"></a> 2. Parts and tools
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image003.jpg)
 
 ### Hardware
-| **Item** | **Qty.** | **Image** |
-| --- | --- | --- |
-| Standoff, M2x3 | 6 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image028.jpg) |
-| Standoff, M2x10 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image026.jpg) |
-| Screw, M2x3 | 12 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image030.jpg) |
-| Screw, M2x6 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image033.jpg) |
-| Screw, M2x10 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image032.jpg) |
-| Machined Knob | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image034.jpg) |
+
+| **Item**        | **Qty.** | **Image**                                                                            |
+| --------------- | -------- | ------------------------------------------------------------------------------------ |
+| Standoff, M2x3  | 6        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image028.jpg) |
+| Standoff, M2x10 | 2        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image026.jpg) |
+| Screw, M2x3     | 12       | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image030.jpg) |
+| Screw, M2x6     | 2        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image033.jpg) |
+| Screw, M2x10    | 2        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image032.jpg) |
+| Machined Knob   | 1        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image034.jpg) |
 
 ### Electronics
-| **Item** | **Qty.** | **Image** |
-| --- | --- | --- |
-| 1N4148 Diode | 19 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image031.jpg) |
-| Reset Switch | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image027.jpg) |
-| WS2812B LED | 8 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image023.jpg) | 
-| TRRS Jack | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image024.jpg) |
-| Rotary Encoder | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image029.jpg) |
-| Breakaway Header Pins | 40 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image035.jpg) |
 
+| **Item**              | **Qty.** | **Image**                                                                            |
+| --------------------- | -------- | ------------------------------------------------------------------------------------ |
+| 1N4148 Diode          | 19       | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image031.jpg) |
+| Reset Switch          | 1        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image027.jpg) |
+| WS2812B LED           | 8        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image023.jpg) |
+| TRRS Jack             | 1        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image024.jpg) |
+| Rotary Encoder        | 1        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image029.jpg) |
+| Breakaway Header Pins | 40       | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image035.jpg) |
 
 ### Core
-| **Item** | **Qty.** | **Image** |
-| --- | --- | --- |
-| Top PCB plate | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image020.jpg) |
-| Bottom PCB plate | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image022.jpg) |
-| Middle acrylic spacer | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image019.jpg) |
-| Top acrylic guard | 1 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image025.jpg) |
 
+| **Item**              | **Qty.** | **Image**                                                                            |
+| --------------------- | -------- | ------------------------------------------------------------------------------------ |
+| Top PCB plate         | 1        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image020.jpg) |
+| Bottom PCB plate      | 1        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image022.jpg) |
+| Middle acrylic spacer | 1        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image019.jpg) |
+| Top acrylic guard     | 1        | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image025.jpg) |
 
 ## 1. Parts you provide
 
@@ -73,13 +74,11 @@ Seriously, thank you! The TIDBIT has been a passion project of mine over the pas
 - **[OPTIONAL]** [Extra encoder & knob](http://www.amazon.com/dp/B08NH53BMJ)
 - **[OPTIONAL]** Qty. 40 Mill-Max 0305 or 7305 hot-swap solder sockets
 
-
 ## 2. Optional Add-ons and extras [not included]
 
 - [**Adafruit Mini 8x8 LED Matrix w/I2C Backpack**](https://www.adafruit.com/product/1080)
 - [**16x8 1.2&quot; LED Matrix w/I2C Backpack**](https://www.adafruit.com/product/2038)
 - [**Quad Alphanumeric Display - 0.54 w/I2C Backpack**](https://www.adafruit.com/product/2157)
-
 
 ## 3. Tools required
 
@@ -104,7 +103,7 @@ Fit and solder the reset switch as shown below.
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image005.jpg)
 
 After soldering, clean with rubbing alcohol.
-  
+
 ## 2. [OPTIONAL] Solder underglow LEDS
 
 [Recommended resource: soldering 5050 SMT LEDs](https://electronics.stackexchange.com/questions/482626/how-to-solder-ws2812b-ledsindividual-not-a-strip-to-a-pcb)
@@ -125,13 +124,11 @@ Bend and fit the 1N4148 diodes. In order to get uniform placement of the diodes,
 
 After soldering all diodes, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
 
-  
 ## 4. [OPTIONAL] Solder TRRS expansion jack
 
 Fit and solder the 4-pin TRRS expansion jack as shown below. After soldering, clean with rubbing alcohol.
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image001.jpg)
-
 
 # ⚠️ **STOP** ⚠️
 
@@ -142,7 +139,6 @@ It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before s
 Use header pins to solder the MCU to the keybpard. Fit and solder the BIT-C or Pro Micro MCU using 0.1" male header pins as shown below. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image013.jpg)
-
 
 ## 6. [OPTIONAL] Solder rotary encoder, LED matrix, and/or OLED display
 
@@ -162,32 +158,28 @@ If building with the optional rotary encoder, alphanumeric display or LED matrix
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image021.png)
 
-
 ## 7. Choose key layout and configuration
 
 The TIDBIT supports a standard numpad layout as well as a more dense 19-key layout option. Each is compatible with the various rotary encoder options.
 
 | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image009.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image011.jpg) |
-| --- | --- |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 
 # ⚠️ **STOP** ⚠️
 
 It&#39;s highly recommended that you test each key at this point before continuing. Jump to step 16 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
 
-
 ## 8. Screw together M2x3 standoffs using M2x3 screws
 
-In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 6 M2x3 screws. Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** 
+In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 6 M2x3 screws. Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!**
 
 ⚠️ This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place.
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image007.jpg)
 
-  
 ## 9. [OPTIONAL] Insert hot-swap sockets
 
 If building with hotswap sockets, drop one into each plated lead hole. Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
-
 
 ## 10. Snap in switches
 
@@ -207,13 +199,11 @@ Make sure the acrylic spacer sits flat against the PCB plate. Check for interref
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image004.jpg)
 
-
 ## 13. Fasten the bottom with M2x3 screws
 
 Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 6 standoffs were installed, fasten with 6 M2x3 screws. **Do not overtighten!**
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image017.jpg)
-
 
 ## 14. Fasten M2x10 standoffs from bottom using M2x10 screws
 
@@ -221,20 +211,17 @@ Fasten using 2 M2x10 screws. Use pliers to hold the standoff steady while tighte
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image012.jpg)
 
-
 ## 15. Attach the top guard using M2x6 screws
 
 Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top guard.
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image014.jpg)
 
-
 ## 16. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
 
 Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/tidbit). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
 If using VIA, download the json file [here](https://github.com/nullbitsco/tidbit/blob/master/keymaps/via/tidbit.json). Click "Raw." Download the file by right clicking and selecing "Save as..."
-
 
 ## 17. Enjoy!
 
@@ -267,7 +254,7 @@ If using VIA, download the json file [here](https://github.com/nullbitsco/tidbit
 **The rotary encoder is not working**
 
 - Check that all pins on the rotary encoder are soldered properly.
-- Check that the A and B pins are set in QMK config.h and that ENCODER\_ENABLE = yes in QMK rules.mk.
+- Check that the A and B pins are set in QMK config.h and that ENCODER_ENABLE = yes in QMK rules.mk.
 
 **Two or more keys are swapped**
 
@@ -275,7 +262,10 @@ If using VIA, download the json file [here](https://github.com/nullbitsco/tidbit
 
 **The underglow LEDs are not working**
 
-- Check that the RGB\_DI\_PIN pin is set in QMK config.h and that RGBLIGHT\_ENABLE = yes in QMK rules.mk.
+- The LED underglow is on and set to red by default. If all of the LEDs are not on, soldering is almost always the culprit! The LEDs are in a series "chain". Symptoms can include: LEDs not turning on after a specific LED, LEDs flickering, LEDs changing themselves to random colors, or LEDs behaving differently each time you power cycle the keyboard.
+- Carefully reflow (remelt) the each solder joint on the last LED that is working properly, along with the first one that isn't, and then power cycle the keyboard. It might take a few tries, and you might have multiple LEDs that need to be touched up.
+- The LEDs "snake" downward, and the very first LED is the one just below the Bit-C.
+- Check that the RGB_DI_PIN pin is set in QMK config.h and that RGBLIGHT_ENABLE = yes in QMK rules.mk.
 - Check that all LEDs are soldered in the proper orientation.
 
 **There&#39;s no power**
