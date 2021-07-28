@@ -164,9 +164,9 @@ It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before s
 
 ## 7. Solder MCU
 
-![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image040.jpg)
+![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image029.jpg)
 
-Use header pins to solder the MCU to the keybpard. Fit and solder the BIT-C or Pro Micro MCU as shown below using 0.1" male header pins. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
+Use header pins to solder the MCU to the keyboard. Fit and solder the BIT-C or Pro Micro MCU as shown below using 0.1" male header pins. Solder both the MCU on the top and the bottom (both ends of the header pins). After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image028.jpg)
 
