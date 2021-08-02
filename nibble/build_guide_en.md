@@ -211,7 +211,7 @@ The NIBBLE PCB includes guide marks for the switches and stabilizers to make the
 
 # ⚠️ **STOP** ⚠️
 
-It&#39;s highly recommended that you test each key at this point before continuing. If you haven&#39;t already, [Jump to step](#firmware_flashing) 20 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
+It&#39;s highly recommended that you test each key at this point before continuing. If you haven&#39;t already, [Jump to step](#firmware_flashing) 21 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
 
 **Caps lock**
 | **Guide Mark** | **Layout Option** |
@@ -228,15 +228,15 @@ It&#39;s highly recommended that you test each key at this point before continui
 **Spacebar**
 | **Guide Mark** | **Layout Option** |
 | --- | --- |
-| E | 6.25U spacebar _**Only compatible with &quot;C&quot;**_ |
-| F | 7U spacebar _**Only compatible with &quot;D&quot;**_ |
-| G | 2.75U + 1U + 2.25 split spacebar _**Only compatible with &quot;C&quot;**_ |
+| E | 6.25U spacebar _**Only compatible with &quot;C&quot; due to size**_ |
+| F | 7U spacebar _**Only compatible with &quot;D&quot; due to size**_ |
+| G | 2.75U + 1.25U + 2.25 split spacebar _**Only compatible with &quot;C&quot; due to size**_ |
 
 **Right modifiers**
 | **Guide Mark** | **Layout Option** |
 | --- | --- |
 | H | 3x 1U Modifiers |
-| I | 2x 1.5U Modifiers _**Recommended when using &quot;G&quot;**_ |
+| I | 2x 1.5U Modifiers _**Recommended when using &quot;G&quot; as the FN key is connected in both locations and cannot be programmed as two individual keys.**_ |
 
 **Left Shift**
 | **Guide Mark** | **Layout Option** |
