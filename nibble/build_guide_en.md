@@ -158,11 +158,21 @@ There is one special case – the second to last diode has a top-mount pad, in o
 
 Solder the short end of the diode that was just trimmed on the **top** side of the PCB. Once all diodes are soldered, it should be virtually unnoticeable from the rest. After soldering all 72 diodes, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
 
+## 7. [OPTIONAL] Solder TRRS Jack
+
+![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image053.jpg)
+
+If building with the optional TRRS jack, decide which side is preferred for the TRRS connection. Carefully snap out the acrylic filling the TRRS cutout from the support layer by using a sharp knife or a pair of sidecutters. Note that the acrylic is quite brittle, so take your time, and do this step slowly, with care!
+
+The TRRS jack is soldered on the **underside** of the board, which is the same side as the underglow LEDs. Place the TRRS jack in the location chosen and test fit it with the acrylic support. Trim more of the acrylic support, if necessary. If building with the TRRS jack on the right side of the keyboard (circled in solid red in the image above), double check that the jack sits flush. If not, trim the very last diode so that the jack sits flush with the board.
+
+Carefully solder each of the 4 pins of the TRRS jack.
+
 # ⚠️ **STOP** ⚠️
 
-It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. [Jump to step](#firmware_flashing) 20 to flash QMK firmware.
+It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. [Jump to step](#firmware_flashing) 21 to flash QMK firmware.
 
-## 7. Solder MCU
+## 8. Solder MCU
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image029.jpg)
 
@@ -170,20 +180,20 @@ Use header pins to solder the MCU to the keyboard. Fit and solder the BIT-C or P
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image028.jpg)
 
-## 8. [OPTIONAL] Solder rotary encoder, Big LED, and/or OLED
+## 9. [OPTIONAL] Solder rotary encoder, Big LED, and/or OLED
 
 If building with the optional rotary encoder, big LED, or OLED display, in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Do not clip the large support pins on the encoder.
 
 ⚠️ **Compatibility note:** the OLED display and big RGB LED share a signal line. They can both be used at the same time, but the blue LED will be dimly illuminated when the I2C display is in use.
 
-| ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image029.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image030.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image031.jpg) |
+| ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image052.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image030.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image031.jpg) |
 | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image051.png)
 
 After soldering, clean with rubbing alcohol and use the snips to clip the leads as close to PCB as possible.
 
-## 9. Insert ICs into IC sockets
+## 10. Insert ICs into IC sockets
 
 ⚠️ **Orientation matters!** Make sure that the side of the IC with the round mark is closest to the Bit-C before inserting. Double check before inserting if you're not sure!
 
@@ -193,7 +203,7 @@ While supporting the back of the PCB with one hand, push on the top of the IC us
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image032.jpg)
 
-## 10. Choose key layout and configuration
+## 11. Choose key layout and configuration
 
 The NIBBLE PCB includes guide marks for the switches and stabilizers to make their placement easier. The center of each switch lines up with a letter for a particular layout. The tables below show which markings to follow based on key configuration. Familiarize yourself with the [standard layout](https://nullbits.co/nibble/layout.html) and the [function row options](https://nullbits.co/nibble/layout_fn.html).
 
@@ -242,23 +252,23 @@ It&#39;s highly recommended that you test each key at this point before continui
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image033.jpg)
 
-## 11. Screw together M2x3 standoffs using M2x3 screws
+## 12. Screw together M2x3 standoffs using M2x3 screws
 
 In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 13 M2x3 screws. Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image034.jpg)
 
-## 12. Snap in stabilizers
+## 13. Snap in stabilizers
 
 Snap in the PCB-mount stabilizers as shown below. The tab goes in the big hole, and the retaining clips go in the small holes. The stabilizers will only snap in one way. Make sure the stabilizer is fully seated, or the keycap won&#39;t move properly once it&#39;s installed.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image035.jpg)
 
-## 13. [OPTIONAL] Insert hot-swap sockets
+## 14. [OPTIONAL] Insert hot-swap sockets
 
 If building with hotswap sockets, drop one into each plated lead hole and affix with tape (masking or electrical tape works well Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
 
-## 14. Snap in switches
+## 15. Snap in switches
 
 ⚠️ **Stop!** Test fit your keycaps to make sure that the switch spacings are correct before soldering, especially the bottom row.
 
@@ -266,41 +276,41 @@ If you are using 5-pin PCB mount switches, they may take some force to insert. T
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image036.jpg)
 
-## 15. Solder switches or hot-swap sockets
+## 16. Solder switches or hot-swap sockets
 
-⚠️ **Stop!** If you are building with a switch plate, make sure that you have installed and tightened the mounting hardware ( **Step 2.11** ) and installed the stabilizers ( **Step 2.12** ) before continuing! Once the switches are installed on the plate, access to the items below is difficult.
+⚠️ **Stop!** If you are building with a switch plate, make sure that you have installed and tightened the mounting hardware ( **Step 2.12** ) and installed the stabilizers ( **Step 2.13** ) before continuing! Once the switches are installed on the plate, access to the items below is difficult.
 
 Make sure each switch pin has enough solder to form a nice solid joint.
 
-## 16. Slide the acrylic spacer onto the standoffs
+## 17. Slide the acrylic spacer onto the standoffs
 
 Make sure the acrylic spacer sits flat against the PCB plate. Check for interreferences due to leads or solder joints. Trim if needed.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image037.jpg)
 
-## 17. Fasten the bottom with M2x3 screws
+## 18. Fasten the bottom with M2x3 screws
 
 Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 13 standoffs were installed, fasten with 13 M2x3 screws. **Do not overtighten!**
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image038.jpg)
 
-## 18. Fasten M2x10 standoffs from bottom using M2x10 screws
+## 19. Fasten M2x10 standoffs from bottom using M2x10 screws
 
 Fasten using 2 M2x10 screws. Use pliers to hold the standoff steady while tightening the screw.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image039.jpg)
 
-## 19. Attach the top guard using M2x6 screws
+## 20. Attach the top guard using M2x6 screws
 
 Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top guard.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image040.jpg)
 
-## 20. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
+## 21. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
 
 Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/nibble). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
-## 21. Enjoy!
+## 22. Enjoy!
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image041.jpg)
 
