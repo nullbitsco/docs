@@ -27,4 +27,9 @@ Here are the pin diagrams for the MCU and LEDs. We'll be using these to identify
 3. Check continuity of the first not-glowing LED's DI pin to the previous LED's DO pin. 
 If this is very first LED in the chain then check continuity between the LED's DI pin and the MCU's RGB_2812 pin.
 
-If any of the pins are not connected, resolder them and check your LEDs again. If they still don't work, hop on over to our [Discord](https://discord.gg/eSegJcY) and ask for help.
+If any of the pins are not connected, resolder them and check your LEDs again. 
+
+## Connections are fine but LEDs still don't glow?
+This might occur if had previously flashed a firmware that disabled the LEDs on your device. MCUs persist certain settings across firmware flashes and underglow LED state is one of them. Use the "Clear EEPROM" option in QMK Toolbox and reflash your device. If your LEDs still do not glow, it you might have a defective LED on your hands. 
+
+At this point we recommend you hop into our [Discord](https://discord.gg/eSegJcY) for additional troubleshooting support.
