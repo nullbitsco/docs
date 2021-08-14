@@ -1,6 +1,6 @@
 # Troubleshooting WS2812B Underglow LEDs
 
-This guide walks you basic troubleshooting steps for installing the WS2812B LEDs. 
+If one or more LEDs on your device are not lighting up or having other issues, follow the steps in this guide to troubleshoot the issue.
 
 ## Step 1: Reflow Solder
 
