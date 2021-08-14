@@ -1,10 +1,13 @@
-# NIBBLE 
+# NIBBLE
 
 ## Customizable 65% Keyboard Kit
+
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image000.jpg)
+
 ## Build Guide
 
 # Contents
+
 [Helpful Links](#helpful_links)
 
 [Parts and Tools](#parts_and_tools)
@@ -13,18 +16,18 @@
 
 [Troubleshooting](#troubleshooting)
 
-
 ## Thanks for purchasing!
 
 Seriously, thank you! The NIBBLE has been a passion project of mine over the past year. I&#39;ve been using a NIBBLE in its various stages of development and think it&#39;s a great keyboard that you&#39;ll love. I&#39;ve designed and assembled the kits during my free time, and I want to make sure you have a great experience. If at any point you hit a snag or have a question, feel free to let us know.
 
 # <a name="helpful_links"></a> 1. Helpful links
-* [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/99bc73a179c1c49acef09088e3c1f334)
-* [QMK Firmware](https://github.com/nullbitsco/tidbit)
-* [Basic Skills: Soldering](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
-* [Check the](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image048.png) quality of your [soldering joints!](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image049.png)
-* [How to use a DMM](https://www.youtube.com/watch?v=SECWePatYjY) - Important if you need to troubleshoot your build!
-* [Firmware Flashing Guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
+
+- [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/99bc73a179c1c49acef09088e3c1f334)
+- [QMK Firmware](https://github.com/nullbitsco/tidbit)
+- [Basic Skills: Soldering](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
+- [Check the](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image048.png) quality of your [soldering joints!](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image049.png)
+- [How to use a DMM](https://www.youtube.com/watch?v=SECWePatYjY) - Important if you need to troubleshoot your build!
+- [Firmware Flashing Guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
 # <a name="parts_and_tools"></a> 2. Parts and tools
 
@@ -33,38 +36,40 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 ## 1. Parts included in the kit
 
 ### Hardware
-| **Item** | **Qty.** | **Image** |
-| --- | --- | --- |
-| Standoff, M2x3 | 13 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image002.jpg) |
-| Standoff, M2x3 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image004.jpg) |
-| Screw, M2x3 | 26 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image006.jpg) |
-| Screw, M2x6 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image008.jpg) |
-| Screw, M2x10 | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image010.jpg) |
-| Machined Knob | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image046.jpg) |
+
+| **Item**       | **Qty.** | **Image**                                                                            |
+| -------------- | -------- | ------------------------------------------------------------------------------------ |
+| Standoff, M2x3 | 13       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image002.jpg) |
+| Standoff, M2x3 | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image004.jpg) |
+| Screw, M2x3    | 26       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image006.jpg) |
+| Screw, M2x6    | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image008.jpg) |
+| Screw, M2x10   | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image010.jpg) |
+| Machined Knob  | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image046.jpg) |
 
 ### Electronics
-| **Item** | **Qty.** | **Image** |
-| --- | --- | --- |
-| 1N4148 Diode | 73 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image003.jpg) |
-| 0.1μF Capacitor | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image005.jpg) |
-| 330Ω Resistor | 3 | ![]() |
-| IC Socket | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image007.jpg) |
-| IC (74HC138N) | 2 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image009.jpg) |
-| Reset Switch | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image011.jpg) |
-| WS2812B LED | 10 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image042.jpg) | 
-| TRRS Jack | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image043.jpg) |
-| Rotary Encoder | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image044.jpg) |
-| Big RGB LED | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image045.jpg) |
-| Breakaway Header Pins | 40 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image047.jpg) |
+
+| **Item**              | **Qty.** | **Image**                                                                            |
+| --------------------- | -------- | ------------------------------------------------------------------------------------ |
+| 1N4148 Diode          | 73       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image003.jpg) |
+| 0.1μF Capacitor       | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image005.jpg) |
+| 330Ω Resistor         | 3        | ![]()                                                                                |
+| IC Socket             | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image007.jpg) |
+| IC (74HC138N)         | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image009.jpg) |
+| Reset Switch          | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image011.jpg) |
+| WS2812B LED           | 10       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image042.jpg) |
+| TRRS Jack             | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image043.jpg) |
+| Rotary Encoder        | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image044.jpg) |
+| Big RGB LED           | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image045.jpg) |
+| Breakaway Header Pins | 40       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image047.jpg) |
 
 ### Core
 
-| **Item** | **Qty.** | **Image** |
-| --- | --- | --- |
-| Top PCB plate | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image012.jpg) |
-| Bottom PCB plate | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image013.jpg) |
-| Middle acrylic spacer | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image014.jpg) |
-| Top acrylic guard | 1 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image015.jpg) |
+| **Item**              | **Qty.** | **Image**                                                                            |
+| --------------------- | -------- | ------------------------------------------------------------------------------------ |
+| Top PCB plate         | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image012.jpg) |
+| Bottom PCB plate      | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image013.jpg) |
+| Middle acrylic spacer | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image014.jpg) |
+| Top acrylic guard     | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image015.jpg) |
 
 ## 2. Parts you provide
 
@@ -75,7 +80,6 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 - **[OPTIONAL]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
 - **[OPTIONAL]** [FR4 switch plate](http://www.amazon.com/dp/B08KLGRS69)
 - **[OPTIONAL]** Qty. 144 Mill-Max 0305 or 7305 hot-swap solder sockets
-
 
 ## 3. Tools required
 
@@ -103,26 +107,23 @@ Solder the 10x WS2812B underglow LEDs. Start by tacking down one corner, and the
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image016.jpg)
 
-
 ## 2. [OPTIONAL] Bend and solder resistors for Big LED
 
 This step is only required if using the optional big LED in place of one of the macro keys. Bend and solder R1, R2, and R3.
 
 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image017.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image018.jpg) |
-| --- | --- |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 
 After soldering, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
-
 
 ## 3. Solder reset switch
 
 Fit and solder the reset switch as shown below.
 
 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image019.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image020.jpg) |
-| --- | --- |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 
 After soldering, clean with rubbing alcohol.
-
 
 ## 4. Solder IC sockets
 
@@ -131,18 +132,16 @@ Fit and solder the two IC sockets. Match the notch in the socket with the one on
 ⚠️ **Do not solder the socket with the IC inserted!** The heat may damage the chip if it is in the socket during soldering.
 
 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image021.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image022.jpg) |
-| --- | --- |
-
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 
 ## 5. Solder caps
 
 Fit and solder the two capacitors.
 
 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image023.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image024.jpg) |
-| --- | --- |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 
 After soldering, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
-
 
 ## 6. Bend and solder diodes
 
@@ -151,7 +150,7 @@ Bend and fit the 1N4148 diodes. In order to get uniform placement of the diodes,
 ⚠️ **Orientation matters!** Solder the diodes with the black bar **UP** as shown in the images. The keyboard will not work if they are backward.
 
 | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image025.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image026.jpg) |
-| --- | --- |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 
 There is one special case – the second to last diode has a top-mount pad, in order to fit the expansion jack below. Cut one lead as shown below, so that it rests evenly on the PCB fit into the mounting hole.
 
@@ -159,38 +158,44 @@ There is one special case – the second to last diode has a top-mount pad, in o
 
 Solder the short end of the diode that was just trimmed on the **top** side of the PCB. Once all diodes are soldered, it should be virtually unnoticeable from the rest. After soldering all 72 diodes, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
 
+## 7. [OPTIONAL] Solder TRRS Jack
+
+![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image053.jpg)
+
+If building with the optional TRRS jack, decide which side is preferred for the TRRS connection. Carefully snap out the acrylic filling the TRRS cutout from the support layer by using a sharp knife or a pair of sidecutters. Note that the acrylic is quite brittle, so take your time, and do this step slowly, with care!
+
+The TRRS jack is soldered on the **underside** of the board, which is the same side as the underglow LEDs. Place the TRRS jack in the location chosen and test fit it with the acrylic support. Trim more of the acrylic support, if necessary. If building with the TRRS jack on the right side of the keyboard (circled in solid red in the image above), double check that the jack sits flush. If not, trim the very last diode so that the jack sits flush with the board.
+
+Carefully solder each of the 4 pins of the TRRS jack.
+
 # ⚠️ **STOP** ⚠️
 
-It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. [Jump to step](#firmware_flashing) 20 to flash QMK firmware.
+It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. [Jump to step](#firmware_flashing) 21 to flash QMK firmware.
 
+## 8. Solder MCU
 
-## 7. Solder MCU
+![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image029.jpg)
 
-![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image040.jpg)
-
-Use header pins to solder the MCU to the keybpard. Fit and solder the BIT-C or Pro Micro MCU as shown below using 0.1" male header pins. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
+Use header pins to solder the MCU to the keyboard. Fit and solder the BIT-C or Pro Micro MCU as shown below using 0.1" male header pins. Solder both the MCU on the top and the bottom (both ends of the header pins). After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image028.jpg)
 
-
-## 8. [OPTIONAL] Solder rotary encoder, Big LED, and/or OLED
+## 9. [OPTIONAL] Solder rotary encoder, Big LED, and/or OLED
 
 If building with the optional rotary encoder, big LED, or OLED display, in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Do not clip the large support pins on the encoder.
 
 ⚠️ **Compatibility note:** the OLED display and big RGB LED share a signal line. They can both be used at the same time, but the blue LED will be dimly illuminated when the I2C display is in use.
 
-| ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image029.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image030.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image031.jpg) |
-| --- | --- | --- |
+| ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image052.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image030.jpg) | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image031.jpg) |
+| ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------ |
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image051.png)
 
-
 After soldering, clean with rubbing alcohol and use the snips to clip the leads as close to PCB as possible.
 
+## 10. Insert ICs into IC sockets
 
-## 9. Insert ICs into IC sockets
-
-⚠️ **Orientation matters!** Make sure that the side of the IC with the round mark is closest to the Bit-C before inserting. Double check before inserting if you're not sure! 
+⚠️ **Orientation matters!** Make sure that the side of the IC with the round mark is closest to the Bit-C before inserting. Double check before inserting if you're not sure!
 
 Carefully bend the IC leads inward so that they are the width of the socket. It helps to set the IC on its side on a flat surface and use a tool to bend all leads at once.
 
@@ -198,8 +203,7 @@ While supporting the back of the PCB with one hand, push on the top of the IC us
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image032.jpg)
 
-
-## 10. Choose key layout and configuration
+## 11. Choose key layout and configuration
 
 The NIBBLE PCB includes guide marks for the switches and stabilizers to make their placement easier. The center of each switch lines up with a letter for a particular layout. The tables below show which markings to follow based on key configuration. Familiarize yourself with the [standard layout](https://nullbits.co/nibble/layout.html) and the [function row options](https://nullbits.co/nibble/layout_fn.html).
 
@@ -207,9 +211,9 @@ The NIBBLE PCB includes guide marks for the switches and stabilizers to make the
 
 # ⚠️ **STOP** ⚠️
 
-It&#39;s highly recommended that you test each key at this point before continuing. If you haven&#39;t already, [Jump to step](#firmware_flashing) 20 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
+It&#39;s highly recommended that you test each key at this point before continuing. If you haven&#39;t already, [Jump to step](#firmware_flashing) 21 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
 
-**Caps lock** 
+**Caps lock**
 | **Guide Mark** | **Layout Option** |
 | --- | --- |
 | A | Stepped 1.75U Caps Key |
@@ -224,15 +228,15 @@ It&#39;s highly recommended that you test each key at this point before continui
 **Spacebar**
 | **Guide Mark** | **Layout Option** |
 | --- | --- |
-| E | 6.25U spacebar _**Only compatible with &quot;C&quot;**_ |
-| F | 7U spacebar _**Only compatible with &quot;D&quot;**_ |
-| G | 2.75U + 1U + 2.25 split spacebar _**Only compatible with &quot;C&quot;**_ |
+| E | 6.25U spacebar _**Only compatible with &quot;C&quot; due to size**_ |
+| F | 7U spacebar _**Only compatible with &quot;D&quot; due to size**_ |
+| G | 2.75U + 1.25U + 2.25 split spacebar _**Only compatible with &quot;C&quot; due to size**_ |
 
 **Right modifiers**
 | **Guide Mark** | **Layout Option** |
 | --- | --- |
 | H | 3x 1U Modifiers |
-| I | 2x 1.5U Modifiers _**Recommended when using &quot;G&quot;**_ |
+| I | 2x 1.5U Modifiers _**Recommended when using &quot;G&quot; as the FN key is connected in both locations and cannot be programmed as two individual keys.**_ |
 
 **Left Shift**
 | **Guide Mark** | **Layout Option** |
@@ -248,27 +252,23 @@ It&#39;s highly recommended that you test each key at this point before continui
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image033.jpg)
 
-
-## 11. Screw together M2x3 standoffs using M2x3 screws
+## 12. Screw together M2x3 standoffs using M2x3 screws
 
 In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fasten using 13 M2x3 screws. Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image034.jpg)
 
-
-## 12. Snap in stabilizers
+## 13. Snap in stabilizers
 
 Snap in the PCB-mount stabilizers as shown below. The tab goes in the big hole, and the retaining clips go in the small holes. The stabilizers will only snap in one way. Make sure the stabilizer is fully seated, or the keycap won&#39;t move properly once it&#39;s installed.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image035.jpg)
 
-
-## 13. [OPTIONAL] Insert hot-swap sockets
+## 14. [OPTIONAL] Insert hot-swap sockets
 
 If building with hotswap sockets, drop one into each plated lead hole and affix with tape (masking or electrical tape works well Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
 
-
-## 14. Snap in switches
+## 15. Snap in switches
 
 ⚠️ **Stop!** Test fit your keycaps to make sure that the switch spacings are correct before soldering, especially the bottom row.
 
@@ -276,51 +276,43 @@ If you are using 5-pin PCB mount switches, they may take some force to insert. T
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image036.jpg)
 
+## 16. Solder switches or hot-swap sockets
 
-## 15. Solder switches or hot-swap sockets
-
-⚠️ **Stop!** If you are building with a switch plate, make sure that you have installed and tightened the mounting hardware ( **Step 2.11** ) and installed the stabilizers ( **Step 2.12** ) before continuing! Once the switches are installed on the plate, access to the items below is difficult.
+⚠️ **Stop!** If you are building with a switch plate, make sure that you have installed and tightened the mounting hardware ( **Step 2.12** ) and installed the stabilizers ( **Step 2.13** ) before continuing! Once the switches are installed on the plate, access to the items below is difficult.
 
 Make sure each switch pin has enough solder to form a nice solid joint.
 
-
-## 16. Slide the acrylic spacer onto the standoffs
+## 17. Slide the acrylic spacer onto the standoffs
 
 Make sure the acrylic spacer sits flat against the PCB plate. Check for interreferences due to leads or solder joints. Trim if needed.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image037.jpg)
 
-
-## 17. Fasten the bottom with M2x3 screws
+## 18. Fasten the bottom with M2x3 screws
 
 Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 13 standoffs were installed, fasten with 13 M2x3 screws. **Do not overtighten!**
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image038.jpg)
 
-
-## 18. Fasten M2x10 standoffs from bottom using M2x10 screws
+## 19. Fasten M2x10 standoffs from bottom using M2x10 screws
 
 Fasten using 2 M2x10 screws. Use pliers to hold the standoff steady while tightening the screw.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image039.jpg)
 
-
-## 19. Attach the top guard using M2x6 screws
+## 20. Attach the top guard using M2x6 screws
 
 Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top guard.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image040.jpg)
 
-
-## 20. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
+## 21. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
 
 Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/nibble). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
-
-## 21. Enjoy!
+## 22. Enjoy!
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image041.jpg)
-
 
 # <a name="troubleshooting"></a> 4. Troubleshooting
 
@@ -341,7 +333,7 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 - Check that the keymap you are using is defined correctly and matches your keyboard layout.
 
 **A whole row is not working**
- 
+
 - This is usually caused by a cold solder joint at the Bit-C. Check that all pins on the MCU are soldered properly.
 - Check that the proper rows and columns are set in QMK config.h
 
@@ -354,11 +346,11 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 **The rotary encoder is not working**
 
 - Check that all pins on the rotary encoder are soldered properly.
-- Check that the A and B pins are set in QMK config.h and that ENCODER\_ENABLE = yes in QMK rules.mk.
+- Check that the A and B pins are set in QMK config.h and that ENCODER_ENABLE = yes in QMK rules.mk.
 
 **The OLED is not working**
 
-- The OLED is not enabled in the default firmware. Load the 'oled' firmware, available on the QMK repo. 
+- The OLED is not enabled in the default firmware. Load the 'oled' firmware, available on the QMK repo.
 
 **Two or more keys are swapped**
 
@@ -366,7 +358,10 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 
 **The underglow LEDs are not working**
 
-- Check that the RGB\_DI\_PIN pin is set in QMK config.h and that RGBLIGHT\_ENABLE = yes in QMK rules.mk.
+- The LED underglow is on and set to red by default. If all of the LEDs are not on, soldering is almost always the culprit! The LEDs are in a series "chain". Symptoms can include: LEDs not turning on after a specific LED, LEDs flickering, LEDs changing themselves to random colors, or LEDs behaving differently each time you power cycle the keyboard.
+- Carefully reflow (remelt) the each solder joint on the last LED that is working properly, along with the first one that isn't, and then power cycle the keyboard. It might take a few tries, and you might have multiple LEDs that need to be touched up.
+- The LEDs are in clockwise order, and the very first LED is the one just below the Bit-C.
+- Check that the RGB_DI_PIN pin is set in QMK config.h and that RGBLIGHT_ENABLE = yes in QMK rules.mk.
 - Check that all LEDs are soldered in the proper orientation.
 
 **There&#39;s no power**
