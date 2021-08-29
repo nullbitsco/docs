@@ -38,14 +38,14 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 
 ### Hardware
 
-| **Item**       | **Qty.** | **Image**                                                                            |
-| -------------- | -------- | ------------------------------------------------------------------------------------ |
-| Standoff, M2x3 | 13       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image002.jpg) |
-| Standoff, M2x3 | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image004.jpg) |
-| Screw, M2x3    | 26       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image006.jpg) |
-| Screw, M2x6    | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image008.jpg) |
-| Screw, M2x10   | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image010.jpg) |
-| Machined Knob  | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image046.jpg) |
+| **Item**        | **Qty.** | **Image**                                                                            |
+| --------------- | -------- | ------------------------------------------------------------------------------------ |
+| Standoff, M2x3  | 13       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image002.jpg) |
+| Standoff, M2x10 | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image004.jpg) |
+| Screw, M2x3     | 26       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image006.jpg) |
+| Screw, M2x6     | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image008.jpg) |
+| Screw, M2x10    | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image010.jpg) |
+| Machined Knob   | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image046.jpg) |
 
 ### Electronics
 
