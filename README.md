@@ -1,6 +1,8 @@
 # nullbits-docs
 Online documentation (build guides, user manuals, etc) for nullbits products. 
 
+CI TEST
+
 ## What happened to the PDF guides?
 [They](https://nullbits.co/static/file/nibble_assembly_rev03.pdf) [still exist](https://nullbits.co/static/file/tidbit_assembly_rev01.pdf). They worked fine, but were getting tedious to update. We decided to move to markdown build guides and instructions that are hosted on GitHub so that they were easier to update, and also so that people in the community could propose changes and additions via PRs.
 
