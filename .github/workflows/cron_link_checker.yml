@@ -2,8 +2,8 @@ name: Check links periodically
 
 on: 
   schedule:
-  # Run Friday at 3:15pm
-  - cron: "15 15 * * FRI"
+  # Run Friday at 3:15pm PST
+  - cron: "15 23 * * FRI"
 
 jobs:
   markdown-link-check-cron:
