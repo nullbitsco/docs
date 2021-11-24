@@ -75,7 +75,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 ## 2. Parts you provide
 
 - PCB-mount switches (Cherry MX footprint)
-- PCB-mount stabilizers. Split space requires 5x 2u stabs. You’ll want 2x 2u stabs, one for each spacebar, along with 3x additional for left shift, enter, and backspace. If you’re going with the 6.25u spacebar, you’ll need 1x 6.25u and 3x 2u.
+- PCB-mount stabilizers. Snap-in or screw in both work. Split space requires 5x 2u stabs. You’ll want 2x 2u stabs, one for each spacebar, along with 3x additional for left shift, enter, and backspace. If you’re going with the 6.25u spacebar, you’ll need 1x 6.25u and 3x 2u.
 - Keycaps: [(black set pictured in product photos)](https://drop.com/buy/dsa-dolch-key-set) [(white set in product photos)](https://www.amazon.com/Sublimated-Suitable-Switches-Mechanical-Keyboard/dp/B07QN9128Z?th=1)
 - [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
 - **[OPTIONAL]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
@@ -261,7 +261,7 @@ In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fas
 
 ## 13. Snap in stabilizers
 
-Snap in the PCB-mount stabilizers as shown below. The tab goes in the big hole, and the retaining clips go in the small holes. The stabilizers will only snap in one way. Make sure the stabilizer is fully seated, or the keycap won&#39;t move properly once it&#39;s installed.
+Snap in the PCB-mount stabilizers as shown below. The tab goes in the big hole, and the retaining clips go in the small holes. The stabilizers will only snap in one way. Make sure the stabilizer is fully seated, or the keycap won&#39;t move properly once it&#39;s installed. If using screw-in stabilizers, do **not** use the included washer between the screw and the PCB. The acrylic will not seat properly on top of the washer.
 
 ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image035.jpg)
 
