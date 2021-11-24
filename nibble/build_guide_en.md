@@ -53,7 +53,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 | --------------------- | -------- | ------------------------------------------------------------------------------------ |
 | 1N4148 Diode          | 73       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image003.jpg) |
 | 0.1μF Capacitor       | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image005.jpg) |
-| 330Ω Resistor         | 3        | ![](https://www.newark.com/productimages/standard/en_US/4415447.jpg)                 |
+| 330Ω Resistor         | 3        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image054.jpg) |
 | IC Socket             | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image007.jpg) |
 | IC (74HC138N)         | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image009.jpg) |
 | Reset Switch          | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image011.jpg) |
