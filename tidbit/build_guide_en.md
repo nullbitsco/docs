@@ -95,6 +95,8 @@ Seriously, thank you! The TIDBIT has been a passion project of mine over the pas
 
 ⚠️ **Important!** Notes marked with this icon are crucial, so be sure to read them carefully before moving on.
 
+⚠️ **Stop!** If at any point during your build you find yourself confused, stuck, not sure whether something you're doing is right, or not sure what to do next, stop and ask! On average, questions are answered on Discord or via email in less than a few hours. Better to ask questions that might feel silly than to make a mistake!
+
 Steps marked [OPTIONAL] aren&#39;t required for the base kit, but may be needed depending on what you choose to include in your build.
 
 ## 1. Solder reset switch
