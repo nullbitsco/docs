@@ -19,6 +19,7 @@
 # <a name="helpful_links"></a> 1. Helpful links
 
 - [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/a1aedbf7a153c6ec3295f0ea32b6ad5b)
+- [TIDBIT Diode Key (AKA which diode connects to which switch)](https://nullbits.co/static/file/TIDBIT_diode_key.pdf)
 - [QMK Firmware](https://github.com/nullbitsco/tidbit)
 - [Basic Skills: Soldering](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
 - [Another Great Soldering Guide](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
@@ -241,6 +242,7 @@ If using VIA, download the json file [here](https://github.com/nullbitsco/tidbit
 **A single key is not working**
 
 - Check that all of the diodes are soldered properly at both pins.
+- Bypass the switch by shorting the two pads with tweezers. If that works, the switch is to blame and should be replaced. If it does not, the diode soldering is likely the issue. You can use the [diode key](https://nullbits.co/static/file/TIDBIT_diode_key.pdf) to match diodes with a switch!
 - Check that the switch is soldered properly at both pins.
 - Check that the keymap you are using is defined correctly and matches your keyboard layout.
 

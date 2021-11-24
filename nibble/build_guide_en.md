@@ -23,6 +23,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 # <a name="helpful_links"></a> 1. Helpful links
 
 - [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/99bc73a179c1c49acef09088e3c1f334)
+- [NIBBLE Diode Key (AKA which diode connects to which switch)](https://nullbits.co/static/file/NIBBLE_diode_key.pdf)
 - [QMK Firmware](https://github.com/nullbitsco/tidbit)
 - [Basic Skills: Soldering](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
 - [Another Great Soldering Guide](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
@@ -331,7 +332,7 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 **A single key is not working**
 
 - Check that the switch is soldered properly at both pins.
-- Bypass the switch by shorting the two pads with tweezers. If that works, the switch is to blame and should be replaced. If it does not, the diode soldering is likely the issue.
+- Bypass the switch by shorting the two pads with tweezers. If that works, the switch is to blame and should be replaced. If it does not, the diode soldering is likely the issue. You can use the [diode key](https://nullbits.co/static/file/NIBBLE_diode_key.pdf) to match diodes with a switch!
 - Check that all of the diodes are soldered properly at both pins.
 - Check that the keymap you are using is defined correctly and matches your keyboard layout.
 
