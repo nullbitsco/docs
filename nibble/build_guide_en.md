@@ -53,7 +53,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 | --------------------- | -------- | ------------------------------------------------------------------------------------ |
 | 1N4148 Diode          | 73       | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image003.jpg) |
 | 0.1μF Capacitor       | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image005.jpg) |
-| 330Ω Resistor         | 3        | ![](https://www.newark.com/productimages/standard/en_US/4415447.jpg)                                                                                |
+| 330Ω Resistor         | 3        | ![](https://www.newark.com/productimages/standard/en_US/4415447.jpg)                 |
 | IC Socket             | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image007.jpg) |
 | IC (74HC138N)         | 2        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image009.jpg) |
 | Reset Switch          | 1        | ![](https://github.com/nullbitsco/docs/raw/main/nibble/build_guide_img/image011.jpg) |
@@ -183,7 +183,7 @@ Use header pins to solder the MCU to the keyboard. Fit and solder the BIT-C or P
 
 ## 9. [OPTIONAL] Solder rotary encoder, Big LED, and/or OLED
 
-If building with the optional rotary encoder, big LED, or OLED display, in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Do not clip the large support pins on the encoder.
+If building with the optional rotary encoder, big LED, or OLED display, in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Note that it is **not** necessary to solder the large side support pins on the rotary encoder. Do not clip the large support pins on the encoder.
 
 ⚠️ **Compatibility note:** the OLED display and big RGB LED share a signal line. They can both be used at the same time, but the blue LED will be dimly illuminated when the I2C display is in use.
 

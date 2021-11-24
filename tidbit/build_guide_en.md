@@ -143,7 +143,7 @@ Use header pins to solder the MCU to the keybpard. Fit and solder the BIT-C or P
 
 ## 6. [OPTIONAL] Solder rotary encoder, LED matrix, and/or OLED display
 
-If building with the optional rotary encoder, alphanumeric display or LED matrix, or OLED display in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. **Do not clip the large support pins on the encoder.**
+If building with the optional rotary encoder, alphanumeric display or LED matrix, or OLED display in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Note that it is **not** necessary to solder the large side support pins on the rotary encoder. **Do not clip the large support pins on the encoder.**
 
 ![](https://github.com/nullbitsco/docs/raw/main/tidbit/build_guide_img/image002.png)
 
