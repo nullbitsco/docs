@@ -321,6 +321,10 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 
 # <a name="troubleshooting"></a> 4. Troubleshooting
 
+Helpful reference pinouts:  
+[MCU Pinouts](build_guide_img/mcu_pinouts.png)  
+[OLED Pinout](build_guide_img/oled_pinout.png)
+
 **None of the keys are working**
 
 - Is the firmware loaded?
@@ -385,5 +389,3 @@ Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the
 - Visit [nullbits.co/support/](https://nullbits.co/support/)
 - Reach out at [help@nullbits.co](mailto:help@nullbits.co)
 - Join our [Discord](https://discord.gg/eSegJcY)!
-
-NIBBLE 0x3 Assembly Instructions Rev04 03.25.20

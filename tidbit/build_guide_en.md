@@ -234,6 +234,9 @@ If using VIA, download the json file [here](https://github.com/nullbitsco/tidbit
 
 # 4. <a name="troubleshooting"></a> Troubleshooting
 
+Helpful reference pinouts:  
+[MCU Pinouts](build_guide_img/mcu_pinouts.png)
+
 **None of the keys are working**
 
 - Is the firmware loaded?
