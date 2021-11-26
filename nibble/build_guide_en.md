@@ -92,6 +92,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 - Rubbing alcohol
 - **[Recommended]** DMM/Multimeter
 - **[Recommended]** USB Current Meter
+- **[Recommended]** Small file, for cleaning up acrylic interferences, rough edges, etc
 
 # <a name="assembly_steps"></a> 3. Assembly Steps
 
