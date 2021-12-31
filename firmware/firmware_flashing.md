@@ -49,4 +49,4 @@ https://github.com/jaygreco/qmk_firmware/tree/proton_c_conversion
 
 ## Firmware Building Instructions
 
-Follow the [QMK Newbs Guide](https://beta.docs.qmk.fm/tutorial/newbs) for a great tutorial on setting up and building QMK firmware
+Follow the [QMK Newbs Guide](https://docs.qmk.fm/#/newbs) for a great tutorial on setting up and building QMK firmware
