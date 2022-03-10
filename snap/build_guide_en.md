@@ -83,13 +83,13 @@ We're humbled by how much interest and love the NIBBLE and the TIDBIT have recei
 | --- | --- | --- |
 | TRRS cable | 1 | ![](build_guide_img/image039.jpg) |
 | 3x6mm magnets | 6 | ![](build_guide_img/image040.jpg) |
-| Magnet stickers | 6 | ![](build_guide_img/image041.jpg) |
+| Magnet stickers | 6 | ![](build_guide_img/image041.jpg) | is this picture upside down? You can't really see the circle stickers.
 | Mini bumpons | 8 | ![](build_guide_img/image012.jpg) |
 
 ## 2. Parts you provide
 
 - 2x [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
-- Qty. 92 PCB-mount switches (Cherry MX footprint)
+- Qty. 92 PCB-mount switches (Cherry MX footprint) Is this amount the max switches you would need if you used all the splits and everything?
 - 5x 2U PCB-mount stabilizers*. Snap-in or screw in both work.
   - 2x 2U stabs - one for each spacebar
   - 3x 2U stabs - for left shift, enter, and backspace
@@ -104,6 +104,7 @@ We're humbled by how much interest and love the NIBBLE and the TIDBIT have recei
 
 - Fine-tip soldering iron &amp; solder
 - Needle nose pliers
+- Fine-point tweezers
 - Phillips #0 screwdriver
 - Snips for cutting leads
 - Rubbing alcohol
@@ -127,7 +128,7 @@ Solder the 10x WS2812B underglow LEDs, 5x on each keyboard half. Start by tackin
 
 ⚠️ **Orientation matters!** These parts have a small angled mark which should match up with the one on the PCB. If you don&#39;t get the orientation right, the LEDs will not work, and your keyboard may not boot up.
 
-⚠️ **LED Issues** If you have soldered the LEDs, but are encountering issues (no underglow, random colors, flickering, or only some LEDs working), please follow the LEDs section in [troubleshooting](#troubleshooting), or take a look the [LED debugging guide](../accessories/ws2812b_led_debug_docs.md).
+⚠️ **LED Issues** If you have soldered the LEDs, but are encountering issues (no underglow, random colors, flickering, or only some LEDs working), please follow the LEDs section in [troubleshooting](#troubleshooting), or take a look at the [LED debugging guide](../accessories/ws2812b_led_debug_docs.md).
 
 | ![](build_guide_img/image081.jpg) | ![](build_guide_img/image080.jpg) |
 | --- | --- |
@@ -193,7 +194,7 @@ After soldering all diodes, clean with rubbing alcohol and use the snips to clip
 | ![](build_guide_img/image051.jpg) | ![](build_guide_img/image050.jpg) |
 | --- | --- |
 
-Solder all 4 TRRS jacks (two  keyboard side) in the locations shown. After soldering, clean with rubbing alcohol.
+Solder all 4 TRRS jacks (two  keyboard side) in the locations shown. After soldering, clean with rubbing alcohol. Can you move this sentence to above the picture?
 
 ## 8. Solder Pogo Pins
 
@@ -203,7 +204,7 @@ Solder all 4 TRRS jacks (two  keyboard side) in the locations shown. After solde
 | --- | --- |
 | ![](build_guide_img/image053.jpg) | ![](build_guide_img/image052.jpg) |
 
-Solder the included pogo pins on the **Bottom Side** of the PCB. The male pogo pins go on the **left** half of the keyboard, and the female pins go on the **right** half.
+Solder the included pogo pins on the **Bottom Side** of the PCB (same side as the optional LEDs). The male pogo pins go on the **left** half of the keyboard, and the female pins go on the **right** half.
 
 # ⚠️ **STOP** ⚠️
 
@@ -214,7 +215,7 @@ It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before s
 | ![](build_guide_img/image056.jpg) | ![](build_guide_img/image057.jpg) |
 | --- | --- |
 
-Use header pins to solder the MCUs to the keyboard. Fit and solder the BIT-C or Pro Micro MCU as shown below using 0.1" male header pins. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
+Use header pins to solder the MCUs to the keyboard. Fit and solder the BIT-C or Pro Micro MCU as shown below using 0.1" male header pins. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Can you move this wording to above the picture?
 
 ## 10a. [OPTIONAL] Solder rotary encoder(s)
 
@@ -330,13 +331,13 @@ If building with hotswap sockets, drop one into each plated lead hole and affix 
 
 If you are using 5-pin PCB mount switches, they may take some force to insert. This is by design. For PCB mount switches, a tight fit makes the switches more stable. Snap in by supporting the back of the PCB, and then pushing hard on the top of the switch. It helps to use a spare keycap on the switch to take some of the pressure off your thumb. After snapping the switch in, make sure it&#39;s sitting flush against the PCB.
 
-Note that some of the switches go in "sideways" and "upside down". This is by design! T, Y, \, Enter, Backspace, and Caps Lock are all switches that might be installed in different orientations.
+Note that some of the switches go in "sideways" and "upside down". This is by design! T, Y, \, Enter, Backspace, and Caps Lock are all switches that might be installed in different orientations. The "\" symbol does not show up in the actual preview/final version, not sure how to change that!
 
 If building with hotswap sockets and a switch plate, you will need to remove the switches from the sockets after soldering in order to fit them into the plate for final assembly.
 
 ## 17. Solder switches or hot-swap sockets
 
-⚠️ **Stop!** If you are building with a switch plate, make sure that you have installed and tightened the mounting hardware ( **Step 2.11** ) and installed the stabilizers ( **Step 2.12** ) before continuing! Once the switches are installed on the plate, access to the items below is difficult.
+⚠️ **Stop!** If you are building with a switch plate, make sure that you have installed and tightened the mounting hardware ( **Step 3.13** ) and installed the stabilizers ( **Step 3.14** ) before continuing! Once the switches are installed on the plate, access to the items below is difficult.
 
 Make sure each switch pin has enough solder to form a nice solid joint.
 
@@ -371,7 +372,7 @@ Fasten using 2 M2x10 screws. Use pliers to hold the standoff steady while tighte
 Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top guard.
 
 | ![](build_guide_img/image076.jpg) | ![](build_guide_img/image075.jpg) |
-| --- | --- |
+| --- | --- | Literally the only pic you don't put little red circles on! Might help to add, even though it is obvious, since they are hard to see since they are dark.
 
 ## 22. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
 
@@ -402,13 +403,13 @@ Helpful reference pinouts:
 **A single key is not working**
 
 - Check that the switch is soldered properly at both pins.
-- Bypass the switch by shorting the two pads with tweezers. If that works, the switch is to blame and should be replaced. If it does not, the diode soldering is likely the issue. You can use the [diode key](https://nullbits.co/static/file/SNAP_diode_key.pdf) to match diodes with a switch!
+- Bypass the switch by shorting the two pads with tweezers. If that works, the switch is to blame and should be replaced. If it does not, the diode soldering is likely the issue. You can use the [diode key](https://nullbits.co/static/file/SNAP_diode_key.pdf) to match diodes with a switch! This link is broken.
 - Check that all of the diodes are soldered properly at both pins.
 - Check that the keymap you are using is defined correctly and matches your keyboard layout.
 
 **A whole row is not working**
 
-- This is usually caused by a cold solder joint at the Bit-C. Check that all pins on the MCU are soldered properly.
+- This is usually caused by a cold solder joint at the MCU. Check that all pins on the MCU are soldered properly.
 - Check that the proper rows and columns are set in QMK config.h
 
 **A whole column is not working**
@@ -444,7 +445,7 @@ Helpful reference pinouts:
 
 **How to I do X in firmware?**
 
-- See the QMK docs, or make a post on r/olkb for help.
+- See the QMK docs, or make a post on r/olkb for help. Is this the right r/ to point to? And can you add a link to which one you are trying to point to?
 - Make a post on the [r/nullbits](https://www.reddit.com/r/nullbits/) subreddit, or join the #firmware channel in the [nullbits discord server](https://discord.gg/eSegJcY).
 
 **Something else?**
