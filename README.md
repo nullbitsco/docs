@@ -1,6 +1,11 @@
 # nullbits-docs
 Online documentation (build guides, user manuals, etc) for nullbits products. 
 
+## Quick Links
+[SNAP](https://github.com/nullbitsco/docs/blob/main/snap/build_guide_en.md)
+[NIBBLE](https://github.com/nullbitsco/docs/blob/main/nibble/build_guide_en.md)
+[TIDBIT](https://github.com/nullbitsco/docs/blob/main/tidbit/build_guide_en.md)
+
 ## What happened to the PDF guides?
 They worked fine, but were getting tedious to update. We decided to move to markdown build guides and instructions that are hosted on GitHub so that they were easier to update, and also so that people in the community could propose changes and additions via PRs.
 
