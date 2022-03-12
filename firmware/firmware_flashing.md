@@ -3,6 +3,7 @@
 Follow these instructions to flash your Pro Micro or Bit-C microcontroller:
 
 1. Download the firmware for your device. If using [VIA](https://caniusevia.com) to configure, download the VIA version:
+   - For Snap - [Default](https://github.com/nullbitsco/firmware/releases/download/latest/nullbitsco_snap_default.hex) | [VIA](https://github.com/nullbitsco/firmware/releases/download/latest/nullbitsco_snap_via.hex)
    - For Nibble - [Default](https://github.com/nullbitsco/firmware/releases/download/latest/nullbitsco_nibble_default.hex) | [VIA](https://github.com/nullbitsco/firmware/releases/download/latest/nullbitsco_nibble_via.hex)
    - For Tidbit - [Default](https://github.com/nullbitsco/firmware/releases/download/latest/nullbitsco_tidbit_default.hex) | [VIA](https://github.com/nullbitsco/firmware/releases/download/latest/nullbitsco_tidbit_via.hex)
    - For Scramble - [VIA](https://github.com/nullbitsco/firmware/releases/download/latest/nullbitsco_scramble_via.hex)
@@ -17,12 +18,14 @@ Follow these instructions to flash your Pro Micro or Bit-C microcontroller:
 
 1. Flash VIA compatible firmware for your device, as described above.
 1. Download and install [VIA](https://caniusevia.com).
-1. Download the VIA keymap file for your device - [Tidbit](https://github.com/nullbitsco/tidbit/blob/master/keymaps/via/tidbit.json).
-1. Connect your device and open VIA.
-1. If your device is not detected, go to Settings > Enable "Show Design Tab".
-1. Go to the Design tab.
-1. Click "Load Draft Definition" and upload the VIA keymap file you downloaded in step 3.
-1. Go to the Configure tab. Your device should now be detected and ready to configure.
+1. Download the VIA keymap file for your device. NOTE: ONLY REQUIRED FOR TIDBIT AND SNAP.
+   - [Snap](https://raw.githubusercontent.com/nullbitsco/snap/main/keymaps/via/snap.json)
+   - [Tidbit](https://raw.githubusercontent.com/nullbitsco/tidbit/master/keymaps/via/tidbit.json)
+3. Connect your device and open VIA.
+4. If your device is not detected, go to Settings > Enable "Show Design Tab".
+5. Go to the Design tab.
+6. Click "Load Draft Definition" and upload the VIA keymap file you downloaded in step 3.
+7. Go to the Configure tab. Your device should now be detected and ready to configure.
 
 ## <a name="troubleshooting"></a> Troubleshooting
 
