@@ -350,6 +350,32 @@ If building with hotswap sockets and a switch plate, after soldering, insert swi
 
 The SNAP uses magnets affixed to the acrylic support layers in order to hold the two sides together when the pogo pins are used. The magnets are held in place with the thin, clear magnet stickers, but can also be fastened with glue (CA, epoxy, or hot glue) for a more secure and permanent solution. If using glue to secure the magnets, double (actually, triple!) check that the magnets for the left and right side are in the correct orientation and attract each other!
 
+The magnets install in sets of two in the acrylic cutouts as shown below. Note that the paper backing should be removed before this step, but is shown on the acrylic for higher contrast and better visibility.
+
+![](build_guide_img/image086.jpg)
+
+To install the magnets, first cut the clear magnet stickers in half and split the magnets into pairs of two.
+
+![](build_guide_img/image085.jpg)
+
+Then, unpeel one sticker half and place the end of a magnet on the center of the sticky part of the sticker.
+
+![](build_guide_img/image088.jpg)
+
+With the acrylic off the board, align the magnet with the center of the cutout, and stick the front face of the sticker onto the acrylic.
+
+![](build_guide_img/image089.jpg)
+
+Tightly both sides of the magnet sticker over so that it holds the magnet in place.
+
+![](build_guide_img/image090.jpg)
+
+Do this for three of the notches on the left side of the board first, and then the same on the right side of the board. Make sure to set check that the magnets on the right side are attracted to the ones on the left side before sticking them on with the stickers.
+
+![](build_guide_img/image087.jpg)
+
+Test fit the acrylic before the next step to make sure all sets of magnets snap and hold the two sides tightly together, and don't repel each other. If any of the magnet pairs are in the wrong orientation and are not attracting each other, carefully unpeel the sticker holding one of the magnets in place and reverse the orientation before continuing.
+
 | ![](build_guide_img/image070.jpg) | ![](build_guide_img/image069.jpg) |
 | --- | --- |
 
