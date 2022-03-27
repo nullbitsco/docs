@@ -20,7 +20,7 @@
 
 - [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/a1aedbf7a153c6ec3295f0ea32b6ad5b)
 - [TIDBIT Diode Key (AKA which diode connects to which switch)](https://nullbits.co/static/file/TIDBIT_diode_key.pdf)
-- [QMK Firmware](https://github.com/nullbitsco/tidbit)
+- [QMK Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/nullbitsco/tidbit)
 - [Basic Skills: Soldering](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
 - [Another Great Soldering Guide](https://mightyohm.com/files/soldercomic/FullSolderComic_EN.pdf)
 - [Check the](../nibble/build_guide_img/image048.png) quality of your [soldering joints!](../nibble/build_guide_img/image049.png)
@@ -224,9 +224,9 @@ Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top
 
 ## 16. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
 
-Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/tidbit). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
+Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/firmware). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
-If using VIA, download the json file [here](https://github.com/nullbitsco/tidbit/blob/master/keymaps/via/tidbit.json). Click "Raw." Download the file by right clicking and selecing "Save as..."
+If using VIA, download the json file [here](https://raw.githubusercontent.com/the-via/keyboards/ea11ec0ed3afae3feaa4f745ecf20ffab0be59a9/src/nullbitsco/tidbit.json). Click "Raw." Download the file by right clicking and selecing "Save as..."
 
 ## 17. Enjoy!
 

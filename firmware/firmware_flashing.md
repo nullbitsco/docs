@@ -20,7 +20,7 @@ Follow these instructions to flash your Pro Micro or Bit-C microcontroller:
 1. Download and install [VIA](https://caniusevia.com).
 1. Download the VIA keymap file for your device. NOTE: ONLY REQUIRED FOR TIDBIT AND SNAP.
    - [Snap](https://raw.githubusercontent.com/nullbitsco/snap/main/keymaps/via/snap.json)
-   - [Tidbit](https://raw.githubusercontent.com/nullbitsco/tidbit/master/keymaps/via/tidbit.json)
+   - [Tidbit](https://raw.githubusercontent.com/the-via/keyboards/ea11ec0ed3afae3feaa4f745ecf20ffab0be59a9/src/nullbitsco/tidbit.json)
 3. Connect your device and open VIA.
 4. If your device is not detected, go to Settings > Enable "Show Design Tab".
 5. Go to the Design tab.
