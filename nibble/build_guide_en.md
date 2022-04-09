@@ -96,6 +96,8 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 
 # <a name="assembly_steps"></a> 3. Assembly Steps
 
+![](build_guide_img/image056.png)
+
 ⚠️ **Important!** Notes marked with this icon are crucial, so be sure to read them carefully before moving on.
 
 ⚠️ **Stop!** If at any point during your build you find yourself confused, stuck, not sure whether something you're doing is right, or not sure what to do next, stop and ask! On average, questions are answered on Discord or via email in less than a few hours. Better to ask questions that might feel silly than to make a mistake!
@@ -283,7 +285,11 @@ If you are using 5-pin PCB mount switches, they may take some force to insert. T
 
 ## 16. Solder switches or hot-swap sockets
 
-⚠️ **Stop!** If you are building with a switch plate, make sure that you have installed and tightened the mounting hardware ( **Step 2.12** ) and installed the stabilizers ( **Step 2.13** ) before continuing! Once the switches are installed on the plate, access to the items below is difficult.
+⚠️ **Stop!** If you are building with a switch plate, make sure that you have installed and tightened the mounting hardware ( **Step 2.12** ) and installed the stabilizers ( **Step 2.13** ) before continuing! Once the switches are installed on the plate, access to the items below is difficult. See below! The plate may have holes, but is not attached to the rest of the board with any screws or standoffs. The holes are for accessing the screws below the switch plate.
+
+![](build_guide_img/image055.png)
+
+![](build_guide_img/image056.png)
 
 Make sure each switch pin has enough solder to form a nice solid joint.
 

@@ -113,6 +113,8 @@ We're humbled by how much interest and love the NIBBLE and the TIDBIT have recei
 
 # <a name="assembly_steps"></a> 3. Assembly Steps
 
+![](build_guide_img/image092.png)
+
 ⚠️ **Important!** Notes marked with this icon are crucial, so be sure to read them carefully before moving on.
 
 ⚠️ **Stop!** If at any point during your build you find yourself confused, stuck, not sure whether something you're doing is right, or not sure what to do next, stop and ask! On average, questions are answered on Discord or via email in less than a few hours. Better to ask questions that might feel silly than to make a mistake!
@@ -344,7 +346,11 @@ Make sure each switch pin has enough solder to form a nice solid joint.
 | ![](build_guide_img/image077.jpg) | ![](build_guide_img/image078.jpg) |
 | --- | --- |
 
-If building with hotswap sockets and a switch plate, after soldering, insert switches into the switch plate before installing on the PCB. It helps to seat switches in the corner positions on the plate, then insert into the sockets, then insert the remaining switches into the plate and sockets.
+If building with hotswap sockets and a switch plate, after soldering, insert switches into the switch plate before installing on the PCB. It helps to seat switches in the corner positions on the plate, then insert into the sockets, then insert the remaining switches into the plate and sockets. The plate may have holes, but is not attached to the rest of the board with any screws or standoffs. The holes are for accessing the screws below the switch plate.
+
+![](build_guide_img/image091.png)
+
+![](build_guide_img/image092.png)
 
 ## 18a. Prepare and attach magnets to acrylic
 
