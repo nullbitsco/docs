@@ -95,6 +95,8 @@ Seriously, thank you! The TIDBIT has been a passion project of mine over the pas
 
 # <a name="assembly_steps"></a> 3. Assembly Steps
 
+![](build_guide_img/image037.png)
+
 ⚠️ **Important!** Notes marked with this icon are crucial, so be sure to read them carefully before moving on.
 
 ⚠️ **Stop!** If at any point during your build you find yourself confused, stuck, not sure whether something you're doing is right, or not sure what to do next, stop and ask! On average, questions are answered on Discord or via email in less than a few hours. Better to ask questions that might feel silly than to make a mistake!
@@ -184,8 +186,11 @@ In the locations shown, screw the M2x3 standoffs into the **TOP** PCB plate. Fas
 
 ## 9. [OPTIONAL] Insert hot-swap sockets
 
-If building with hotswap sockets, drop one into each plated lead hole. Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
+If building with hotswap sockets and a switch plate, after soldering, insert switches into the switch plate before installing on the PCB. It helps to seat switches in the corner positions on the plate, then insert into the sockets, then insert the remaining switches into the plate and sockets. The plate may have holes, but is not attached to the rest of the board with any screws or standoffs. The holes are for accessing the screws below the switch plate.
 
+![](build_guide_img/image036.png)
+
+![](build_guide_img/image037.png)
 ## 10. Snap in switches
 
 ⚠️ **Stop!** Test fit your keycaps to make sure that the switch spacings are correct before soldering, especially the bottom row.
