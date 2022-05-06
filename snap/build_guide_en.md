@@ -98,7 +98,7 @@ We're humbled by how much interest and love the NIBBLE and the TIDBIT have recei
 - **[OPTIONAL]** [Additional rotary encoder and knob](https://amzn.to/3rOnY2l)
 - **[OPTIONAL]** [0.91" 128x32 OLED Display(s)](https://amzn.to/3wjHpmK)
 - **[OPTIONAL]** [FR4 switch plate](https://amzn.to/3IozdaE)
-- **[OPTIONAL]** Mill-Max 0305 or 7305 hot-swap solder sockets
+- **[OPTIONAL]** Mill-Max 0305, 3305, or 7305 hot-swap solder sockets
 
 ## 3. Tools required
 
