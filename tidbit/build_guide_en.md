@@ -74,7 +74,7 @@ Seriously, thank you! The TIDBIT has been a passion project of mine over the pas
 - **[OPTIONAL]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
 - **[OPTIONAL]** [FR4 switch plate](http://www.amazon.com/dp/B08M9RM8YQ)
 - **[OPTIONAL]** [Extra encoder & knob](http://www.amazon.com/dp/B08NH53BMJ)
-- **[OPTIONAL]** Qty. 40 Mill-Max 0305 or 7305 hot-swap solder sockets
+- **[OPTIONAL]** Qty. 40 Mill-Max 0305, 3305, or 7305 hot-swap solder sockets
 
 ## 2. Optional Add-ons and extras [not included]
 

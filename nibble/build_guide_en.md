@@ -81,7 +81,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 - [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
 - **[OPTIONAL]** [0.91" 128x32 OLED Display](https://www.amazon.com/dp/B08KL8YKVW)
 - **[OPTIONAL]** [FR4 switch plate](http://www.amazon.com/dp/B08KLGRS69)
-- **[OPTIONAL]** Qty. 144 Mill-Max 0305 or 7305 hot-swap solder sockets
+- **[OPTIONAL]** Qty. 144 Mill-Max 0305, 3305, or 7305 hot-swap solder sockets
 
 ## 3. Tools required
 
