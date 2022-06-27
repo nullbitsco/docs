@@ -94,7 +94,7 @@ We're humbled by how much interest and love the NIBBLE and the TIDBIT have recei
   - 2x 2U stabs - one for each spacebar
   - 3x 2U stabs - for left shift, enter, and backspace
   - *[Optional] - 1x 2U stab if building with a 2.75U right shift
-- Keycaps: [(black set pictured in product photos)](https://kbdfans.com/products/pbt-xda-143keys-keycaps-set) [(white set in product photos)](https://kbdfans.com/collections/keycaps/products/dsa-profile-simple-grey-dye-subbed-keycap-set)
+- Keycaps: [(white set in product photos)](https://kbdfans.com/collections/keycaps/products/dsa-profile-simple-grey-dye-subbed-keycap-set)
 - **[OPTIONAL]** [Additional rotary encoder and knob](https://amzn.to/3rOnY2l)
 - **[OPTIONAL]** [0.91" 128x32 OLED Display(s)](https://amzn.to/3wjHpmK)
 - **[OPTIONAL]** [FR4 switch plate](https://amzn.to/3IozdaE)
