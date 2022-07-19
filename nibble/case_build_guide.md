@@ -3,7 +3,6 @@
 ## Stacked Acrylic Case for NIBBLE 65% Keyboard
 
 ![](case_build_guide_img/image000.jpg)
-TODO: nice picture goes here ^^^
 
 ## Build Guide
 
