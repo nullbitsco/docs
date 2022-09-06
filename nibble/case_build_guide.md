@@ -15,7 +15,6 @@
 # <a name="parts_and_tools"></a> 2. Parts and tools
 
 ![](case_build_guide_img/image001.jpg)
-TODO: picture of parts in box goes here ^^^
 
 ## 1. Parts included in the kit
 
