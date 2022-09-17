@@ -22,6 +22,7 @@ Seriously, thank you! The NIBBLE has been a passion project of mine over the pas
 
 # <a name="helpful_links"></a> 1. Helpful links
 
+- [NIBBLE case build guide](case_build_guide.md)
 - [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/99bc73a179c1c49acef09088e3c1f334)
 - [NIBBLE Diode Key (AKA which diode connects to which switch)](https://nullbits.co/static/file/NIBBLE_diode_key.pdf)
 - [QMK Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/nullbitsco/nibble)
@@ -298,6 +299,10 @@ Make sure each switch pin has enough solder to form a nice solid joint.
 Make sure the acrylic spacer sits flat against the PCB plate. Check for interreferences due to leads or solder joints. Trim if needed.
 
 ![](build_guide_img/image037.jpg)
+
+# ⚠️ **STOP** ⚠️
+
+If you are assembling with the nullbits stacked acrylic case, stop before the next step and follow the [case build guide](case_build_guide.md) so that you don't have to take your board apart to install the case.
 
 ## 18. Fasten the bottom with M2x3 screws
 

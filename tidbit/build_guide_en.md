@@ -18,6 +18,7 @@
 
 # <a name="helpful_links"></a> 1. Helpful links
 
+- [TIDBIT case build guide](case_build_guide.md)
 - [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/a1aedbf7a153c6ec3295f0ea32b6ad5b)
 - [TIDBIT Diode Key (AKA which diode connects to which switch)](https://nullbits.co/static/file/TIDBIT_diode_key.pdf)
 - [QMK Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/nullbitsco/tidbit)
@@ -208,6 +209,10 @@ Make sure each switch pin has enough solder to form a nice solid joint.
 Make sure the acrylic spacer sits flat against the PCB plate. Check for interreferences due to leads or solder joints. Trim if needed. If using the TRRS expansion jack, snap out the acrylic piece to fit it.
 
 ![](build_guide_img/image004.jpg)
+
+# ⚠️ **STOP** ⚠️
+
+If you are assembling with the nullbits stacked acrylic case, stop before the next step and follow the [case build guide](case_build_guide.md) so that you don't have to take your board apart to install the case.
 
 ## 13. Fasten the bottom with M2x3 screws
 

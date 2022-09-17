@@ -3,8 +3,6 @@
 ## Stacked Acrylic Case for TIDBIT 19-key numpad
 
 ![](case_build_guide_img/image000.jpg)
-TODO: nice picture of board in case goes here ^^^
-
 
 ## Build Guide
 
@@ -17,7 +15,6 @@ TODO: nice picture of board in case goes here ^^^
 # <a name="parts_and_tools"></a> 2. Parts and tools
 
 ![](case_build_guide_img/image001.jpg)
-TODO: picture of parts in box goes here ^^^
 
 ## 1. Parts included in the kit
 
@@ -42,7 +39,7 @@ TODO: picture of parts in box goes here ^^^
 ## 2. Tools required
 
 - Phillips #0 screwdriver
-- **[Recommended]** Rubbing alcohol/microfiber cloth for cleaning acrylic 
+- **[Recommended]** Rubbing alcohol/microfiber cloth for cleaning acrylic
 - **[Recommended]** Small file, for cleaning up acrylic interferences, rough edges, etc
 
 # <a name="assembly_steps"></a> 3. Assembly Steps
@@ -63,19 +60,15 @@ If your TIDBIT is already assembled, remove the 6 M2x3mm screws holding the back
 
 If your TIDBIT is not yet fully assembled, do not fasten the backplate on with the M2x3mm screws.
 
-## 2. Choose TRRS orientation
+## 2. Note TRRS orientation and screw in M2x12mm standoffs into bottom layer
 
 The bottom acrylic layer has a cutout for the TRRS jack. It should match the TRRS location on your TIDBIT (on the left side under the MCU). Peel and remove the acrylic backing material from the acrylic layer, and wipe it clean with a microfiber cloth or rubbing alcohol.
-
-![](case_build_guide_img/image012.jpg)
-
-## 3. Screw in M2x12mm standoffs into bottom layer
 
 Using 8x M2x6mm screws, attach the 8 M2x12mm standoffs to the bottom acrylic layer. Be careful to keep the TRRS cutout on the correct side of the board while screwing in the standoffs. Tighten just past hand-tight.
 
 ![](case_build_guide_img/image014.jpg)
 
-## 4. Screw TIDBIT board into bottom layer
+## 3. Screw TIDBIT board into bottom layer
 
 Wipe the bottom layer and the backplate of the TIDBIT clean with a microfiber cloth or rubbing alcohol. Using 6x M2x6mm screws, attach the bottom acrylic layer to the assembled TIDBIT board. Make sure that the M2x12mm standoffs are pointing toward the top of the TIDBIT (in the same direction as the switches and keycaps face). The TRRS jack should sit inside the TRRS cutout.
 
@@ -83,7 +76,7 @@ Wipe the bottom layer and the backplate of the TIDBIT clean with a microfiber cl
 
 ⚠️ **Important!** The TIDBIT attaches to the bottom layer of the case with the inner acrylic spacer and backplate still on. The total thickness will be incorrect if the backplate is left off, and the screws won't tighten. Bumpons must also be removed for this reason.
 
-## 5. Stack lower-middle acrylic layers
+## 4. Stack lower-middle acrylic layers
 
 Peel and remove the acrylic backing material from the two 4mm thick lower-middle acrylic layers, and wipe them clean with a microfiber cloth or rubbing alcohol. Stack the two layers on the standoffs, making sure to align the break in the acrylic with the TRRS jack.
 
@@ -95,19 +88,18 @@ Peel and remove the acrylic backing material from the two 3mm thick upper-middle
 
 ![](case_build_guide_img/image017.jpg)
 
-## 5. Stack and fasten top acrylic layer
+## 6. Stack and fasten top acrylic layer
 
 Peel and remove the acrylic backing material from the top acrylic layer, and wipe it clean with a microfiber cloth or rubbing alcohol. Stack the top layer on the standoff on top of the middle layers, making sure to align the cutout in the acrylic with the USB jack on the MCU. Screw it into the standoffs using 8x M2x10mm screws.
 
 ![](case_build_guide_img/image018.jpg)
 
-## 5. Attach bumpons and wipe clean
+## 7. Attach bumpons and wipe clean
 
 Stick the 4 included bumpons on the bottom sie of the bottom layer, one on each corner. Wipe the top, bottom, and edges of the case clean with a microfiber cloth or rubbing alcohol.
 
 ![](case_build_guide_img/image019.jpg)
 
-## 5. Enjoy!
+## 8. Enjoy!
 
 ![](case_build_guide_img/image020.jpg)
-
