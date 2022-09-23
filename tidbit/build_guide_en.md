@@ -18,6 +18,7 @@
 
 # <a name="helpful_links"></a> 1. Helpful links
 
+- [TIDBIT case build guide](case_build_guide.md)
 - [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/a1aedbf7a153c6ec3295f0ea32b6ad5b)
 - [TIDBIT Diode Key (AKA which diode connects to which switch)](https://nullbits.co/static/file/TIDBIT_diode_key.pdf)
 - [QMK Firmware](https://github.com/qmk/qmk_firmware/tree/master/keyboards/nullbitsco/tidbit)
@@ -149,6 +150,8 @@ Use header pins to solder the MCU to the keybpard. Fit and solder the BIT-C or P
 
 ## 6. [OPTIONAL] Solder rotary encoder, LED matrix, and/or OLED display
 
+⚠️ **Heads up:** If you are planning on building with the [nullbits stacked acrylic case](case_build_guide.md), the alphanumeric display and 16x8 LED matrix are **not** supported in the top position (above the diodes) due to case height restrictions. The standard OLED position above the MCU is also a tight fit, so it's recommended that the OLED is installed in the [alternate location](https://cdn.discordapp.com/attachments/735319886712275074/820882912597508106/unknown.png).
+
 If building with the optional rotary encoder, alphanumeric display or LED matrix, or OLED display in place of the programmable macro keys, fit and solder each in the position each shown. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Note that it is **not** necessary to solder the large side support pins on the rotary encoder. **Do not clip the large support pins on the encoder.**
 
 ![](build_guide_img/image002.png)
@@ -164,6 +167,9 @@ If building with the optional rotary encoder, alphanumeric display or LED matrix
 ![](build_guide_img/image000.png)
 
 ![](build_guide_img/image021.png)
+
+Alternate OLED position (note the crossed wires, which are required for this configuration):
+![](build_guide_img/alt_tidbit_oled.jpg)
 
 ## 7. Choose key layout and configuration
 
@@ -208,6 +214,10 @@ Make sure each switch pin has enough solder to form a nice solid joint.
 Make sure the acrylic spacer sits flat against the PCB plate. Check for interreferences due to leads or solder joints. Trim if needed. If using the TRRS expansion jack, snap out the acrylic piece to fit it.
 
 ![](build_guide_img/image004.jpg)
+
+# ⚠️ **STOP** ⚠️
+
+If you are assembling with the nullbits stacked acrylic case, stop before the next step and follow the [case build guide](case_build_guide.md) so that you don't have to take your board apart to install the case.
 
 ## 13. Fasten the bottom with M2x3 screws
 

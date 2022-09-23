@@ -1,13 +1,14 @@
-# nullbits-docs
+# nullbits docs
 Online documentation (build guides, user manuals, etc) for nullbits products. 
 
 ## Quick Links
-[SNAP build guide](https://github.com/nullbitsco/docs/blob/main/snap/build_guide_en.md)  
-[NIBBLE build guide](https://github.com/nullbitsco/docs/blob/main/nibble/build_guide_en.md)  
-[TIDBIT build guide](https://github.com/nullbitsco/docs/blob/main/tidbit/build_guide_en.md)  
+[SNAP build guide](snap/build_guide_en.md)  
 
-## What happened to the PDF guides?
-They worked fine, but were getting tedious to update. We decided to move to markdown build guides and instructions that are hosted on GitHub so that they were easier to update, and also so that people in the community could propose changes and additions via PRs.
+[NIBBLE build guide](nibble/build_guide_en.md)  
+[NIBBLE case guide](nibble/case_build_guide.md)  
+
+[TIDBIT build guide](tidbit/build_guide_en.md)  
+[TIDBIT case guide](tidbit/case_build_guide.md)  
 
 ## Contributing
 If you have a suggestion or change in mind, clone this repo and make the changes in a local branch. Then, open a PR that includes a summary of what you think should be changed and why. 
