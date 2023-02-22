@@ -4,9 +4,9 @@
 
 ![](build_guide_img/image000.jpg)
 
-## Build Guide
+## Guía de montaje
 
-# Contents
+# Índice
 
 [Helpful Links](#helpful_links)
 
