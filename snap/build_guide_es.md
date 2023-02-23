@@ -38,12 +38,12 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 
 | **Item** | **Cantidad** | **Imagen** |
 | --- | --- | --- |
-| Standoff, M2x3 | 16 | ![](build_guide_img/image002.jpg) |
-| Standoff, M2x10 | 6 | ![](build_guide_img/image004.jpg) |
+| Standoff (separador), M2x3 | 16 | ![](build_guide_img/image002.jpg) |
+| Standoff (separador), M2x10 | 6 | ![](build_guide_img/image004.jpg) |
 | Tornillo, M2x3 | 30 | ![](build_guide_img/image006.jpg) |
 | Tornillo, M2x6 | 6 | ![](build_guide_img/image008.jpg) |
 | Tornillo, M2x10 | 6 | ![](build_guide_img/image010.jpg) |
-| Machined Knob | 1 | ![](build_guide_img/image046.jpg) |
+| Machined Knob (rueda) | 1 | ![](build_guide_img/image046.jpg) |
 
 ### Electrónica
 
@@ -57,7 +57,7 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 | Interruptor Reset | 2 | ![](build_guide_img/image011.jpg) |
 | WS2812B LED | 10 | ![](build_guide_img/image042.jpg) | 
 | TRRS Jack | 4 | ![](build_guide_img/image043.jpg) |
-| Rotary Encoder | 1 | ![](build_guide_img/image044.jpg) |
+| Rotary Encoder (codificador giratorio) | 1 | ![](build_guide_img/image044.jpg) |
 | PTH Altavoz | 1 | ![](build_guide_img/image045.jpg) |
 | PTH Pogo Pins (male) | 2 | ![](build_guide_img/image015.jpg) |
 | PTH Pogo Pins (female) | 2 | ![](build_guide_img/image014.jpg) |
@@ -309,9 +309,9 @@ La placa SNAP incluye marcas para interruptores y estabilizadores con tal de fac
 
 Se recomienda encarecidamente que pruebes cada tecla en este momento antes de proseguir. Si no lo has hecho aún, [Salta al paso](#firmware_flashing) 22 para flashear el firmware QMK. Usa un comprobador de teclado ([este](https://www.keyboardtester.com/) funciona) y puentea los conectores de cada interruptor usando unas pinzas, un trozo de cable, una pestaña metálica cortada de algún componente anterior o cualquier cosa eléctricamente conductiva. Si hay algún problema, será mucho más fácil solucionarlo ahora, antes de que todo haya sido soldado y montado.
 
-## 13. Atornilla los standoff M2x3 usando tornillos M2x3
+## 13. Atornilla los separadores M2x3 usando tornillos M2x3
 
-En las ubicaciones indicadas, coloca los standoffs M2x3 en la parte inferior de la placa **SUPERIOR** (PCB). Atorníllalos usando 14 tornillos M2x3 (7 en cada mitad). Usa pinzas para sujetar el standoff firmemente mientras atornillas. **¡No sobreaprietes el tornillo!** Este paso es especialmente importante si vas a usar placa de switches, porque es más dificil acceder a los tornillos con la placa para switches colocada, ¡así que revísalo cuidadosamente! Los standoffs van en la parte inferior de la placa electrónica (PCB).
+En las ubicaciones indicadas, coloca los separadores M2x3 en la parte inferior de la placa **SUPERIOR** (PCB). Atorníllalos usando 14 tornillos M2x3 (7 en cada mitad). Usa pinzas para sujetar el separador firmemente mientras atornillas. **¡No sobreaprietes el tornillo!** Este paso es especialmente importante si vas a usar placa de switches, porque es más dificil acceder a los tornillos con la placa para switches colocada, ¡así que revísalo cuidadosamente! Los separadores van en la parte inferior de la placa electrónica (PCB).
 
 | ![](build_guide_img/image068.jpg) | ![](build_guide_img/image067.jpg) |
 | --- | --- |
@@ -386,7 +386,7 @@ Comprueba que el acrílico encaje antes de continuar al siguiente paso para aseg
 | ![](build_guide_img/image070.jpg) | ![](build_guide_img/image069.jpg) |
 | --- | --- |
 
-## 18b. Coloca la placa de acrílico sobre los standoffs
+## 18b. Coloca la placa de acrílico sobre los separadores
 
 Despega el papel protector del acrílico si no lo has hecho ya. Asegura que el acrílico queda recto y nivelado sobre la placa electrónica. Revisa que no haya nada que interfiera, como por ejemplo restos de conexiones insuficientemente cortadas o soldaduras demasiado grandes, altas o desviadas. Recorta con las alicates lo que sea necesario.
 
@@ -395,14 +395,14 @@ Despega el papel protector del acrílico si no lo has hecho ya. Asegura que el a
 
 ## 19. Atornilla la base con tornillos M2x3
 
-Posiciona la placa electrónica sobre el acrílico. En los mismos lugares donde los 14 standoffs, atornilla con 14 tornillos M2x3 (7 en cada mitad). **¡No los sobreaprietes!**
+Posiciona la placa electrónica sobre el acrílico. En los mismos lugares donde los 14 separadores, atornilla con 14 tornillos M2x3 (7 en cada mitad). **¡No los sobreaprietes!**
 
 | ![](build_guide_img/image072.jpg) | ![](build_guide_img/image071.jpg) |
 | --- | --- |
 
-## 20. Atornilla M2x10 standoffs desde la parte inferior usando tornillos M2x10
+## 20. Atornilla M2x10 separadores desde la parte inferior usando tornillos M2x10
 
-Atornilla usando 2 tornillos M2x10. Usa pinzas o alicates para sostener el standoff firmemente mientras ajustes los tornillos.
+Atornilla usando 2 tornillos M2x10. Usa pinzas o alicates para sostener el separador firmemente mientras ajustes los tornillos.
 
 | ![](build_guide_img/image074.jpg) | ![](build_guide_img/image073.jpg) |
 | --- | --- |
