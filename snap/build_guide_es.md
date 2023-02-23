@@ -426,7 +426,7 @@ Aviso: ¡ambas mitades del teclado deben ser flasheadas para que funcione!
 
 # <a name="troubleshooting"></a> 4. Resolución de problemas
 
-Referencias útiles de circuitos:  
+Diagramas útiles de referencia:  
 [MCU Pinout (Izquierdo)](build_guide_img/image082.jpg)  
 [MCU Pinout (Derecho)](build_guide_img/image083.jpg)  
 [OLED Pinout](build_guide_img/image084.jpg)
@@ -438,21 +438,21 @@ Referencias útiles de circuitos:
 - Si has soldado los LEDs, comprueba que ninguno de ellos esté montado del revés. El teclado no funcionará si un LED fue montado del revés por error.
 - Revisa la dirección de los diodos. La línea negra debe quedar en el extremo superior.
 - Revisa la dirección de los IC. El teclado no funcionará si están en el socket del revés.
-- Check that there are no shorts and that the keyboard is powering up properly. None of the solder joints should be touching each other.
+- Revisa que no hayan cortocircuitos y que el teclado se esté encendiendo correctamente Ninguna de las soldaduras debe tocar con otra.
 
-**A single key is not working**
+**No funciona una única tecla**
 
-- Check that the switch is soldered properly at both pins.
-- Bypass the switch by shorting the two pads with tweezers. If that works, the switch is to blame and should be replaced. If it does not, the diode soldering is likely the issue. You can use the [diode key](https://nullbits.co/static/file/SNAP_diode_key.pdf) to match diodes with a switch!
-- Check that all of the diodes are soldered properly at both pins.
-- Check that the keymap you are using is defined correctly and matches your keyboard layout.
+- Revisa que el switch esté soldado correctamente en ambas conexiones.
+- Bypasea el switch puenteando las dos conexiones usando unas pinzas. Si eso funciona, el problema está en el switch y debes reemplazarlo. En caso contrario, probablemente el problema sea el diodo. Puedes usar el [diagrama de diodos](https://nullbits.co/static/file/SNAP_diode_key.pdf) para ver cual diodo corresponde a cada switch.
+- Revisa que todos los diodos estén soldados correctamente en ambas conexiones.
+- Revisa que el mapa (disposición) de teclado (keymap en el firmware) que estés usando esté definido correctamente y case con la disposición física de tu teclado.
 
-**A whole row is not working**
+**No funciona una fila entera**
 
-- This is usually caused by a cold solder joint at the MCU. Check that all pins on the MCU are soldered properly.
-- Check that the proper rows and columns are set in QMK config.h
+- A menudo esto es causado por una soldura fría en la MCU. Revisa que todas las conexiones a la MCU estén correctamente soldadas.
+- Revisa que las filas y columnas estén correctamente definidas en "config.h" de QMK.
 
-**A whole column is not working**
+**No funciona una columna entera**
 
 - Check that all pins on the MCU are soldered properly.
 - Check that the proper rows and columns are set in QMK config.h
