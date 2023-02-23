@@ -253,11 +253,11 @@ Mientras sostienes la parte trasera de la placa con una mano, presiona el IC hac
 | ![](build_guide_img/image063.jpg) | ![](build_guide_img/image064.jpg) |
 | --- | --- |
 
-## 12. Choose key layout and configuration
+## 12. Escoge la disposición de teclas y su configuración
 
-The SNAP PCB includes guide marks for the switches and stabilizers to make their placement easier. The center of each switch lines up with a letter for a particular layout. The tables below show which markings to follow based on key configuration. Familiarize yourself with the [standard layout](http://www.keyboard-layout-editor.com/#/gists/bd48e2fe5b0f571c0034f27cb328d2d7) before soldering. The color coding and markings in the link above match the table below, so refer back to that if needed.
+La placa SNAP incluye marcas para interruptores y estabilizadores con tal de facilitar su colocación. El centro de cada interruptor se alinea con una letra para cada disposición. Las tablas a continuación indican qué marcas debes seguir en función de cada configuración de teclas. Familiarízate con la [disposición estándard](http://www.keyboard-layout-editor.com/#/gists/bd48e2fe5b0f571c0034f27cb328d2d7) antes de soldar. El código de colores y marcado en el enlace anterior coincide con el usado en la tabla a continuación, así que úsalo de referencia si lo necesitas.
 
-⚠️ **Compatibility note:** Not all combinations are compatible with each other! See the compatibility notes in the table. Double-check that the chosen configuration matches your keycaps before soldering.
+⚠️ **Nota sobre compatibilidad:** ¡No todas las combinaciones son compatibles entre ellas! Observa las notas de compatibilidad en la tabla. Revisa atentamente que la configuración que escojas coincida con tus teclas antes de soldar.
 
 ![](build_guide_img/image066.jpg)
 
