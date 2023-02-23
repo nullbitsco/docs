@@ -88,27 +88,27 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 ## 2. Piezas no incluidas
 
 - 2x [BIT-C](https://nullbits.co/bit-c/) u otro MCU compatible
-- 92x switches PCB-mount (tipo Cherry MX)
-- 5x 2U estabilizadores PCB-mount*. Sirven tanto los atornillados como de clip.
-  - 2x 2U stabs - uno por cada barra espacsiadora.
-  - 3x 2U stabs - para shift izquierdo, enter y borrar.
-  - *[Opcional] - 1x 2U stab si vas a usar shift derecho de 2.75U.
+- 92x switches (interruptores) para montar en PCB (tipo Cherry MX, mejor de 5 pines)
+- 5x 2U estabilizadores para montar en PCB*. Sirven tanto los atornillados como de clip.
+  - 2x 2U estabilizadores - uno por cada barra espaciadora.
+  - 3x 2U estabilizadores - para shift izquierdo, enter y borrar.
+  - *[Opcional] - 1x 2U estabilizador si vas a usar shift derecho de 2.75U.
 - Keycaps
 - **[OPCIONAL]** [Rueda extra (rotary encoder + knob)](https://amzn.to/3rOnY2l)
 - **[OPCIONAL]** [Pantalla(s) OLED 0.91" 128x32](https://amzn.to/3wjHpmK)
-- **[OPCIONAL]** [switch plate FR4](https://amzn.to/3IozdaE)
-- **[OPCIONAL]** Mill-Max 0305, 3305, or 7305 hot-swap solder sockets
+- **[OPCIONAL]** [Switch plate FR4](https://amzn.to/3IozdaE)
+- **[OPCIONAL]** Sockets para hot-swap Mill-Max 0305, 3305 o 7305.
 
 ## 3. Herramientas necesarias
 
-- Soldador de punta fina y estaño
-- Alicates de punta fina
-- Pinzas de punta fina
-- Destornillador Phillips #0
-- Alicates de corte para electrónica
-- Alcohol para limpiar (isopropílico o el disolvente indicado para el estaño que uses)
-- **[Recomendable]** Multímetro
-- **[Recomendable]** Medidor de corriente USB
+- Soldador de punta fina y estaño.
+- Alicates de punta fina.
+- Pinzas de punta fina.
+- Destornillador Phillips #0.
+- Alicates de corte para electrónica. Conviene que permitan cortar muy al ras de la placa.
+- Alcohol para limpiar (isopropílico o el disolvente indicado para el estaño que uses).
+- **[Recomendable]** Multímetro.
+- **[Recomendable]** Medidor de corriente USB.
 
 # <a name="assembly_steps"></a> 3. Guía de montaje
 
