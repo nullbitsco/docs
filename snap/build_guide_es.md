@@ -23,7 +23,7 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 
 - [Perfil por defecto](http://www.keyboard-layout-editor.com/#/gists/bd48e2fe5b0f571c0034f27cb328d2d7)
 - [Firmware QMK](https://github.com/nullbitsco/snap)
-- [Habilidades básicas: Soldadura](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
+- [Habilidades básicas: Soldadura](https://www.youtube.com/watch?v=UpVx4wGukRc) - ¡Asegúrate de estar preparad@ para soldar tu kit de teclado!
 - [¡Revisa](build_guide_img/image048.png) la calidad de tus [soldaduras!](build_guide_img/image049.png)
 - [Como usar un multímetro](https://www.youtube.com/watch?v=SECWePatYjY) - ¡Importante para diagnosticar problemas!
 - [Guía para flashear firmware](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
@@ -52,8 +52,8 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 | 1N4148 Diodo | 100 | ![](build_guide_img/image003.jpg) |
 | 0.1μF Condensador | 2 | ![](build_guide_img/image005.jpg) |
 | 10KΩ Resistencia | 2 | ![](build_guide_img/image013.jpg) |
-| IC Socket | 2 | ![](build_guide_img/image007.jpg) |
-| IC (74HC138N) | 2 | ![](build_guide_img/image009.jpg) |
+| IC Socket (conector IC) | 2 | ![](build_guide_img/image007.jpg) |
+| IC (74HC138N) (circuito integrado) | 2 | ![](build_guide_img/image009.jpg) |
 | Interruptor Reset | 2 | ![](build_guide_img/image011.jpg) |
 | WS2812B LED | 10 | ![](build_guide_img/image042.jpg) | 
 | TRRS Jack | 4 | ![](build_guide_img/image043.jpg) |
@@ -61,14 +61,14 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 | PTH Altavoz | 1 | ![](build_guide_img/image045.jpg) |
 | PTH Pogo Pins (male) | 2 | ![](build_guide_img/image015.jpg) |
 | PTH Pogo Pins (female) | 2 | ![](build_guide_img/image014.jpg) |
-| 40-pin Breakaway Headers | 2 | ![](build_guide_img/image047.jpg) |
+| 40-pin Breakaway Headers (conectores) | 2 | ![](build_guide_img/image047.jpg) |
 
 ### Estructura
 
 | **Item** | **Cantidad** | **Imagen** |
 | --- | --- | --- |
-| Placa superior (izquierda) | 1 | ![](build_guide_img/image016.jpg) |
-| Placa superior (derecha) | 1 | ![](build_guide_img/image029.jpg) |
+| Placa electrónica superior (PCB) (izquierda) | 1 | ![](build_guide_img/image016.jpg) |
+| Placa electrónica superior (PCB) (derecha) | 1 | ![](build_guide_img/image029.jpg) |
 | Placa inferior (izquierda) | 1 | ![](build_guide_img/image030.jpg) |
 | Placa inferior (derecha) | 1 | ![](build_guide_img/image031.jpg) |
 | Separador central de acrílico (izquierda) | 1 | ![](build_guide_img/image033.jpg) |
