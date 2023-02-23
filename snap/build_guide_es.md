@@ -179,41 +179,42 @@ Hay algunos diodos que no se montan en el grupo principal en la parte superior d
 | ![](build_guide_img/image025.jpg) | ![](build_guide_img/image026.jpg) |
 | --- | --- |
 
-## 6b. Bend and solder top row of diodes
+## 6b. Dobla y suelda la fila superior de diodos
 
-Bend and fit the remaining 1N4148 diodes for the top row. Bend the leads inward to hold the diodes in place when the PCB is turned upside down. Begin by soldering one side of the diodes and adjust the diode alignment to your liking before soldering the second lead.
+Dobla y suelda los diodos 1N4148 restantes de la fila supeior. Dobla los cables hacia el interior para que los diodos se sostengan en la placa cuando de la vuelta a la placa. Empieza por soldar uno de los dos lados del diodo y retoca la alineación a tu gusto antes de soldar el segundo cable.
 
-⚠️ **Orientation matters!** These go on the **TOP** side of the PCB! Solder the diodes with the black bar **UP** as shown in the images. The keyboard will not work if they are backward.
+⚠️ **¡La orientación importa!** ¡Estos van en la parte **SUPERIOR** de la placa! Suelda los diodos con la línea negra **ARRIBA** tal como se muestra en las imágenes. El teclado no funcionará si los montas del revés.
 
 | ![](build_guide_img/image027.jpg) | ![](build_guide_img/image028.jpg) |
 | --- | --- |
 
-After soldering all diodes, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
+Después de soldar todos los diodos, limpia con alcohol y usa los alicates de corte para enrasar las conexiones tan cerca de la placa como sea posible.
 
-## 7. Solder TRRS Jacks
+## 7. Soldando los jacks TRRS
 
-Solder all 4 TRRS jacks (two  keyboard side) in the locations shown. After soldering, clean with rubbing alcohol.
+Suelda los 4 jacks TRRS (dos en cada mitad de teclado) en los lugares indicados. Después de soldar, limpia con alcohol.
 
 | ![](build_guide_img/image051.jpg) | ![](build_guide_img/image050.jpg) |
 | --- | --- |
 
-## 8. Solder Pogo Pins
+## 8. Soldando los Pogo Pins
 
-**Pay close attention!** The pogo pins go on the bottom side of the PCBs! Look closely at the images below. Don't accidentally solder them on the wrong side of the PCB! In addition, the pogo pins are gendered. The male pogo pins mate with the female pogo pins, so double check that you have them on the correct sides before soldering.
+**!Atención!** Los pogo pins van en la parte inferior de las placas! Mira con atención las imagenes a continuación. ¡No los sueldes accidentamente en el lado erróneo de la placa! Además, los pogo pin tienen género. El macho encaja con la hembra, así que revisa que estén posicionados correctamente antes de soldarlos.
 
 | ![](build_guide_img/image055.jpg) | ![](build_guide_img/image054.jpg) |
 | --- | --- |
 | ![](build_guide_img/image053.jpg) | ![](build_guide_img/image052.jpg) |
 
-Solder the included pogo pins on the **Bottom Side** of the PCB (same side as the optional LEDs). The male pogo pins go on the **left** half of the keyboard, and the female pins go on the **right** half.
+Suelda los pogo pins incluidos en el **Lado inferior** de la placa (mismo lado que los LEDs opcionales). Los pogo pins macho van a la mitad **izquierda** del teclado, y los hembra a la mitad **derecha**.
 
-# ⚠️ **STOP** ⚠️
+# ⚠️ **ESPERA** ⚠️
 
-It&#39;s highly recommended that you flash the MCU (Bit-C or Pro Micro) before soldering it so you can be sure it&#39;s working properly. [Jump to step](#firmware_flashing) 22 to flash QMK firmware.
+Se recomienda encarecidamente que flashees la MCU (Bit-C o Pro Micro) antes de soldarlas para que puedas asegurarte de que funcionan correctamente. [Salta al paso](#firmware_flashing) 22 para flashear firmware QMK.
 
-## 9. Solder MCU
+## 9. Soldando MCU
 
-Use header pins to solder the MCUs to the keyboard. Fit and solder the BIT-C or Pro Micro MCU as shown below using 0.1" male header pins. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
+Usa los conectores para soldar las MCUs al teclado. Encaja y suelda el BIT-C o Pro Micro MCU tal como se muestra a continuación usando pines macho de 0.1". 
+Después de soldar, limpia con alcohol y usa las alicates de corte para enrasar las conexiones tan cerca de la placa como sea posible.
 
 | ![](build_guide_img/image056.jpg) | ![](build_guide_img/image057.jpg) |
 | --- | --- |
