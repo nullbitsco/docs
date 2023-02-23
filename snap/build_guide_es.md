@@ -134,29 +134,29 @@ Suelda los 10x WS2812B LEDs de luz ambiental, 5x en cada mitad del teclado. Empi
 | ![](build_guide_img/image081.jpg) | ![](build_guide_img/image080.jpg) |
 | --- | --- |
 
-## 2. Bend and solder resistors
+## 2. Doblando y soldando resistencias
 
-Bend and solder R1 on each keyboard half.
+Dobla y suelda la R1 en cada mitad del teclado.
 
 | ![](build_guide_img/image017.jpg) | ![](build_guide_img/image018.jpg) |
 | --- | --- |
 
-After soldering, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
+Después de soldar, limpia con alcohol y usa las alicates de corte para enrasar las conexiones a la placa lo máximo posible.
 
-## 3. Solder reset switches
+## 3. Soldando interruptores de reinicio
 
-Fit and solder the reset switch on each keyboard half as shown below.
+Encaja y suelda el interruptor de reinicio en cada mitad de teclado tal como se muestra.
 
 | ![](build_guide_img/image019.jpg) | ![](build_guide_img/image020.jpg) |
 | --- | --- |
 
-After soldering, clean with rubbing alcohol.
+Después de soldar, limpia con alcohol.
 
-## 4. Solder IC sockets
+## 4. Soldando sockets de los circuitos integrados
 
-Fit and solder the two IC sockets; one on each keyboard half. Match the notch in the socket with the one on the PCB. After soldering, clean with rubbing alcohol. **Note: if you accidentally solder one or both sockets backward, don't panic! The sockets are passive components and will work in either orientation. The direction of the ICs themselves is what really matters, so just make sure to insert the IC in the correct direction later on in the build!**
+Encaja y suelda los dos sockets de IC, one en cada mitad de teclado. Haz coincidir la marca en el conector con la marca de la placa. Después de soldar, limpia con alcohol. **Nota: si accidentalmente sueldas uno o ambos sockets del revés, ¡no te preocupes! Los conectores son componentes pasivos y funcionarán de igual modo en cualquiera de las dos orientaciones. La orientación de los IC es lo que realmente importa, de manera que asegúrate de insertarlos en la orientación correcta después cuando los montes**
 
-⚠️ **Do not solder the socket with the IC inserted!** The heat may damage the chip if it is in the socket during soldering.
+⚠️ **¡No sueldes los sockets con los IC montados!** El calor podría dañar el chip is está en el socket durante la soldadura.
 
 | ![](build_guide_img/image021.jpg) | ![](build_guide_img/image022.jpg) |
 | --- | --- |
