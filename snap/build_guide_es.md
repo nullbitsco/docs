@@ -101,7 +101,7 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 
 ## 3. Herramientas necesarias
 
-- Soldador de punta fina &amp; estaño
+- Soldador de punta fina y estaño
 - Alicates de punta fina
 - Pinzas de punta fina
 - Destornillador Phillips #0
@@ -116,20 +116,20 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 
 ⚠️ **¡Importante!** Las notas marcadas con este icono son cruciales, asegúrate de leerlas con atención antes de continuar.
 
-⚠️ **Stop!** If at any point during your build you find yourself confused, stuck, not sure whether something you're doing is right, or not sure what to do next, stop and ask! On average, questions are answered on Discord or via email in less than a few hours. Better to ask questions that might feel silly than to make a mistake!
+⚠️ **Pide ayuda!** Si en algún momento durante el montaje algo te parece confuso, te atascas, o no tienes claro si lo que estás haciendo es correcto, o bien no sabes que hacer a continuación... ¡pide ayuda! La mayoría de veces, las dudas son resueltas en discord o por correo en menos de unas pocas horas. ¡Es mejor preguntar cosas que podrían parecer estúpidas a cometer un error!
 
 
-Steps marked [OPTIONAL] aren&#39;t required for the base kit, but may be needed depending on what you choose to include in your build.
+Los pasos marcados [OPCIONAL] no son necesarios para el kit básicos, pero podrían ser necesarios en función de qué decidas incluir en tu teclado.
 
-## 1. [OPTIONAL] Solder Underglow LEDS
+## 1. [OPCIONAL] Soldadura de LEDs de debajo de la placa
 
-[Recommended resource: soldering 5050 SMT LEDs](https://electronics.stackexchange.com/questions/482626/how-to-solder-ws2812b-ledsindividual-not-a-strip-to-a-pcb)
+[Contenido recomendado: Como soldar LEDs SMT 5050](https://electronics.stackexchange.com/questions/482626/how-to-solder-ws2812b-ledsindividual-not-a-strip-to-a-pcb)
 
-Solder the 10x WS2812B underglow LEDs, 5x on each keyboard half. Start by tacking down one corner, and then soldering the remaining 3 leads. After soldering, clean with rubbing alcohol.
+Suelda los 10x WS2812B LEDs de luz ambiental, 5x en cada mitad del teclado. Empieza por una de las esquinas, y después las otras 3. Después de soldar, limpia con alcohol.
 
-⚠️ **Orientation matters!** These parts have a small angled mark which should match up with the one on the PCB. If you don&#39;t get the orientation right, the LEDs will not work, and your keyboard may not boot up.
+⚠️ **¡La dirección importa!** Estas piezas tienen una pequeña marca en ángulo que debe colocarse sobre la marca pintada en la placa. Si no las orientas correctamente, los LEDs no funcionarán y tu teclado pordría no encenderse.
 
-⚠️ **LED Issues** If you have soldered the LEDs, but are encountering issues (no underglow, random colors, flickering, or only some LEDs working), please follow the LEDs section in [troubleshooting](#troubleshooting), or take a look at the [LED debugging guide](../accessories/ws2812b_led_debug_docs.md).
+⚠️ **Problemas con LED** Si has soldado los LEDs, pero tienes problemas (no se iluminan, dan colores aleatorios, parpadean, o solamente se encienden algunos de ellos), por favor sigue la sección LEDs en [Resolución de problemas](#troubleshooting), o revisa la [Guía de diagnóstico LED](../accessories/ws2812b_led_debug_docs.md).
 
 | ![](build_guide_img/image081.jpg) | ![](build_guide_img/image080.jpg) |
 | --- | --- |
