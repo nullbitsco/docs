@@ -219,16 +219,18 @@ Después de soldar, limpia con alcohol y usa las alicates de corte para enrasar 
 | ![](build_guide_img/image056.jpg) | ![](build_guide_img/image057.jpg) |
 | --- | --- |
 
-## 10a. [OPTIONAL] Solder rotary encoder(s)
+## 10a. [OPCIONAL] Soldando rotary encoder(s)
 
-If building with the optional rotary encoders, fit and solder one in each desired position(s) shown. One rotary encoder can be installed directly below the MCU on each side of the board. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible. Note that it is **not** necessary to solder the large side support pins on the rotary encoder. **Do not clip the large support pins on the encoder.**
+Si vas a usar los rotary encoders opcionales, encaja y suelda uno de ellos en cada uno de los posibles lugar indicados a continuación. Un rotary encoder puede ser instalado en la posición inmediatamente inferior a la MCU en cada mitad del teclado. Después de soldar, limpia con alcohol y usa las alicates de corte para enrasar lo máximo posible las conexiones a la placa. Nota: **no** es necesario soldar los dos soportes gruesos del encoder, es suficiente con encajarlos. **No recortes los soportes gruesos del encoder.**
+
 
 | ![](build_guide_img/image058.jpg) | ![](build_guide_img/image059.jpg) |
 | --- | --- |
 
-## 10b. [OPTIONAL] Solder speaker
+## 10b. [OPCIONAL] Soldando el altavoz
 
-If building with the optional speaker, fit and solder it in the position shown. The speaker is installed on the left side of the board.  After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
+
+Si vas a usar el altavoz opcional, encaja y suéldalo en la posición indicada. El altavoz se monta en la mitad izquierda del teclado. Después de soldar, limpia con alcohol y usa las alicates de corte para enrasar al máximo posible las conexiones a la placa.
 
 ![](build_guide_img/image060.jpg)
 
