@@ -12,27 +12,27 @@
 
 [Componentes y herramientas](#parts_and_tools)
 
-[Pasos de montaje](#assembly_steps)
+[Instrucciones de montaje](#assembly_steps)
 
 [Solución de errores](#troubleshooting)
 
 ## ¡Gracias por la compra!
 Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido. Después de mucho investigar, iterar y mejorar, tenemos lo que esperamos sea una evolución aún más popular de ambos. El SNAP (esperamos) recoge lo mejor de ambos y añade un extra. Esperamos que disfrutes montando y usando este teclado tanto como nosotros.
 
-# <a name="helpful_links"></a> 1. Helpful links
+# <a name="helpful_links"></a> 1. Enlaces útiles
 
-- [Default Keymap](http://www.keyboard-layout-editor.com/#/gists/bd48e2fe5b0f571c0034f27cb328d2d7)
-- [QMK Firmware](https://github.com/nullbitsco/snap)
-- [Basic Skills: Soldering](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
-- [Check the](build_guide_img/image048.png) quality of your [soldering joints!](build_guide_img/image049.png)
-- [How to use a DMM](https://www.youtube.com/watch?v=SECWePatYjY) - Important if you need to troubleshoot your build!
-- [Firmware Flashing Guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
+- [Perfil por defecto](http://www.keyboard-layout-editor.com/#/gists/bd48e2fe5b0f571c0034f27cb328d2d7)
+- [Firmware QMK](https://github.com/nullbitsco/snap)
+- [Habilidades básicas: Soldadura](https://www.youtube.com/watch?v=UpVx4wGukRc) - Make sure you're prepared to solder your keyboard kit!
+- [¡Revisa](build_guide_img/image048.png) la calidad de tus [soldaduras!](build_guide_img/image049.png)
+- [Como usar un multímetro](https://www.youtube.com/watch?v=SECWePatYjY) - ¡Importante para diagnosticar problemas!
+- [Guía para flashear firmware](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
-# <a name="parts_and_tools"></a> 2. Parts and tools
+# <a name="parts_and_tools"></a> 2. Componentes y herramientas
 
 ![](build_guide_img/image001.jpg)
 
-## 1. Parts included in the kit
+## 1. Piezas incluidas en el kit
 
 ### Hardware
 
@@ -40,21 +40,21 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 | --- | --- | --- |
 | Standoff, M2x3 | 16 | ![](build_guide_img/image002.jpg) |
 | Standoff, M2x10 | 6 | ![](build_guide_img/image004.jpg) |
-| Screw, M2x3 | 30 | ![](build_guide_img/image006.jpg) |
-| Screw, M2x6 | 6 | ![](build_guide_img/image008.jpg) |
-| Screw, M2x10 | 6 | ![](build_guide_img/image010.jpg) |
+| Tornillo, M2x3 | 30 | ![](build_guide_img/image006.jpg) |
+| Tornillo, M2x6 | 6 | ![](build_guide_img/image008.jpg) |
+| Tornillo, M2x10 | 6 | ![](build_guide_img/image010.jpg) |
 | Machined Knob | 1 | ![](build_guide_img/image046.jpg) |
 
-### Electronics
+### Electrónica
 
 | **Item** | **Qty.** | **Image** |
 | --- | --- | --- |
-| 1N4148 Diode | 100 | ![](build_guide_img/image003.jpg) |
-| 0.1μF Capacitor | 2 | ![](build_guide_img/image005.jpg) |
-| 10KΩ Resistor | 2 | ![](build_guide_img/image013.jpg) |
+| 1N4148 Diodo | 100 | ![](build_guide_img/image003.jpg) |
+| 0.1μF Condensador | 2 | ![](build_guide_img/image005.jpg) |
+| 10KΩ Resistencia | 2 | ![](build_guide_img/image013.jpg) |
 | IC Socket | 2 | ![](build_guide_img/image007.jpg) |
 | IC (74HC138N) | 2 | ![](build_guide_img/image009.jpg) |
-| Reset Switch | 2 | ![](build_guide_img/image011.jpg) |
+| Interruptor Reset | 2 | ![](build_guide_img/image011.jpg) |
 | WS2812B LED | 10 | ![](build_guide_img/image042.jpg) | 
 | TRRS Jack | 4 | ![](build_guide_img/image043.jpg) |
 | Rotary Encoder | 1 | ![](build_guide_img/image044.jpg) |
@@ -63,41 +63,41 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 | PTH Pogo Pins (female) | 2 | ![](build_guide_img/image014.jpg) |
 | 40-pin Breakaway Headers | 2 | ![](build_guide_img/image047.jpg) |
 
-### Core
+### Estructura
 
 | **Item** | **Qty.** | **Image** |
 | --- | --- | --- |
-| Top PCB plate (left) | 1 | ![](build_guide_img/image016.jpg) |
-| Top PCB plate (right) | 1 | ![](build_guide_img/image029.jpg) |
-| Bottom PCB plate (left) | 1 | ![](build_guide_img/image030.jpg) |
-| Bottom PCB plate (right) | 1 | ![](build_guide_img/image031.jpg) |
-| Middle acrylic spacer (left) | 1 | ![](build_guide_img/image033.jpg) |
-| Middle acrylic spacer (right) | 1 | ![](build_guide_img/image034.jpg) |
-| Top acrylic guard (left) | 1 | ![](build_guide_img/image037.jpg) |
-| Top acrylic guard (right) | 1 | ![](build_guide_img/image038.jpg) |
+| Placa superior (izquierda) | 1 | ![](build_guide_img/image016.jpg) |
+| Placa superior (derecha) | 1 | ![](build_guide_img/image029.jpg) |
+| Placa inferior (izquierda) | 1 | ![](build_guide_img/image030.jpg) |
+| Placa inferior (derecha) | 1 | ![](build_guide_img/image031.jpg) |
+| Separador central de acrílico (izquierda) | 1 | ![](build_guide_img/image033.jpg) |
+| Separador central de acrílico (derecha) | 1 | ![](build_guide_img/image034.jpg) |
+| Tapa superior de acrílico (izquierda) | 1 | ![](build_guide_img/image037.jpg) |
+| Tapa superior de acrílico (derecha) | 1 | ![](build_guide_img/image038.jpg) |
 
 ### Extras
 
 | **Item** | **Qty.** | **Image** |
 | --- | --- | --- |
-| TRRS cable | 1 | ![](build_guide_img/image039.jpg) |
-| 3x6mm magnets | 6 | ![](build_guide_img/image040.jpg) |
-| Magnet stickers | 6 | ![](build_guide_img/image041.jpg) |
-| Mini bumpons | 8 | ![](build_guide_img/image012.jpg) |
+| Cable TRRS | 1 | ![](build_guide_img/image039.jpg) |
+| Imanes 3x6mm | 6 | ![](build_guide_img/image040.jpg) |
+| Pegatinas para imanes | 6 | ![](build_guide_img/image041.jpg) |
+| Mini patitas | 8 | ![](build_guide_img/image012.jpg) |
 
-## 2. Parts you provide
+## 2. Piezas no incluidas
 
-- 2x [BIT-C](https://nullbits.co/bit-c/) or other Pro Micro compatible MCU
-- Qty. 92 PCB-mount switches (Cherry MX footprint)
-- 5x 2U PCB-mount stabilizers*. Snap-in or screw in both work.
-  - 2x 2U stabs - one for each spacebar
-  - 3x 2U stabs - for left shift, enter, and backspace
-  - *[Optional] - 1x 2U stab if building with a 2.75U right shift
+- 2x [BIT-C](https://nullbits.co/bit-c/) u otro MCU compatible
+- 92x switches PCB-mount (tipo Cherry MX)
+- 5x 2U estabilizadores PCB-mount*. Sirven tanto los atornillados como de clip.
+  - 2x 2U stabs - uno por cada barra espacsiadora.
+  - 3x 2U stabs - para shift izquierdo, enter y borrar.
+  - *[Optional] - 1x 2U stab si vas a usar shift derecho de 2.75U.
 - Keycaps
-- **[OPTIONAL]** [Additional rotary encoder and knob](https://amzn.to/3rOnY2l)
-- **[OPTIONAL]** [0.91" 128x32 OLED Display(s)](https://amzn.to/3wjHpmK)
-- **[OPTIONAL]** [FR4 switch plate](https://amzn.to/3IozdaE)
-- **[OPTIONAL]** Mill-Max 0305, 3305, or 7305 hot-swap solder sockets
+- **[OPCIONAL]** [Additional rotary encoder and knob](https://amzn.to/3rOnY2l)
+- **[OPCIONAL]** [0.91" 128x32 OLED Display(s)](https://amzn.to/3wjHpmK)
+- **[OPCIONAL]** [FR4 switch plate](https://amzn.to/3IozdaE)
+- **[OPCIONAL]** Mill-Max 0305, 3305, or 7305 hot-swap solder sockets
 
 ## 3. Tools required
 
