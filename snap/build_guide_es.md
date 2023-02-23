@@ -161,20 +161,20 @@ Encaja y suelda los dos sockets de IC, one en cada mitad de teclado. Haz coincid
 | ![](build_guide_img/image021.jpg) | ![](build_guide_img/image022.jpg) |
 | --- | --- |
 
-## 5. Solder capacitors
+## 5. Soldando condensadores
 
-Fit and solder the two capacitors; one on each keyboard half.
+Encaja y suelda ambos condensadores, uno en cada mitad de teclado.
 
 | ![](build_guide_img/image023.jpg) | ![](build_guide_img/image024.jpg) |
 | --- | --- |
 
-After soldering, clean with rubbing alcohol and use the snips to clip the leads as close to the PCB as possible.
+Después de la soldadura, limpia con alcohol y usa las alicates de corte para enrasar la soldadura lo máximo posible a la placa.
 
-## 6a. Bend and solder under-key diodes
+## 6a. Dobla y suelda los diodos bajo las teclas
 
-There are a number of diodes that aren't in the main group on the top of the keyboard: **13** on the left half, and **11** on the right half. Bend and fit the 1N4148 diodes. Bend the leads inward to hold the diodes in place when the PCB is turned upside down. Begin by soldering one side of the diodes and adjust the diode alignment to your liking before soldering the second lead.
+Hay algunos diodos que no se montan en el grupo principal en la parte superior del teclado: **13** en la mitad izquierda y **11** en la mitad derecha. Doble y encaja uno de los diodos 1N4148. Dobla las patas hacia dentro para que se sostengan en su lugar cuando des la vuelta a la placa. Empieza por soldar uno de los dos lados del diodo y retoca la alineación a tu gusto antes de soldar la segunda pata.
 
-⚠️ **Orientation matters!** These go on the **TOP** side of the PCB! Solder the diodes with the black bar **UP** as shown in the images. The keyboard will not work if they are backward.
+⚠️ **¡La orientación importa!** ¡Estos van en la parte **SUPERIOR** de la placa! Suelda los diodos con la línea negra **ARRIBA** tal como se muestra en las imágenes. El teclado no funcionará si los montas del revés.
 
 | ![](build_guide_img/image025.jpg) | ![](build_guide_img/image026.jpg) |
 | --- | --- |
