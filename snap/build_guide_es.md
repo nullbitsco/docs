@@ -114,7 +114,7 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 
 ![](build_guide_img/image092.png)
 
-⚠️ **Important!** Notes marked with this icon are crucial, so be sure to read them carefully before moving on.
+⚠️ **¡Importante!** Las notas marcadas con este icono son cruciales, asegúrate de leerlas con atención antes de continuar.
 
 ⚠️ **Stop!** If at any point during your build you find yourself confused, stuck, not sure whether something you're doing is right, or not sure what to do next, stop and ask! On average, questions are answered on Discord or via email in less than a few hours. Better to ask questions that might feel silly than to make a mistake!
 
