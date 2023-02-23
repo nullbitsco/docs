@@ -309,40 +309,40 @@ La placa SNAP incluye marcas para interruptores y estabilizadores con tal de fac
 
 Se recomienda encarecidamente que pruebes cada tecla en este momento antes de proseguir. Si no lo has hecho aún, [Salta al paso](#firmware_flashing) 22 para flashear el firmware QMK. Usa un comprobador de teclado ([este](https://www.keyboardtester.com/) funciona) y puentea los conectores de cada interruptor usando unas pinzas, un trozo de cable, una pestaña metálica cortada de algún componente anterior o cualquier cosa eléctricamente conductiva. Si hay algún problema, será mucho más fácil solucionarlo ahora, antes de que todo haya sido soldado y montado.
 
-## 13. Screw together M2x3 standoffs using M2x3 screws
+## 13. Atornilla los standoff M2x3 usando tornillos M2x3
 
-In the locations shown, screw the M2x3 standoffs into the bottom side of the **TOP** PCB plate. Fasten using 14 M2x3 screws (7 on each half). Use pliers to hold the standoff steady while tightening the screw. **Do not overtighten!** This step is extra important if you are building with a plate, since it's more difficult to access the screws with the plate in place, so double check this! The standoffs go on the bottom side of the board.
+En las ubicaciones indicadas, coloca los standoffs M2x3 en la parte inferior de la placa **SUPERIOR** (PCB). Atorníllalos usando 14 tornillos M2x3 (7 en cada mitad). Usa pinzas para sujetar el standoff firmemente mientras atornillas. **¡No sobreaprietes el tornillo!** Este paso es especialmente importante si vas a usar placa de switches, porque es más dificil acceder a los tornillos con la placa para switches colocada, ¡así que revísalo cuidadosamente! Los standoffs van en la parte inferior de la placa electrónica (PCB).
 
 | ![](build_guide_img/image068.jpg) | ![](build_guide_img/image067.jpg) |
 | --- | --- |
 
-## 14. Snap in stabilizers
+## 14. Coloca los estabilizadores
 
-Snap in the PCB-mount stabilizers as shown below. The tab goes in the big hole, and the retaining clips go in the small holes. The stabilizers will only snap in one way. Make sure the stabilizer is fully seated, or the keycap won&#39;t move properly once it&#39;s installed. If using screw-in stabilizers, do **not** use the included washer between the screw and the PCB. The acrylic will not seat properly on top of the washer.
+Coloca los estabilizadores (montados en PCB, con clips) tal como se indica a continuación. La pestaña va en el agujero más grande, y el clip en el pequeño. Los estabilizadores solamente encajan en una posición. Asegúrate de que el estabilizador esté firmemente encajado, o las teclas no se moverán correctamente cuando estén montadas. Si usas estabilizadores atornillados, **no** uses la arandela incluída entre el tornillo y la placa. El acrílico no asentará correctamente sobre la arandela.
 
 ![](build_guide_img/image035.jpg)
 
-## 15. [OPTIONAL] Insert hot-swap sockets
+## 15. [OPCIONAL] Inserta los conectores hot-swap
 
-If building with hotswap sockets, drop one into each plated lead hole and affix with tape (masking or electrical tape works well). Alternatively, insert them onto each lead of the PCB mount switch before proceeding.
+Si vas a usar conectores hot-swap, introduce uno en cada agujero metalizado y asegúralos con cinta (de carrocero o eléctrica sirve). Alternativamente, insértalos en cada patita de los switches montados en PCB antes de proceder.
 
-## 16. Snap in switches
+## 16. Coloca los interruptores
 
-⚠️ **Stop!** Test fit your keycaps to make sure that the switch spacings are correct before soldering, especially the bottom row.
+⚠️ **¡Espera!** Comprueba que las keycaps encajen correctamente para asegurar que las distancias son correctas antes de soldar, especialmente la fila inferior.
 
 ![](build_guide_img/image036.jpg)
 
-If you are using 5-pin PCB mount switches, they may take some force to insert. This is by design. For PCB mount switches, a tight fit makes the switches more stable. Snap in by supporting the back of the PCB, and then pushing hard on the top of the switch. It helps to use a spare keycap on the switch to take some of the pressure off your thumb. After snapping the switch in, make sure it&#39;s sitting flush against the PCB.
+Si est;as usando interruptores de 5 pines (para montaje en PCB), probablemente requerirán bastante fuerza para ser colocados. Son así por diseño. Para los interruptores montados en PCB, un ajuste preciso los hace más estables. Encájalos sujetando la parte trasera de la PCB, y después aprieta con fuerza en la parte superior del interruptor. Ayuda usar un keycap en el switch para distribuir la presión en tu pulgar. Después de colocar los switches, confirma que estén bien asentados y alineados en el PCB.
 
-Note that some of the switches go in "sideways" and "upside down". This is by design! T, Y, \\, Enter, Backspace, and Caps Lock are all switches that might be installed in different orientations.
+Observa que algunos de los interruptores van montados "de lado" y algunos "del revés". ¡Es así por diseño! T, Y, \\, Enter, Borrar y Bloq Mayus son interruptores que pueden ser colocados en diferentes orientaciones.
 
-If building with hotswap sockets and a switch plate, you will need to remove the switches from the sockets after soldering in order to fit them into the plate for final assembly.
+Si estás usando sockets hotswap y una switch plate, deberás desmontar los switches de los sockets después de soldar para encajarlos en la placa en el montaje final.
 
-## 17. Solder switches or hot-swap sockets
+## 17. Soldando switches o hot-swap sockets
 
-⚠️ **Stop!** If you are building with a switch plate, make sure that you have installed and tightened the mounting hardware ( **Step 3.13** ) and installed the stabilizers ( **Step 3.14** ) before continuing! Once the switches are installed on the plate, access to the items below is difficult.
+⚠️ **¡Espera!** ¡Si estás usando switch plate, asegúrate de haber instalado y ajustado las piezas de montaje ( **Paso 3.13** ) y instalado los estabilizadores ( **Paso 3.14** ) antes de continuar! Una vez los switches están colocados en la placa, acceder a las cosas de edbajo es difícil.
 
-Make sure each switch pin has enough solder to form a nice solid joint.
+Asegúrate de que cada conexión de los switches tenga suficiente estaño para formar una unión firme y correcta.
 
 | ![](build_guide_img/image077.jpg) | ![](build_guide_img/image078.jpg) |
 | --- | --- |
