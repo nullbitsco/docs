@@ -1,6 +1,6 @@
 # SNAP
 
-## 75% Split Keyboard Kit
+## Kit de Teclado Split 75%
 
 ![](build_guide_img/image000.jpg)
 
@@ -34,9 +34,9 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 
 ## 1. Piezas incluidas en el kit
 
-### Hardware
+### Tornillos
 
-| **Item** | **Qty.** | **Image** |
+| **Item** | **Cantidad** | **Imagen** |
 | --- | --- | --- |
 | Standoff, M2x3 | 16 | ![](build_guide_img/image002.jpg) |
 | Standoff, M2x10 | 6 | ![](build_guide_img/image004.jpg) |
@@ -47,7 +47,7 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 
 ### Electrónica
 
-| **Item** | **Qty.** | **Image** |
+| **Item** | **Cantidad** | **Imagen** |
 | --- | --- | --- |
 | 1N4148 Diodo | 100 | ![](build_guide_img/image003.jpg) |
 | 0.1μF Condensador | 2 | ![](build_guide_img/image005.jpg) |
@@ -58,14 +58,14 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 | WS2812B LED | 10 | ![](build_guide_img/image042.jpg) | 
 | TRRS Jack | 4 | ![](build_guide_img/image043.jpg) |
 | Rotary Encoder | 1 | ![](build_guide_img/image044.jpg) |
-| PTH Buzzer | 1 | ![](build_guide_img/image045.jpg) |
+| PTH Altavoz | 1 | ![](build_guide_img/image045.jpg) |
 | PTH Pogo Pins (male) | 2 | ![](build_guide_img/image015.jpg) |
 | PTH Pogo Pins (female) | 2 | ![](build_guide_img/image014.jpg) |
 | 40-pin Breakaway Headers | 2 | ![](build_guide_img/image047.jpg) |
 
 ### Estructura
 
-| **Item** | **Qty.** | **Image** |
+| **Item** | **Cantidad** | **Imagen** |
 | --- | --- | --- |
 | Placa superior (izquierda) | 1 | ![](build_guide_img/image016.jpg) |
 | Placa superior (derecha) | 1 | ![](build_guide_img/image029.jpg) |
@@ -78,7 +78,7 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 
 ### Extras
 
-| **Item** | **Qty.** | **Image** |
+| **Item** | **Cantidad** | **Imagen** |
 | --- | --- | --- |
 | Cable TRRS | 1 | ![](build_guide_img/image039.jpg) |
 | Imanes 3x6mm | 6 | ![](build_guide_img/image040.jpg) |
@@ -92,7 +92,7 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 - 5x 2U estabilizadores PCB-mount*. Sirven tanto los atornillados como de clip.
   - 2x 2U stabs - uno por cada barra espacsiadora.
   - 3x 2U stabs - para shift izquierdo, enter y borrar.
-  - *[Optional] - 1x 2U stab si vas a usar shift derecho de 2.75U.
+  - *[Opcional] - 1x 2U stab si vas a usar shift derecho de 2.75U.
 - Keycaps
 - **[OPCIONAL]** [Rueda extra (rotary encoder + knob)](https://amzn.to/3rOnY2l)
 - **[OPCIONAL]** [Pantalla(s) OLED 0.91" 128x32](https://amzn.to/3wjHpmK)
@@ -106,7 +106,7 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 - Pinzas de punta fina
 - Destornillador Phillips #0
 - Alicates de corte para electrónica
-- Alcohol para limpiar (isopropílico)
+- Alcohol para limpiar (isopropílico o el disolvente indicado para el estaño que uses)
 - **[Recomendable]** Multímetro
 - **[Recomendable]** Medidor de corriente USB
 
@@ -127,7 +127,7 @@ Los pasos marcados [OPCIONAL] no son necesarios para el kit básicos, pero podr�
 
 Suelda los 10x WS2812B LEDs de luz ambiental, 5x en cada mitad del teclado. Empieza por una de las esquinas, y después las otras 3. Después de soldar, limpia con alcohol.
 
-⚠️ **¡La dirección importa!** Estas piezas tienen una pequeña marca en ángulo que debe colocarse sobre la marca pintada en la placa. Si no las orientas correctamente, los LEDs no funcionarán y tu teclado pordría no encenderse.
+⚠️ **¡La orientación importa!** Estas piezas tienen una pequeña marca en ángulo que debe colocarse sobre la marca pintada en la placa. Si no las orientas correctamente, los LEDs no funcionarán y tu teclado pordría no encenderse.
 
 ⚠️ **Problemas con LED** Si has soldado los LEDs, pero tienes problemas (no se iluminan, dan colores aleatorios, parpadean, o solamente se encienden algunos de ellos), por favor sigue la sección LEDs en [Resolución de problemas](#troubleshooting), o revisa la [Guía de diagnóstico LED](../accessories/ws2812b_led_debug_docs.md).
 
