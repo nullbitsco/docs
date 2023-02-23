@@ -8,17 +8,16 @@
 
 # Índice
 
-[Helpful Links](#helpful_links)
+[Enlaces útiles](#helpful_links)
 
-[Parts and Tools](#parts_and_tools)
+[Componentes y herramientas](#parts_and_tools)
 
-[Assembly Steps](#assembly_steps)
+[Pasos de montaje](#assembly_steps)
 
-[Troubleshooting](#troubleshooting)
+[Solución de errores](#troubleshooting)
 
-## Thanks for purchasing!
-
-We're humbled by how much interest and love the NIBBLE and the TIDBIT have received. After lots of research, iteration, and feedback, we have what we hope is an even more popular follow-on to the two. The SNAP (we hope) takes the best of the two and then some. We hope you love building and using this board as much as we have.
+## ¡Gracias por la compra!
+Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido. Después de mucho investigar, iterar y mejorar, tenemos lo que esperamos sea una evolución aún más popular de ambos. El SNAP (esperamos) recoge lo mejor de ambos y añade un extra. Esperamos que disfrutes montando y usando este teclado tanto como nosotros.
 
 # <a name="helpful_links"></a> 1. Helpful links
 
