@@ -94,23 +94,23 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
   - 3x 2U stabs - para shift izquierdo, enter y borrar.
   - *[Optional] - 1x 2U stab si vas a usar shift derecho de 2.75U.
 - Keycaps
-- **[OPCIONAL]** [Additional rotary encoder and knob](https://amzn.to/3rOnY2l)
-- **[OPCIONAL]** [0.91" 128x32 OLED Display(s)](https://amzn.to/3wjHpmK)
-- **[OPCIONAL]** [FR4 switch plate](https://amzn.to/3IozdaE)
+- **[OPCIONAL]** [Rueda extra (rotary encoder + knob)](https://amzn.to/3rOnY2l)
+- **[OPCIONAL]** [Pantalla(s) OLED 0.91" 128x32](https://amzn.to/3wjHpmK)
+- **[OPCIONAL]** [switch plate FR4](https://amzn.to/3IozdaE)
 - **[OPCIONAL]** Mill-Max 0305, 3305, or 7305 hot-swap solder sockets
 
-## 3. Tools required
+## 3. Herramientas necesarias
 
-- Fine-tip soldering iron &amp; solder
-- Needle nose pliers
-- Fine-point tweezers
-- Phillips #0 screwdriver
-- Snips for cutting leads
-- Rubbing alcohol
-- **[Recommended]** DMM/Multimeter
-- **[Recommended]** USB Current Meter
+- Soldador de punta fina &amp; estaño
+- Alicates de punta fina
+- Pinzas de punta fina
+- Destornillador Phillips #0
+- Alicates de corte para electrónica
+- Alcohol para limpiar (isopropílico)
+- **[Recomendable]** Multímetro
+- **[Recomendable]** Medidor de corriente USB
 
-# <a name="assembly_steps"></a> 3. Assembly Steps
+# <a name="assembly_steps"></a> 3. Guía de montaje
 
 ![](build_guide_img/image092.png)
 
