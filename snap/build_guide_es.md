@@ -229,27 +229,26 @@ Si vas a usar los rotary encoders opcionales, encaja y suelda uno de ellos en ca
 
 ## 10b. [OPCIONAL] Soldando el altavoz
 
-
 Si vas a usar el altavoz opcional, encaja y suéldalo en la posición indicada. El altavoz se monta en la mitad izquierda del teclado. Después de soldar, limpia con alcohol y usa las alicates de corte para enrasar al máximo posible las conexiones a la placa.
 
 ![](build_guide_img/image060.jpg)
 
-## 10c. [OPTIONAL] Solder OLED(s)
+## 10c. [OPCIONAL] Soldando OLED(s)
 
-If building with the optional OLED displays, fit and solder each in the position each shown. One OLED can be installed on each side of the board above the diodes. After soldering, clean with rubbing alcohol and use the snips to clip the pins as close to the PCB as possible.
+Si vas a usar las pantallas OLED opcionales, encaja y suelda cada una de ellas en la posición indicada a continuación. Se puede instalar un OLED en cada una de las mitades del teclado, encima de la fila de diodos. Después de soldar, limpia con alcohol y usa las alicates de corte para enrasar las conexiones al máximo posible a la placa.
 
 | ![](build_guide_img/image061.jpg) | ![](build_guide_img/image062.jpg) |
 | --- | --- |
 
-## 11. Insert ICs into IC sockets
+## 11. Insertando ICs a los conectores de IC
 
-⚠️ **Orientation matters!** Make sure that the side of the IC with the round mark is closest to the Bit-C on the left half and furthest from the Bit-C on the right half (both facing left) before inserting. Double check the images below before inserting if you're not sure! The  orientation should match the silkscreen.
+⚠️ **¡La orientación importa!** Asegúrate de que el lado del IC con la marca redondeada coincida con el lado mas proximo al Bit-C en la mitad izquierda, y del mismo modo esté en el lado más lejano del Bit-C en la mitad derecha del teclado (ambos orientados hacia la izquierda) antes de conectarlos. ¡Comprueba con atención las imágenes a continuación antes de insertar si no lo tienes claro! La orientación debe coincidir con el diagrama.
 
 ![](build_guide_img/image032.jpg)
 
-Carefully bend the IC leads inward so that they are the width of the socket. It helps to set the IC on its side on a flat surface and use a tool to bend all leads at once.
+Dobla ligeramente y con cuidado las pestañas hacia el interior para que coincidan con la medida del conector. Puede ser más fácil si pones el IC lateralmente sobre una superfície plana y usas una herramienta para doblar todas las pestañas simultáneamente.
 
-While supporting the back of the PCB with one hand, push on the top of the IC using your thumb until it sits flush in the socket. If you feel leads bending, stop and carefully straighten them before continuing.
+Mientras sostienes la parte trasera de la placa con una mano, presiona el IC hacia adentro con el pulgar hasta que quede plano dentro del conector. Si sientes que alguna pestaña se está doblando, para inmediatamente y enderézalas antes de continuar.
 
 | ![](build_guide_img/image063.jpg) | ![](build_guide_img/image064.jpg) |
 | --- | --- |
