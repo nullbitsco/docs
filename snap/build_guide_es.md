@@ -454,42 +454,42 @@ Diagramas útiles de referencia:
 
 **No funciona una columna entera**
 
-- Check that all pins on the MCU are soldered properly.
-- Check that the proper rows and columns are set in QMK config.h
-- Check that all pins on the ICs are soldered properly.
+- Revisa que todas las conexiones a la MCU estén correctamente soldadas.
+- Revisa que las filas y columnas estén correctamente definidas en "config.h" de QMK.
+- Revisa que todas las conexiones de los IC estén correctamente soldadas..
 
-**The rotary encoder is not working**
+**El rotary encoder no funciona correctamente**
 
-- Check that all pins on the rotary encoder are soldered properly.
-- Check that the A and B pins are set in QMK config.h and that ENCODER\_ENABLE = yes in QMK rules.mk.
+- Revisa que todas las conexiones del rotary encoder estén correctamente soldadas.
+- Revisa que los pines A y B estén configurados en "config.h" de QMK y así como "ENCODER\_ENABLE = yes" en "rules.mk" de QMK.
 
-**The OLED is not working**
+**La pantalla OLED no funciona**
 
-- Check that all pins on the OLED are soldered properly.
-- The OLED is not enabled in the default firmware. Load the 'oled' firmware, available on the QMK repo.
+- Revisa que todas las conexiones al OLED estén correctamente soldadas.
+- La pantalla OLED no está activada en el firmware por defecto. Flashea el firmware 'oled', disponible en el repositorio QMK.
 
-**Two or more keys are swapped**
+**Dos o má teclas están intercambiadas**
 
-- Check that the keymap you are using is defined correctly and matches your keyboard layout.
+- Revisa que el keymap que estés usando esté correctamente definido y coincida con tu disposición de teclado.
 
-**The underglow LEDs are not working**
+**Los LEDs no están funcionando**
 
-- Check that the RGB\_DI\_PIN pin is set in QMK config.h and that RGBLIGHT\_ENABLE = yes in QMK rules.mk.
-- Check that all LEDs are soldered in the proper orientation.
+- Revisa que el pin RGB\_DI\_PIN esté definido en "config.h" en QMK y RGBLIGHT\_ENABLE = yes esté definido en "rules.QMK" de QMK.
+- Revisa que todos los LEDs estén soldados en la orientación correcta.
 
-**There&#39;s no power**
+**No hay energía**
 
-- Check that all LEDs are soldered in the proper orientation.
-- Check the direction of the ICs.
-- Check for other shorts – solder blobs, leads that were not clipped all the way, etc.
+- Revisa que todos los LEDs estén soldados en la orientación correcta.
+- Revisa que la orientación de los IC sea la correcta.
+- Revisa que no haya cortocircuitos, soldaduras con exceso de estaño, alambres demasiado largos, etc.
 
-**How to I do X in firmware?**
+**¿Como hago tal cosa en el firmware?**
 
-- See the QMK docs, or make a post on [r/olkb](https://www.reddit.com/r/olkb/) for help.
-- Make a post on the [r/nullbits](https://www.reddit.com/r/nullbits/) subreddit, or join the #firmware channel in the [nullbits discord server](https://discord.gg/eSegJcY).
+- Lee la documentación de QMK, o postea en [r/olkb](https://www.reddit.com/r/olkb/) buscando ayuda.
+- Postea en el subreddit [r/nullbits](https://www.reddit.com/r/nullbits/), o únete al canal #firmware del [servidor de discord de nullbits](https://discord.gg/eSegJcY).
 
-**Something else?**
+**¿Algo más?**
 
-- Visit [nullbits.co/support/](https://nullbits.co/support/)
-- Reach out at [help@nullbits.co](mailto:help@nullbits.co)
-- Join our [Discord](https://discord.gg/eSegJcY)!
+- Visita [nullbits.co/support/](https://nullbits.co/support/)
+- Pregunta en [help@nullbits.co](mailto:help@nullbits.co)
+- Únete a nuestro [Discord](https://discord.gg/eSegJcY)!
