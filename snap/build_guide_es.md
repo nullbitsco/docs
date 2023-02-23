@@ -119,7 +119,7 @@ Nos sentimos honrados por el interés y pasión que NIBBLE y TIDBIT han recibido
 ⚠️ **Pide ayuda!** Si en algún momento durante el montaje algo te parece confuso, te atascas, o no tienes claro si lo que estás haciendo es correcto, o bien no sabes que hacer a continuación... ¡pide ayuda! La mayoría de veces, las dudas son resueltas en discord o por correo en menos de unas pocas horas. ¡Es mejor preguntar cosas que podrían parecer estúpidas a cometer un error!
 
 
-Los pasos marcados [OPCIONAL] no son necesarios para el kit básicos, pero podrían ser necesarios en función de qué decidas incluir en tu teclado.
+Los pasos marcados [OPCIONAL] no son necesarios para el kit básico, pero podrían ser necesarios en función de qué decidas incluir en tu teclado.
 
 ## 1. [OPCIONAL] Soldadura de LEDs de debajo de la placa
 
@@ -127,7 +127,7 @@ Los pasos marcados [OPCIONAL] no son necesarios para el kit básicos, pero podr�
 
 Suelda los 10x WS2812B LEDs de luz ambiental, 5x en cada mitad del teclado. Empieza por una de las esquinas, y después las otras 3. Después de soldar, limpia con alcohol.
 
-⚠️ **¡La orientación importa!** Estas piezas tienen una pequeña marca en ángulo que debe colocarse sobre la marca pintada en la placa. Si no las orientas correctamente, los LEDs no funcionarán y tu teclado pordría no encenderse.
+⚠️ **¡La orientación importa!** Estas piezas tienen una pequeña marca en ángulo que debe colocarse sobre la marca pintada en la placa. Si no las orientas correctamente, los LEDs no funcionarán y tu teclado podría no encenderse.
 
 ⚠️ **Problemas con LED** Si has soldado los LEDs, pero tienes problemas (no se iluminan, dan colores aleatorios, parpadean, o solamente se encienden algunos de ellos), por favor sigue la sección LEDs en [Resolución de problemas](#troubleshooting), o revisa la [Guía de diagnóstico LED](../accessories/ws2812b_led_debug_docs.md).
 
@@ -154,9 +154,9 @@ Después de soldar, limpia con alcohol.
 
 ## 4. Soldando sockets de los circuitos integrados
 
-Encaja y suelda los dos sockets de IC, one en cada mitad de teclado. Haz coincidir la marca en el conector con la marca de la placa. Después de soldar, limpia con alcohol. **Nota: si accidentalmente sueldas uno o ambos sockets del revés, ¡no te preocupes! Los conectores son componentes pasivos y funcionarán de igual modo en cualquiera de las dos orientaciones. La orientación de los IC es lo que realmente importa, de manera que asegúrate de insertarlos en la orientación correcta después cuando los montes**
+Encaja y suelda los dos sockets de IC, uno en cada mitad de teclado. Haz coincidir la marca en el conector con la marca de la placa. Después de soldar, limpia con alcohol. **Nota: si accidentalmente sueldas uno o ambos sockets del revés, ¡no te preocupes! Los conectores son componentes pasivos y funcionarán de igual modo en cualquiera de las dos orientaciones. La orientación de los IC es lo que realmente importa, de manera que asegúrate de insertarlos en la orientación correcta después cuando los montes**
 
-⚠️ **¡No sueldes los sockets con los IC montados!** El calor podría dañar el chip is está en el socket durante la soldadura.
+⚠️ **¡No sueldes los sockets con los IC montados!** El calor podría dañar el chip si está en el socket durante la soldadura.
 
 | ![](build_guide_img/image021.jpg) | ![](build_guide_img/image022.jpg) |
 | --- | --- |
@@ -172,7 +172,7 @@ Después de la soldadura, limpia con alcohol y usa las alicates de corte para en
 
 ## 6a. Dobla y suelda los diodos bajo las teclas
 
-Hay algunos diodos que no se montan en el grupo principal en la parte superior del teclado: **13** en la mitad izquierda y **11** en la mitad derecha. Doble y encaja uno de los diodos 1N4148. Dobla las patas hacia dentro para que se sostengan en su lugar cuando des la vuelta a la placa. Empieza por soldar uno de los dos lados del diodo y retoca la alineación a tu gusto antes de soldar la segunda pata.
+Hay algunos diodos que no se montan en el grupo principal en la parte superior del teclado: **13** en la mitad izquierda y **11** en la mitad derecha. Dobla y encaja uno de los diodos 1N4148. Dobla los alambres hacia dentro para que se sostengan en su lugar cuando des la vuelta a la placa. Empieza por soldar uno de los dos lados del diodo y retoca la alineación a tu gusto antes de soldar el segundo alambre.
 
 ⚠️ **¡La orientación importa!** ¡Estos van en la parte **SUPERIOR** de la placa! Suelda los diodos con la línea negra **ARRIBA** tal como se muestra en las imágenes. El teclado no funcionará si los montas del revés.
 
@@ -181,7 +181,7 @@ Hay algunos diodos que no se montan en el grupo principal en la parte superior d
 
 ## 6b. Dobla y suelda la fila superior de diodos
 
-Dobla y suelda los diodos 1N4148 restantes de la fila supeior. Dobla los cables hacia el interior para que los diodos se sostengan en la placa cuando de la vuelta a la placa. Empieza por soldar uno de los dos lados del diodo y retoca la alineación a tu gusto antes de soldar el segundo cable.
+Dobla y suelda los diodos 1N4148 restantes de la fila superior. Dobla los alambres hacia el interior para que los diodos se sostengan en la placa cuando de la vuelta a la placa. Empieza por soldar uno de los dos lados del diodo y retoca la alineación a tu gusto antes de soldar el segundo alambre.
 
 ⚠️ **¡La orientación importa!** ¡Estos van en la parte **SUPERIOR** de la placa! Suelda los diodos con la línea negra **ARRIBA** tal como se muestra en las imágenes. El teclado no funcionará si los montas del revés.
 
@@ -199,13 +199,13 @@ Suelda los 4 jacks TRRS (dos en cada mitad de teclado) en los lugares indicados.
 
 ## 8. Soldando los Pogo Pins
 
-**!Atención!** Los pogo pins van en la parte inferior de las placas! Mira con atención las imagenes a continuación. ¡No los sueldes accidentamente en el lado erróneo de la placa! Además, los pogo pin tienen género. El macho encaja con la hembra, así que revisa que estén posicionados correctamente antes de soldarlos.
+**!Atención!** ¡Los pogo pins van en la parte inferior de las placas! Mira con atención las imagenes a continuación. ¡No los sueldes accidentamente en el lado erróneo de la placa! Además, los pogo pin tienen género. El macho encaja con la hembra, así que revisa que estén posicionados correctamente antes de soldarlos.
 
 | ![](build_guide_img/image055.jpg) | ![](build_guide_img/image054.jpg) |
 | --- | --- |
 | ![](build_guide_img/image053.jpg) | ![](build_guide_img/image052.jpg) |
 
-Suelda los pogo pins incluidos en el **Lado inferior** de la placa (mismo lado que los LEDs opcionales). Los pogo pins macho van a la mitad **izquierda** del teclado, y los hembra a la mitad **derecha**.
+Suelda los pogo pins incluidos en el **lado inferior** de la placa (mismo lado que los LEDs opcionales). Los pogo pins macho van a la mitad **izquierda** del teclado, y los hembra a la mitad **derecha**.
 
 # ⚠️ **ESPERA** ⚠️
 
@@ -332,7 +332,7 @@ Si vas a usar conectores hot-swap, introduce uno en cada agujero metalizado y as
 
 ![](build_guide_img/image036.jpg)
 
-Si est;as usando interruptores de 5 pines (para montaje en PCB), probablemente requerirán bastante fuerza para ser colocados. Son así por diseño. Para los interruptores montados en PCB, un ajuste preciso los hace más estables. Encájalos sujetando la parte trasera de la PCB, y después aprieta con fuerza en la parte superior del interruptor. Ayuda usar un keycap en el switch para distribuir la presión en tu pulgar. Después de colocar los switches, confirma que estén bien asentados y alineados en el PCB.
+Si estás usando interruptores de 5 pines (para montaje en PCB), probablemente requerirán bastante fuerza para ser colocados. Son así por diseño. Para los interruptores montados en PCB, un ajuste preciso los hace más estables. Encájalos sujetando la parte trasera de la PCB, y después aprieta con fuerza en la parte superior del interruptor. Ayuda usar un keycap en el switch para distribuir la presión en tu pulgar. Después de colocar los switches, confirma que estén bien asentados y alineados en el PCB.
 
 Observa que algunos de los interruptores van montados "de lado" y algunos "del revés". ¡Es así por diseño! T, Y, \\, Enter, Borrar y Bloq Mayus son interruptores que pueden ser colocados en diferentes orientaciones.
 
