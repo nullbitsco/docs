@@ -261,53 +261,53 @@ La placa SNAP incluye marcas para interruptores y estabilizadores con tal de fac
 
 ![](build_guide_img/image066.jpg)
 
-**Caps lock (light yellow)**
-| **Guide Mark** | **Layout Option** |
+**Bloq Mayus (amarillo claro)**
+| **Código** | **Disposición** |
 | --- | --- |
-| A | Stepped 1.75U caps lock |
-| B | Standard 1.75U caps lock |
+| A | 1.75U bloq mayus alineado izq |
+| B | 1.75U bloq mayus estándard|
 
-**Left shift (dark yellow)**
-| **Guide Mark** | **Layout Option** |
+**Shift Izquierdo (amarillo oscuro)**
+| **Código** | **Disposición** |
 | --- | --- |
-| C | 2.25U left shift + stab |
-| D | 1.25U/1U (ISO) left shift |
+| C | 2.25U shift izq + estabilizador |
+| D | 1.25U/1U (ISO) shift izquierdo |
 
-**Spacebar (light green)**
-| **Guide Mark** | **Layout Option** |
+**Barra espaciadora (verde claro)**
+| **Código** | **Disposición** |
 | --- | --- |
-| E | 1.25U Fn, 2.25U spacebar + stab |
-| F | 2.25U spacebar + stab, 1.25U Fn |
+| E | 1.25U Fn, 2.25U barra espaciadora + estabilizador |
+| F | 2.25U barra espaciadora + estabilizador, 1.25U Fn |
 
-**Right modifiers (purple)**
-| **Guide Mark** | **Layout Option** |
+**Modificadores derechos (morado)**
+| **Código** | **Disposición** |
 | --- | --- |
-| G | 5x 1U modifiers + arrows |
-| H | 4x 1.25U modifiers and no arrows |
+| G | 5x 1U modificadores + flechas |
+| H | 4x 1.25U modificadores sin flechas |
 
-**Right shift (dark green)**
-| **Guide Mark** | **Layout Option** |
+**Shift derecho (verde oscuro)**
+| **Código** | **Disposición** |
 | --- | --- |
-| I | 1.75U + 1U shift + up arrow |
-| J | 2.75U shift + stab |
+| I | 1.75U + 1U shift + flecha arriba |
+| J | 2.75U shift + estabilizador |
 
-**Enter key**
-| **Guide Mark** | **Layout Option** |
+**Enter (azul)**
+| **Código** | **Disposición** |
 | --- | --- |
-| K | 1.25U + 1U ISO + stab |
-| L | 2.25U ANSI + stab |
+| K | 1.25U + 1U ISO + estabilizador |
+| L | 2.25U ANSI + estabilizador |
 
-**Backspace**
-| **Guide Mark** | **Layout Option** |
+**Borrar (rosa)**
+| **Código** | **Disposición** |
 | --- | --- |
-| M | 2U + stab |
-| N | 1U + 1U split backspace |
+| M | 2U + estabilizador |
+| N | 1U + 1U split borrar |
 
 ![](build_guide_img/image065.jpg)
 
-# ⚠️ **STOP** ⚠️
+# ⚠️ **ESPERA** ⚠️
 
-It&#39;s highly recommended that you test each key at this point before continuing. If you haven&#39;t already, [Jump to step](#firmware_flashing) 22 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
+Se recomienda encarecidamente que pruebes cada tecla en este momento antes de proseguir. Si no lo has hecho aún, [Salta al paso](#firmware_flashing) 22 para flashear el firmware QMK. Usa un comprobador de teclado ([este](https://www.keyboardtester.com/) funciona) y puentea los conectores de cada interruptor usando unas pinzas, un trozo de cable, una pestaña metálica cortada de algún componente anterior o cualquier cosa eléctricamente conductiva. Si hay algún problema, será mucho más fácil solucionarlo ahora, antes de que todo haya sido soldado y montado.
 
 ## 13. Screw together M2x3 standoffs using M2x3 screws
 
