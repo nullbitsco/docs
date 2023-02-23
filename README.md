@@ -2,7 +2,8 @@
 Online documentation (build guides, user manuals, etc) for nullbits products. 
 
 ## Quick Links
-[SNAP build guide](snap/build_guide_en.md)  
+[SNAP build guide - English](snap/build_guide_en.md)
+[SNAP build guide - Spanish](snap/build_guide_es.md)  
 
 [NIBBLE build guide](nibble/build_guide_en.md)  
 [NIBBLE case guide](nibble/case_build_guide.md)  
