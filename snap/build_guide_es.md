@@ -386,58 +386,58 @@ Comprueba que el acrílico encaje antes de continuar al siguiente paso para aseg
 | ![](build_guide_img/image070.jpg) | ![](build_guide_img/image069.jpg) |
 | --- | --- |
 
-## 18b. Slide the acrylic spacer onto the standoffs
+## 18b. Coloca la placa de acrílico sobre los standoffs
 
-Peel the backing material off the acrylic spacer. Make sure the acrylic spacer sits flat against the PCB plate. Check for interferences due to leads or solder joints. Trim if needed.
+Despega el papel protector del acrílico si no lo has hecho ya. Asegura que el acrílico queda recto y nivelado sobre la placa electrónica. Revisa que no haya nada que interfiera, como por ejemplo restos de conexiones insuficientemente cortadas o soldaduras demasiado grandes, altas o desviadas. Recorta con las alicates lo que sea necesario.
 
 | ![](build_guide_img/image070.jpg) | ![](build_guide_img/image069.jpg) |
 | --- | --- |
 
-## 19. Fasten the bottom with M2x3 screws
+## 19. Atornilla la base con tornillos M2x3
 
-Place the bottom PCB plate on top of the acrylic spacer. In the same locations where the 14 standoffs were installed, fasten with 14 M2x3 screws (7 on each half). **Do not overtighten!**
+Posiciona la placa electrónica sobre el acrílico. En los mismos lugares donde los 14 standoffs, atornilla con 14 tornillos M2x3 (7 en cada mitad). **¡No los sobreaprietes!**
 
 | ![](build_guide_img/image072.jpg) | ![](build_guide_img/image071.jpg) |
 | --- | --- |
 
-## 20. Fasten M2x10 standoffs from bottom using M2x10 screws
+## 20. Atornilla M2x10 standoffs desde la parte inferior usando tornillos M2x10
 
-Fasten using 2 M2x10 screws. Use pliers to hold the standoff steady while tightening the screw.
+Atornilla usando 2 tornillos M2x10. Usa pinzas o alicates para sostener el standoff firmemente mientras ajustes los tornillos.
 
 | ![](build_guide_img/image074.jpg) | ![](build_guide_img/image073.jpg) |
 | --- | --- |
 
-## 21. Attach the top guard using M2x6 screws
+## 21. Monta el protector superior usando tornillos M2x6
 
-Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top guard.
+Ajusta usando 2 tornillos M2x6. **No sobreaprietes estos**, se podría partir la tapa.
 
 | ![](build_guide_img/image076.jpg) | ![](build_guide_img/image075.jpg) |
 | --- | --- |
 
-## 22. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
+## 22. <a name="firmware_flashing"></a> Flashea firmware usando QMK toolbox
 
-Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/firmware). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
+Descarga o bien un binario precompilado (únicamente si usas una Pro Micro o BIT-C) o bien el código fuente desde [GitHub](https://github.com/nullbitsco/firmware). Usando [QMK Toolbox](https://qmk.fm/toolbox/), flashea el firmware al teclado. Para más información, sigue la [Guía para flashear firmware](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
 
-Heads up: both sides of the keyboard need to be flashed for it to work!
+Aviso: ¡ambas mitades del teclado deben ser flasheadas para que funcione!
 
-## 23. Install keycaps and enjoy!
+## 23. ¡Pon keycaps y disfruta!
 
 ![](build_guide_img/image079.jpg)
 
-# <a name="troubleshooting"></a> 4. Troubleshooting
+# <a name="troubleshooting"></a> 4. Resolución de problemas
 
-Helpful reference pinouts:  
-[MCU Pinout (Left)](build_guide_img/image082.jpg)  
-[MCU Pinout (Right)](build_guide_img/image083.jpg)  
+Referencias útiles de circuitos:  
+[MCU Pinout (Izquierdo)](build_guide_img/image082.jpg)  
+[MCU Pinout (Derecho)](build_guide_img/image083.jpg)  
 [OLED Pinout](build_guide_img/image084.jpg)
 
-**None of the keys are working**
+**No funciona ninguna de las teclas**
 
-- Is the firmware loaded?
-- Try with a different USB cable, USB port, and PC.
-- If you soldered the LEDs, check that none have been soldered backward. The keyboard will not work if an LED was mistakenly soldered backward.
-- Check the direction of the diodes. The back bar should be facing upwards.
-- Check the direction of the ICs. The keyboard will not work if they are in the socket backward.
+- ¿Has flasheado firmware?
+- Prueba con un cable USB distinto, otro puerto USB, y otro PC.
+- Si has soldado los LEDs, comprueba que ninguno de ellos esté montado del revés. El teclado no funcionará si un LED fue montado del revés por error.
+- Revisa la dirección de los diodos. La línea negra debe quedar en el extremo superior.
+- Revisa la dirección de los IC. El teclado no funcionará si están en el socket del revés.
 - Check that there are no shorts and that the keyboard is powering up properly. None of the solder joints should be touching each other.
 
 **A single key is not working**
