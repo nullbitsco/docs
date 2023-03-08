@@ -306,7 +306,7 @@ The SNAP PCB includes guide marks for the switches and stabilizers to make their
 
 # ⚠️ **STOP** ⚠️
 
-It&#39;s highly recommended that you test each key at this point before continuing. If you haven&#39;t already, [Jump to step](#firmware_flashing) 22 to flash QMK firmware. Use a keyboard tester ([this one](https://www.keyboardtester.com/) works) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
+It&#39;s highly recommended that you test each key at this point before continuing. If you haven&#39;t already, [Jump to step](#firmware_flashing) 21 to flash QMK firmware. Use a keyboard tester (using [via](https://docs.keeb.io/via#key-tester-tab) in Test Matrix mode is recommended) and short the switch pads for each switch using tweezers, a clipped lead from earlier, or something else conductive. If there is an issue, it will be much easier to debug now before everything has been soldered and assembled.
 
 ## 13. Screw together M2x3 standoffs using M2x3 screws
 
@@ -415,9 +415,9 @@ Fasten using 2 M2x6 screws. Don&#39;t overtighten these, as it can crack the top
 
 ## 22. <a name="firmware_flashing"></a> Flash firmware using QMK toolbox
 
-Download either a precompiled binary (only if using a Pro Micro or BIT-C) or the QMK source files from [GitHub](https://github.com/nullbitsco/firmware). Using [QMK Toolbox](https://qmk.fm/toolbox/), flash the firmware onto the keyboard. For more information, follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md)
+Follow the [Firmware flashing guide](https://github.com/nullbitsco/docs/blob/main/firmware/firmware_flashing.md) to flash the board's firmware. Note that the firmware files and flashing process differ between Pro Micro/Bit-C (AVR) and Bit-C PRO (RP2040)!
 
-Heads up: both sides of the keyboard need to be flashed for it to work!
+Heads up: both sides of the keyboard **must** be flashed for it to work!
 
 ## 23. Install keycaps and enjoy!
 

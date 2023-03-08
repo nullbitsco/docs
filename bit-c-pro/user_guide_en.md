@@ -80,7 +80,7 @@ To completely erase the on-board flash, load the [erase flash firmware](https://
 
 There are two ways to use the Bit-C PRO with QMK firmware.
 
-Boards which have been designed for the Bit-C PRO will compile without changes. All nullbits boards fit into this category and can be compiled by adding `rp2040` to the board name. For example, to compile for a NIBBLE built with a Bit-C PRO: `qmk compile -kb nullbitsco/nibble/rp2040 -km default`.
+Boards which have been designed for the Bit-C PRO will compile without changes. All nullbits boards fit into this category and can be compiled by adding `rp2040` to the board name. For example, to compile for a NIBBLE built with a Bit-C PRO: `qmk compile -kb nullbitsco/nibble/rp2040 -km default`. If you don't want to compile yourself, you're in luck! Download a [precompiled RP2040 firmware](https://github.com/nullbitsco/firmware/releases/tag/nightly-rp2040) instead.
 
 Boards that have not been designed for RP2040-based MCUs can be automagically converted using the [QMK converter feature](https://github.com/qmk/qmk_firmware/blob/master/docs/feature_converters.md). Simply pass `-e CONVERT_TO=bit_c_pro` when compiling. For example, to compile for a Corne built with Bit-C PROs: `qmk compile -kb crkbd -km default -e CONVERT_TO=bit_c_pro`. The resulting binary will be named `crkbd_rev1_via_bit_c_pro.uf2` and can be flashed by following the [flashing firmware](#flashing_firmware) section.
 
