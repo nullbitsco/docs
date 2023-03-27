@@ -66,7 +66,7 @@
 
 ### Loading new firmware
 
-In order to load a new firmware file, the Bit-C PRO must be put into bootloader mode. The Bit-C PRO comes in bootloader mode from the factory, and will automatically be in bootloader mode the first time it's plugged in. Subsequent firmware updates will require manually entering bootloader mode. There is no reset or bootloader button on the Bit-C PRO. To enter firmware update mode, short the PROG pin to GND before plugging in the USB cable.
+In order to load a new firmware file, the Bit-C PRO must be put into bootloader mode. The Bit-C PRO comes in bootloader mode from the factory, and will automatically be in bootloader mode the first time it's plugged in. Subsequent firmware updates will require manually entering bootloader mode. There is no reset or bootloader button on the Bit-C PRO. To enter firmware update mode, short the PROG pin to GND before plugging in the USB cable. FYI: most keyboards with a "reset" switch will short these two pins for you, so all you need to do is hold the switch and toggle the power.
 
 The LED will glow dim white when the board is in bootloader mode, and the Bit-C will register as an external USB mass storage device named `RPI-RP2`.
 
