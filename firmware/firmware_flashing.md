@@ -23,14 +23,8 @@ Follow these instructions to flash your Pro Micro, Bit-C, or Bit-C PRO microcont
 # Setting up VIA
 
 1. Flash VIA compatible firmware for your device, as described above.
-1. Download and install [VIA](https://caniusevia.com).
-1. Download the VIA keymap file for your device. NOTE: ONLY REQUIRED FOR SNAP!
-   - [SNAP - Pro Micro & Bit-C (AVR)](https://raw.githubusercontent.com/nullbitsco/snap/main/keymaps/via/snap_v3.json)  |  [SNAP - Bit-C (PRO)](https://raw.githubusercontent.com/nullbitsco/snap/rp2040_clean/rp2040/keymaps/via/snap.json)
-3. Connect your device and open VIA.
-4. If your device is not detected, go to Settings > Enable "Show Design Tab".
-5. Go to the Design tab.
-6. Click "Load Draft Definition" and upload the VIA keymap file you downloaded in step 3.
-7. Go to the Configure tab. Your device should now be detected and ready to configure.
+1. Connect your device and open VIA using the [webapp](https://usevia.app/).
+1. Go to the Configure tab. Your device should now be detected and ready to configure.
 
 ## <a name="troubleshooting"></a> Troubleshooting
 
