@@ -32,10 +32,11 @@
 | **Item**                   | **Qty.** | **Image**                              |
 | ---------------------------| -------- | -------------------------------------- |
 | Case top layer             | 1        | ![](case_build_guide_img/image006.jpg) |
-| Case upper-mid layer (3mm) | 2        | ![](case_build_guide_img/image007.jpg) |
-| Case lower-mid layer (4mm) | 2        | ![](case_build_guide_img/image008.jpg) |
+| Case lower-mid layer (3mm) | 1        | ![](case_build_guide_img/image007.jpg) |
+| Case upper-mid layer (4mm) | 3*       | ![](case_build_guide_img/image008.jpg) |
 | Case bottom layer          | 1        | ![](case_build_guide_img/image009.jpg) |
 
+*Early versions of the case came with two 3mm and two 4mm mid-layers. An extra 4mm mid-layer has since been added in order to increase the case thickness for maximum compatibility. 
 ## 2. Tools required
 
 - Phillips #0 screwdriver
@@ -87,15 +88,15 @@ Wipe the bottom layer and the backplate of the NIBBLE clean with a microfiber cl
 
 ⚠️ **Important!** The NIBBLE attaches to the bottom layer of the case with the inner acrylic spacer and backplate still on. The total thickness will be incorrect if the backplate is left off, and the screws won't tighten. Bumpons must also be removed for this reason.
 
-## 5. Stack lower-middle acrylic layers
+## 5. Stack lower-middle acrylic layer
 
-Peel and remove the acrylic backing material from the two 4mm thick lower-middle acrylic layers, and wipe them clean with a microfiber cloth or rubbing alcohol. Stack the two layers on the standoffs, making sure to align the break in the acrylic with the TRRS jack.
+Peel and remove the acrylic backing material from the 3mm thick lower-middle acrylic layer, and wipe it clean with a microfiber cloth or rubbing alcohol. Stack the layer on the standoffs, making sure to align the break in the acrylic with the TRRS jack.
 
 ![](case_build_guide_img/image016.jpg)
 
 ## 5. Stack upper-middle acrylic layers
 
-Peel and remove the acrylic backing material from the two 3mm thick upper-middle acrylic layers, and wipe them clean with a microfiber cloth or rubbing alcohol. Stack the two layers on the standoffs, making sure to align the break in the acrylic with the USB jack on the MCU.
+Peel and remove the acrylic backing material from the three 4mm thick upper-middle acrylic layers, and wipe them clean with a microfiber cloth or rubbing alcohol. Stack the three layers on the standoffs, making sure to align the break in the acrylic with the USB jack on the MCU.
 
 ![](case_build_guide_img/image017.jpg)
 
