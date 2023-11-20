@@ -2,6 +2,7 @@
 Online documentation (build guides, user manuals, etc) for nullbits products. 
 
 ## Quick Links
+[HOLLY user guide](holly/user_guide_en.md)
 [Bit-C PRO user guide](bit-c-pro/user_guide_en.md)
 
 [SNAP build guide - English](snap/build_guide_en.md)  
