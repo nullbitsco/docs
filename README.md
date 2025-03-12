@@ -1,5 +1,5 @@
 # nullbits docs
-Online documentation (build guides, user manuals, etc) for nullbits products. 
+Online documentation (build guides, user manuals, etc) for nullbits products.  
 
 ## Quick Links
 [HOLLY user guide](holly/user_guide_en.md)
